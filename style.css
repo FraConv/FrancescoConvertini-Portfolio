@@ -116,7 +116,7 @@ border-radius: 10px;}
 /*classi bottone contatto*/
 
 
-.button {background-color: #d46767; background-color: none; text-decoration: none; padding: 15px 20px; border-radius: 100px; margin-left: 125px; margin-top: 80px; position: fixed; position: absolute; 
+.button {background-color: #d46767; background-color: none; text-decoration: none; padding: 15px 20px; border-radius: 100px; margin-left: 110px; margin-top: 80px; position: fixed; position: absolute; 
     
 transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; font-size: 15px;}
 
@@ -139,7 +139,7 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
 
 /*classe immagine home*/
 
-.img-resp{width: 115%; margin-left: 10px; margin-top: 50px;}
+.img-resp{width: 90%; margin-left: 37px; margin-top: 50px; border-radius: 1000px;}
 
 
 
@@ -209,6 +209,7 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
 
 .img-sitod{width: 100%; margin-left: 10px; margin-top: 180px; border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,.35);}
 
+.img-sitop{width: 100%; margin-left: 10px; margin-top: 180px; border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,.35);}
 
 
 .pallet8{padding: 40px 52px; border-radius: 60px; background:#5a5aba; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
@@ -223,7 +224,7 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
 
 /*classi sito orologio*/
 
-.logodimostrativooro{width: 70%; margin-top: 150px; }
+.logodimostrativooro{width: 90%; margin-top: 150px; }
 
 
 
@@ -242,10 +243,14 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
 
 .pallet14{padding: 40px 52px; border-radius: 60px; background:#ffeed0; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
 
+.logodimostrativoluna{width: 90%; margin-top: 150px; border-radius: 20px; }
+
 
 /*classi logo air*/
 
 .pallet15{padding: 40px 52px; border-radius: 60px; background:#000000; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.logodimostrativoair{width: 50%; margin-top: 150px; }
 
 
 /*classi logo good*/
@@ -257,6 +262,60 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
 .pallet18{padding: 40px 52px; border-radius: 60px; background:#0c596b; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
 
 .pallet19{padding: 40px 52px; border-radius: 60px; background:#ffffff; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+
+/*classi agenda*/
+
+.pallet20{padding: 40px 52px; border-radius: 60px; background:#00ff00; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet21{padding: 40px 52px; border-radius: 60px; background:#006736; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet22{padding: 40px 52px; border-radius: 60px; background:#020214; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet23{padding: 40px 52px; border-radius: 60px; background:#7e7f7f; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet24{padding: 40px 52px; border-radius: 60px; background:#b2b2b2; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet25{padding: 40px 52px; border-radius: 60px; background:#2b2b2b; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet26{padding: 40px 52px; border-radius: 60px; background:#00ffff; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet27{padding: 40px 52px; border-radius: 60px; background:#0000ff; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet28{padding: 40px 52px; border-radius: 60px; background:#ff8f8f; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet29{padding: 40px 52px; border-radius: 60px; background:#f15a24; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet30{padding: 40px 52px; border-radius: 60px; background:#fbb03b; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet31{padding: 40px 52px; border-radius: 60px; background:#ffffff; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet32{padding: 40px 52px; border-radius: 60px; background:#7d7d85; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+
+/*classi horror*/
+
+.pallet33{padding: 40px 52px; border-radius: 60px; background:#040411; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet34{padding: 40px 52px; border-radius: 60px; background:#96381b; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet35{padding: 40px 52px; border-radius: 60px; background:#4c0808; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet36{padding: 40px 52px; border-radius: 60px; background:#ffffff; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet37{padding: 40px 52px; border-radius: 60px; background:#ffff00; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet38{padding: 40px 52px; border-radius: 60px; background:#930909; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet39{padding: 40px 52px; border-radius: 60px; background:#a8a34a; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet40{padding: 40px 52px; border-radius: 60px; background:#8c6239; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet41{padding: 40px 52px; border-radius: 60px; background:#0071bc; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet42{padding: 40px 52px; border-radius: 60px; background:#1b1464; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
+
+.pallet43{padding: 40px 52px; border-radius: 60px; background:#a83e22; margin-left: 10px; border: solid 3px black; transition: all 0.2s ease-in-out;}
 
 
 
@@ -288,7 +347,7 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
     
         2.5s ease-in-out infinite;}
         
-        .loader-wrapper{height: 220%; width: 1901px;  top:0; left: 0; background-color:  #faf5eb; display: flex; justify-content: center; align-items: center; position: fixed;}
+        .loader-wrapper{height: 220%; width: 1903px;  top:0; left: 0; background-color:  #faf5eb; display: flex; justify-content: center; align-items: center; position: fixed;}
         
         
         @keyframes loader {
@@ -343,7 +402,7 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
 
      /*classi immagini*/
     
-    .img-resp{width: 200%; margin-left: 100px; margin-top: 250px; }
+    .img-resp{width: 140%; margin-left: 120px; margin-top: 350px; border-radius: 1000px;}
     
     .imgport1{width: 185%; margin-left: 30px; margin-top: -10px; transition: all 0.5s ease-in-out; }
 
@@ -364,6 +423,10 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
     .mockup{width: 600px; border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,.35); }
 
     .mockup2{width: 600px; border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,.35); margin-left: 250px; }
+    
+    .img-sitop{width: 130%; margin-left: 300px; margin-top: 180px; border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,.35);}
+
+    .img-sitod{width: 130%; margin-left: 10px; margin-top: 180px; border-radius: 20px; box-shadow: 0 5px 20px rgba(0,0,0,.35);}
 
 
     /*classi span*/
@@ -409,6 +472,20 @@ transition: all 0.3s ease-in-out; color: white; animation: button 3s infinite; f
     .div:hover .spann7{border: solid 3px black; padding: 10px 30px; margin-top: -80px; border-radius: 100px; background-color: #e74d07; transition: all 0.2s ease-in-out;} 
 
     .div:hover .spann7:hover{border: solid 3px black; padding: 10px 10px; margin-top: -80px; border-radius: 100px; background-color:#faf5eb; transition: all 0.2s ease-in-out;}
+
+    .spann8{border: solid 3px black; padding: 10px 10px; margin-top: -80px; margin-left: 15px; border-radius: 100px; position: fixed; position: absolute; transition: all 0.2s ease-in-out;}
+
+    .div:hover .spann8{border: solid 3px black; padding: 10px 30px; margin-top: -80px; border-radius: 100px; background-color: #42e938; transition: all 0.2s ease-in-out;} 
+
+    .div:hover .spann8:hover{border: solid 3px black; padding: 10px 10px; margin-top: -80px; border-radius: 100px; background-color:#faf5eb; transition: all 0.2s ease-in-out;}
+
+    .spann9{border: solid 3px black; padding: 10px 10px; margin-top: -80px; margin-left: 15px; border-radius: 100px; position: fixed; position: absolute; transition: all 0.2s ease-in-out;}
+
+    .div:hover .spann9{border: solid 3px black; padding: 10px 30px; margin-top: -80px; border-radius: 100px; background-color: #a75236; transition: all 0.2s ease-in-out;} 
+
+    .div:hover .spann9:hover{border: solid 3px black; padding: 10px 10px; margin-top: -80px; border-radius: 100px; background-color:#faf5eb; transition: all 0.2s ease-in-out;}
+
+
 
 
 
