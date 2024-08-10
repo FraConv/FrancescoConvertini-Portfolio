@@ -1,4 +1,5 @@
 import { useState } from "react"
+import FooterWeb from "./FooterWeb";
 
 
 function SuperCounterApp (){
@@ -31,23 +32,24 @@ function SuperCounterApp (){
  
         <div className=" bg-black top-0 left-0 w-[90%] ml-[5%] h-[80px] absolute justify-center rounded-b-[180px]">
 
-        <div className="w-[365px] mt-[-60px]  min-[412px]:ml-[3px] min-[375px]:ml-[-15px] min-[1400px]:ml-[650px] min-[1400px]:mt-[-80px] min-[1400px]:w-[420px]  min-[390px]:ml-[-7px] min-[430px]:ml-[13px]">
-        <img src="super counter cop.svg" alt="" />
+        <div className="w-[365px] mt-[-60px]  min-[412px]:ml-[3px] min-[375px]:ml-[-15px] min-[1400px]:ml-[650px] min-[1400px]:mt-[-80px] min-[1400px]:w-[420px] 
+       min-[390px]:ml-[-7px] min-[430px]:ml-[13px]">
+        <img className=" xl:ml-[400px] min-[1400px]:ml-[-20px] min-[768px]:ml-[150px]" src="super counter cop.svg" alt="" />
         </div>
 
          </div>
 
-        <div className="bg-amber-400 w-14 h-14 rounded-full mt-[-200px] ml-[-50px] absolute">
+        <div className="bg-amber-400 w-14 h-14 rounded-full mt-[200px] ml-[-50px] absolute">
         <div className="bg-amber-500 w-3 h-10 ml-[22px] mt-2 absolute rounded-sm "></div>
         </div>
 
-        <h1 className="text-black absolute mt-[-200px] ml-[20px] "> {count}</h1>
+        <h1 className="text-black absolute mt-[200px] ml-[20px] "> {count}</h1>
 
-        <div className={`bg-amber-400 w-16 h-16 rounded-full mt-[53px] ml-[-30px] absolute ${AnimationM ? "animate-Jump2" : ""}`}>
+        <div className={`bg-amber-400 w-16 h-16 rounded-full mt-[510px] ml-[-30px] absolute ${AnimationM ? "animate-Jump2" : ""}`}>
         <div className="bg-amber-500 w-3  h-12 ml-[26px] mt-2 absolute rounded-sm  "></div>
         </div>
 
-        <div className={` w-[100px] h-[103px] border-black border-2 ml-[-48px] mt-[50px] rounded-[15px] cursor-pointer  absolute ${Animation ? "animate-Jump" : ""}  `} onClick={clickmouse}>
+        <div className={` w-[100px] h-[103px] border-transparent border-2 ml-[-40px] mt-[490px] rounded-[15px] cursor-pointer  absolute ${Animation ? "animate-Jump" : ""}  `} onClick={clickmouse}>
 
             <div className=" justify-center w-[49px] h-[33px]  border-black border-2 bg-orange-600 rounded-tl-[11px] "></div>
             <div className=" justify-center w-[20px] h-[33px]  border-black border-2 bg-orange-600"></div>
@@ -60,6 +62,10 @@ function SuperCounterApp (){
      
 
         </div>
+
+        <div className="w-2 h-[1000px]"></div>
+
+        <FooterWeb></FooterWeb>
         
         </>
 

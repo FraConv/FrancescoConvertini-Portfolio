@@ -82,22 +82,22 @@ export default {
     
     Jump: {
 
-      '0%': {marginTop: '50px'},
+      '0%': {marginTop: '490px'},
 
-      '50%': {marginTop: '30px'},
+      '50%': {marginTop: '470px'},
 
-      '100%': {marginTop: '50px'},
+      '100%': {marginTop: '490px'},
     
 
         },
 
         Jump2: {
 
-          '0%': {marginTop: '53px'},
+          '0%': {marginTop: '510px'},
     
-          '50%': {marginTop: '-80px'},
+          '50%': {marginTop: '360px'},
     
-          '100%': {marginTop: '-80px', opacity: '0'},
+          '100%': {marginTop: '360px', opacity: '0'},
         
     
             },
