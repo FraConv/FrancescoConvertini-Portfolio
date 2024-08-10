@@ -1,0 +1,22 @@
+function FooterWeb(){
+
+    return(
+
+        <>
+
+            <footer className=" w-[100%] h-24  left-0 absolute bg-[#443e3e]"><h6 className=" text-white text-[12px] mt-[40px] ml-[-60px] min-[1400px]:ml-[-1360px] 
+                min-[1400px]:text-[15px]
+                xl:ml-[-860px]  min-[768px]:text-[15px] min-[768px]:ml-[-260px]">
+                Copyright © 2023 FrancescoConvertini Portfolio</h6>
+            </footer>
+
+        </>
+
+    )
+
+
+}
+
+
+
+export default FooterWeb
