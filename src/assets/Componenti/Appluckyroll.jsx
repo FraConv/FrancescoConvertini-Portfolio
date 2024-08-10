@@ -20,7 +20,7 @@ function Appluckyroll (){
     return (
       <>
         <header className="shadow-lg min-[1400px]:w-[100%] min-[500px]:w-[100%] h-[80px] top-0 bg-[#ffcb3c] absolute left-0  min-[412px]:w-[100%] min-[414px]:w-[100%] min-[430px]:w-[100%] min-[375px]:w-[100%] min-[390px]:w-[100%]">
-          <div className='w-[250px] h-[50px] mt-[15px] ml-[75px] min-[375px]:ml-14 min-[412px]:ml-[80px] min-[1400px]:ml-[800px] xl:ml-[505px]'>
+          <div className='w-[250px] h-[50px] mt-[15px] ml-[75px] min-[375px]:ml-14 min-[412px]:ml-[80px] min-[1400px]:ml-[800px] xl:ml-[520px]'>
             <img className="mt-[-140px] " src="Roll v22.svg" />
           </div>
         </header>

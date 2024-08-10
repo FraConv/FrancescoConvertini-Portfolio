@@ -34,7 +34,7 @@ function SuperCounterApp (){
 
         <div className="w-[365px] mt-[-60px]  min-[412px]:ml-[3px] min-[375px]:ml-[-15px] min-[1400px]:ml-[650px] min-[1400px]:mt-[-80px] min-[1400px]:w-[420px] 
        min-[390px]:ml-[-7px] min-[430px]:ml-[13px]">
-        <img className=" xl:ml-[400px] min-[1400px]:ml-[-20px] min-[768px]:ml-[150px]" src="super counter cop.svg" alt="" />
+        <img className=" xl:ml-[415px] min-[1400px]:ml-[-20px] min-[768px]:ml-[150px]" src="super counter cop.svg" alt="" />
         </div>
 
          </div>
@@ -45,11 +45,11 @@ function SuperCounterApp (){
 
         <h1 className="text-black absolute mt-[200px] ml-[20px] "> {count}</h1>
 
-        <div className={`bg-amber-400 w-16 h-16 rounded-full mt-[510px] ml-[-30px] absolute ${AnimationM ? "animate-Jump2" : ""}`}>
+        <div className={`bg-amber-400 w-16 h-16 rounded-full mt-[510px] ml-[-23px] absolute ${AnimationM ? "animate-Jump2" : ""}`}>
         <div className="bg-amber-500 w-3  h-12 ml-[26px] mt-2 absolute rounded-sm  "></div>
         </div>
 
-        <div className={` w-[100px] h-[103px] border-transparent border-2 ml-[-40px] mt-[490px] rounded-[15px] cursor-pointer  absolute ${Animation ? "animate-Jump" : ""}  `} onClick={clickmouse}>
+        <div className={` w-[100px] h-[103px] border-transparent border-2 ml-[-42px] mt-[490px] rounded-[15px] cursor-pointer  absolute ${Animation ? "animate-Jump" : ""}  `} onClick={clickmouse}>
 
             <div className=" justify-center w-[49px] h-[33px]  border-black border-2 bg-orange-600 rounded-tl-[11px] "></div>
             <div className=" justify-center w-[20px] h-[33px]  border-black border-2 bg-orange-600"></div>
