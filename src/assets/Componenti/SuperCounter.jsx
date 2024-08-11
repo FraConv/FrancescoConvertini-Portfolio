@@ -59,7 +59,7 @@ Illustrator
 
 <div className="  w-[194px] h-[64px] rounded-full  ml-[7px] mt-[200px]  min-[1400px]:w-[194px] xl:w-[700px]
  min-[768px]:w-[500px] min-[768px]:ml-[-3550px] xl:ml-[-3550px]">
-<Link className=" w-10 h-[200px] ml-[-100px] border-black min-[768px]:ml-[-3550px] " to="/App Lucky Roll">
+<Link className=" w-10 h-[200px] ml-[-100px] border-black min-[768px]:ml-[-3550px] " to="/App Super Counter">
 <div  className=" ml-[-2px] bg-[#d46767] w-[194px] h-[60px] rounded-full mt-[16px] min-[768px]:ml-[3580px] xl:ml-[3560px] " >     
 <h6 className=" mt-[-40px] p-5 pt-[18px] text-white hover:text-white ">Prova applicazione</h6>
 </div>
