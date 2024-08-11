@@ -6,13 +6,13 @@ import Loader from './Loader';
 
 function Navbar() {
 
-  const [Comparsa, setComparsa]= useState (  "mt-[1000px]");
+  const [Comparsa, setComparsa]= useState (  "mt-[5000px]");
   const [MovimentoGiu, setMovimentoGiu]= useState ("mt-[-40px]");
   const [MovimentoSu, setMovimentoSu]= useState ("mt-[-40px]");
 
   const clickMouse= () => {
   
-    setComparsa(prevComparsa => prevComparsa ===  "mt-[1000px]" ? "mt-[24px]":   "mt-[1000px]");
+    setComparsa(prevComparsa => prevComparsa ===  "mt-[5000px]" ? "mt-[24px]":   "mt-[5000px]");
 
     setMovimentoGiu(prevMovimentoGiu => prevMovimentoGiu === "mt-[-40px]" ? "translate-y-[6px]" : "mt-[-40px]");
 
@@ -45,9 +45,9 @@ function Navbar() {
 
 
         <div className='  min-[414px]:ml-[15px] ml-[-30px]   min-[412px]:ml-[5px] xl:hidden mt-1 min-[768px]:ml-[365px]'>
-          <div className= {` bg-black w-7 h-[6px] ml-[270px] mt-[-40px] rounded-t-[100px]   transition-transform duration-500 ${MovimentoGiu} `} onClick={clickMouse}></div>
+          <div className= {` bg-black w-7 h-[6px] ml-[270px] mt-[-40px] rounded-t-[100px]   transition-transform duration-700 ${MovimentoGiu} `} onClick={clickMouse}></div>
           <div className=' bg-black w-9 h-1 ml-[266px] mt-[5px] rounded-[100px]' onClick={clickMouse} ></div>
-          <div className={` bg-black w-7 h-[6px] ml-[270px] mt-[5px] rounded-b-[100px]  transition-transform duration-500 ${MovimentoSu}`} onClick={clickMouse}></div>
+          <div className={` bg-black w-7 h-[6px] ml-[270px] mt-[5px] rounded-b-[100px]  transition-transform duration-700 ${MovimentoSu}`} onClick={clickMouse}></div>
         </div>
 
 
@@ -55,7 +55,7 @@ function Navbar() {
 
  
  
-        <ul className={` shadow-lg grid grid-rows mt-[-200px] w-[105px]   pt-[50px] transition-all duration-500 xl:hidden bg-[#8bd3dd] rounded-bl-[100px] h-[300px]
+        <ul className={` shadow-lg grid grid-rows mt-[-200px] w-[105px]   pt-[50px] transition-all duration-700 xl:hidden bg-[#8bd3dd] rounded-bl-[100px] h-[300px]
           ${Comparsa}  `}>
           <li className=' bg-black w-[85px] h-8 mt-[-22px] p-1 ml-[10px] rounded-full'>
           <Link to="/" className='text-white '>Home</Link>

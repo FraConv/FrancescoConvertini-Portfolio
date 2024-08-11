@@ -15,28 +15,26 @@ function Chisono () {
 <h1 className=" text-black scale-120 ml-5 text-left min-[1400px]:text-[70px]">Chi sono.</h1>
 </div>
 
-<div className="  w-[330px] h-[270px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-150px] min-[1400px]:w-[600px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+<div className="  w-[330px] h-[670px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-150px] min-[1400px]:w-[600px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
 
 <p className=" text-black text-[20px]  ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[22px]">Mi chiamo Francesco Convertini, sono nato il 16 Marzo del 2002 e attualmente vivo in Puglia a Palo Del Colle(BA).
-Ho frequentato il liceo artistico De Nittis di Bari diplomandomi in industrial design, in cui progettavo oggetti di vario tipo con diverse complessità.</p>
+Ho frequentato il liceo artistico De Nittis di Bari diplomandomi in industrial design, in cui progettavo oggetti di vario tipo con diverse complessità.
 
-</div>
+<br />
+<br />
 
-<div className="  w-[330px] h-[180px]  border-transparent border-[2px] ml-[-20px] mt-[30px] min-[1400px]:ml-[-150px] min-[1400px]:w-[600px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+Sono specializzato principalmente nello sviluppo front-end di applicazioni e siti web, nella creazione di loghi,   
+illustrazioni e modellazione 3D.
 
-<p className=" text-black text-[20px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[22px]">Sono specializzato principalmente nello sviluppo front-end di applicazioni e siti web, nella creazione di loghi, 
-    
-illustrazioni e modellazione 3D.</p>
+<br />
+<br />
 
-</div>
+Nel tempo libero mi dedico alla lettura, al mondo videoludico, all'allenamento a corpo libero, al graphic design e alla programmazione.
 
-<div className="  w-[330px] h-[200px]  border-transparent border-[2px] ml-[-20px] mt-[30px] min-[1400px]:ml-[-150px] min-[1400px]:w-[600px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
-<p className=" text-black text-[20px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[22px]">Nel tempo libero mi dedico alla lettura, al mondo videoludico, all'allenamento a corpo libero, al graphic design e alla programmazione.
-</p>
-</div>
+<br />
+<br />
 
-<div className="  w-[330px] h-[200px]  border-transparent border-[2px] ml-[-20px] mt-[30px] min-[1400px]:ml-[-150px] min-[1400px]:w-[600px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
-<p className=" text-black text-[20px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[22px]">Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sempre di migliorarsi e di realizzare le proprie idee.
+Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sempre di migliorarsi e di realizzare le proprie idee.
 </p>
 </div>
 

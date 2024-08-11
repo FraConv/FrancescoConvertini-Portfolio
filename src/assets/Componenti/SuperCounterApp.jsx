@@ -63,7 +63,7 @@ function SuperCounterApp (){
 
         </div>
 
-        <div className="w-2 h-[1000px]"></div>
+        <div className="w-2 h-[1000px] min-[768px]:h-[1400px]"></div>
 
         <FooterWeb></FooterWeb>
         
