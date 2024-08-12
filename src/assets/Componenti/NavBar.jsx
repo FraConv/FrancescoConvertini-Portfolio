@@ -47,7 +47,7 @@ function Navbar() {
         <div className='  min-[414px]:ml-[15px] ml-[-30px]   min-[412px]:ml-[5px] xl:hidden mt-1 min-[768px]:ml-[365px]'>
           <div className= {` bg-black w-7 h-[6px] ml-[270px] mt-[-40px] rounded-t-[100px]   transition-transform duration-700 ${MovimentoGiu} `} onClick={clickMouse}></div>
           <div className=' bg-black w-9 h-1 ml-[266px] mt-[5px] rounded-[100px]' onClick={clickMouse} ></div>
-          <div className={` bg-black w-7 h-[6px] ml-[270px] mt-[5px] rounded-b-[100px]  transition-transform duration-700 ${MovimentoSu}`} onClick={clickMouse}></div>
+          <div className={` bg-black w-7 h-[6px] ml-[270px] mt-[5px] rounded-b-[100px]  transition-transform duration-700 ${MovimentoSu}`}  onClick={clickMouse}></div>
         </div>
 
 
