@@ -8,7 +8,7 @@ function Loader () {
 
       const timer = setTimeout(() => {
         setLoading("hidden");
-      }, 30000000);
+      }, 3000);
 
       const handleLoad = () => {
         setLoading("hidden");
