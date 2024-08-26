@@ -45,10 +45,10 @@ Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sem
 <ul  className="  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
 
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
-HTML
+HTML5
 </li>
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
-CSS
+CSS3
 </li>
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 Javascript
@@ -63,7 +63,7 @@ Tailwind css
 React
 </li>
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
-Boostrap
+Boostrap 5
 </li>
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 TypeScript
