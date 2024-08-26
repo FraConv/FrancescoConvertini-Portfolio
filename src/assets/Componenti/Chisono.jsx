@@ -23,8 +23,8 @@ Ho frequentato il liceo artistico De Nittis di Bari diplomandomi in industrial d
 <br />
 <br />
 
-Sono specializzato principalmente nello sviluppo front-end di applicazioni e siti web, nella creazione di loghi,   
-illustrazioni e modellazione 3D.
+Sono specializzato principalmente nello sviluppo front-end di applicazioni e siti web, nel Logo Design,   
+nell' Illustration Design, modellazione 3D e UX/UI Design.
 
 <br />
 <br />
@@ -42,7 +42,7 @@ Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sem
 <h3 className=" text-black text-[30px] ml-5 text-left min-[1400px]:text-[35px]">Skill web designer:</h3>
 </div>
 
-<ul  className="  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+<ul  className="  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
 
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 HTML
@@ -62,30 +62,42 @@ Tailwind css
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 React
 </li>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+Boostrap
+</li>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+TypeScript
+</li>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+WordPress
+</li>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+Responsive Design
+</li>
 
 
 <div className=" grid grid-cols-2  min-[1400px]:grid-cols-4  min-[1400px]:gap-52 gap-20 min-[1400px]:ml-[550px] min-[1400px]:mt-[-250px] xl:grid-cols-4 xl:gap-52 xl:ml-[260px]
 xl:mt-[-200px]">
 
-<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-7 ml-4 '>
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[110px] ml-4 '>
 
 <img src="htmlv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
 
 </div>
 
-<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-7 ml-4 '>
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[110px] ml-4 '>
 
 <img src="cssv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
 
 </div>
 
-<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 ml-4 min-[1400px]:mt-[75px] xl:mt-[75px]'>
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 ml-4 min-[1400px]:mt-[159px] xl:mt-[159px]'>
 
 <img src="Javascriptv2.svg" className=" scale-[.80] mt-[-50px] min-[1400px]:scale-[.90]" alt="" />
 
 </div>
 
-<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[-27px] ml-4 min-[1400px]:mt-[27px] xl:mt-[27px]'>
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[-27px] ml-4 min-[1400px]:mt-[109px] xl:mt-[109px]'>
 
 <img src="git.svg" className=" scale-[1.30] mt-[-50px] min-[1400px]:scale-[1.50]" alt="" />
 
@@ -103,16 +115,34 @@ xl:mt-[-200px]">
 
 </div>
 
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 xl:mt-[-120px] ml-4 '>
+
+<img src="boostrap.svg" className=" scale-[.80] mt-[-60px] ml-[-5px] min-[1400px]:scale-[.90]" alt="" />
+
+</div>
+
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 xl:mt-[-120px] ml-4 '>
+
+<img src="ts.svg" className=" scale-[.60] mt-[-60px] ml-[-5px] min-[1400px]:scale-[.70] rounded-xl"  alt="" />
+
+</div>
+
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-6 xl:mt-[-100px]  ml-4 '>
+
+<img src="w.svg" className=" scale-[.80] mt-[-70px] ml-[-5px] min-[1400px]:scale-[.90]" alt="" />
+
+</div>
+
 </div>
 
 
 </ul>
 
-<div className="  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[900px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+<div className="  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[1500px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[950px]  xl:mt-[950px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
 <h3 className=" text-black text-[30px] ml-5 text-left  min-[1400px]:text-[35px]">Skill graphic designer:</h3>
 </div>
     
-<ul  className="  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+<ul  className="  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
 
 <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 Illustrator
@@ -126,29 +156,32 @@ Indesign
 <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 Figma
 </li>
+<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+UX/UI Design
+</li>
 
 <div className=" grid grid-cols-2 gap-20 min-[1400px]:grid-cols-4  min-[1400px]:gap-52 min-[1400px]:ml-[550px] min-[1400px]:mt-[-178px] xl:grid-cols-4 xl:gap-52 xl:ml-[250px]
 xl:mt-[-150px]">
 
-<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 ml-4'>
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[110px] ml-4 '>
 
 <img src="aiv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90] " alt="" />
 
 </div>
 
-<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 ml-4 '>
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[110px] ml-4 '>
 
 <img src="idv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
 
 </div>
 
-<div className=' w-[150px] h-[150px] border-transparentborder-[2px] mt-4 ml-[-5px] min-[1400px]:mt-[87px] xl:mt-[87px]'>
+<div className=' w-[150px] h-[150px] border-transparentborder-[2px] mt-4 ml-[-5px] min-[1400px]:mt-[180px] xl:mt-[180px]'>
 
 <img src="psv2.svg" className=" scale-[.80] mt-[-70px] ml-[20px] min-[1400px]:scale-[.90]" alt="" />
 
 </div>
 
-<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 ml-4 min-[1400px]:mt-[72px] xl:mt-[88px]'>
+<div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 ml-4 min-[1400px]:mt-[160px] xl:mt-[180px]'>
 
 <img src="figmav2.svg" className=" scale-[.80] mt-[-70px] min-[1400px]:scale-[1.20]" alt="" />
 

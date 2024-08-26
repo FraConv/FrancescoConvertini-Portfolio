@@ -61,10 +61,10 @@ function MimmoSoftWebDescription(){
             </li>
         </ul> 
 
-        <div className="  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px] 
+        <div className="  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-205px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px] 
             min-[768px]:ml-[10px] min-[768px]:w-[500px]">
-            <div  className=" ml-[20px] bg-[#d46767] w-[170px] h-[60px] rounded-full mt-10" >      
-                <a href= "https://mimmosoftweb.netlify.app" className=" p-10 pt-[30px] text-white hover:text-white"><h6 className=" mt-[-6px]">Vai al sito</h6></a>
+            <div  className=" ml-[-2px] border-[3px] border-[#d46767] w-[194px] h-[60px] xl:hover:bg-[#d46767]  xl:hover:rounded-full transition-colors duration-150 rounded-full mt-[16px] min-[768px]:ml-[3580px] xl:ml-[3615px] min-[1400px]:ml-[-25px]" >      
+                <a href= "https://mimmosoftweb.netlify.app" className=" p-10 pt-[30px] text-black hover:text-black xl:hover:text-white"><h6 className=" mt-[-15px] p-5 pt-[8px]   transition-colors duration-150">Vai al sito</h6></a>
             </div>
         </div>
 
