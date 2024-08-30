@@ -61,7 +61,7 @@ Illustrator
  min-[768px]:w-[500px] min-[768px]:ml-[-3550px] xl:ml-[-3550px] min-[1400px]:ml-[-200px]">
 <Link className=" w-10 h-[200px] ml-[-100px] border-black min-[768px]:ml-[-3550px] " to="/App Super Counter">
 <div  className=" ml-[-2px] border-[3px] border-[#d46767] w-[194px] h-[60px] xl:hover:bg-[#d46767] xl:hover:rounded-full transition-colors duration-150 rounded-full mt-[16px] min-[768px]:ml-[3580px] xl:ml-[3615px] min-[1400px]:ml-[-25px]" >     
-<h6 className=" mt-[-15px] p-5 pt-[18px] text-black xl:hover:text-white Stransition-colors duration-150">Prova applicazione</h6>
+<h6 className=" mt-[-15px] p-5 pt-[18px] text-black xl:hover:text-white transition-colors duration-150">Prova applicazione</h6>
 </div>
 </Link>
 </div>
