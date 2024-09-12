@@ -21,6 +21,9 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <p className=" text-black text-[20px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Applicazione web che permette di usare un contatore in maniera originale.</p>
 </div>
 
+<img className="scale-105 mt-[100px] ml-[-20px] pl-[10px] min-[1400px]:scale-[.70] min-[1400px]:ml-[230px] min-[1400px]:mt-[-210px] xl:ml-[230px] xl:scale-[.60]
+            xl:mt-[-70px] min-[768px]:scale-[0.80] shadow-2xl" src="supee.svg" alt=""/>
+
 <div className="  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[300px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Programmazione:</h3>
@@ -170,8 +173,7 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 </div>
 
 <div className=" h-[900px]">
-<img className=" w-[900px] h-[500px] mt-5 ml-[-82px] pl-[20px] scale-[1.30] min-[1400px]:scale-[.99] min-[1400px]:ml-[400px] min-[1400px]:mt-[-100px] xl:ml-[290px] xl:scale-[.99]
-xl:mt-[80px] min-[768px]:scale-[.99]" src="sc3.svg" alt="" />
+
 </div>
 
 <FooterWeb></FooterWeb>

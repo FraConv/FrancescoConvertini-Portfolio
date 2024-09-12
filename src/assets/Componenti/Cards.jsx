@@ -10,7 +10,7 @@ function Cards ({Immagine,Titolo,Descrizione}){
     <div className=" mt-[-340px] w-[262px] ml-[-75px] h-[212px] border-2 border-transparent absolute ">    
     <img className="ml-[72px]" src={Immagine} alt="" />
     </div>   
-        <h3 className=" text-white text-[22px] ml-2 text-left mt-[-110px]">{Titolo}</h3>
+        <h3 className=" text-[#db8f8f] text-[22px] ml-2 text-left mt-[-110px]">{Titolo}</h3>
         <p className="text-white text-[16px] ml-2 text-left mt-5">{Descrizione}</p>
        
     </div>

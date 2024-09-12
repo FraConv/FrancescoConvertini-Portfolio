@@ -21,6 +21,8 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <p className=" text-black text-[20px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Applicazione web che simula il lancio dei dadi a sei faccie.</p>
 </div>
 
+<img className="scale-105 mt-[100px] ml-[-20px] pl-[10px] min-[1400px]:scale-[.70] min-[1400px]:ml-[230px] min-[1400px]:mt-[-210px] xl:ml-[230px] xl:scale-[.60]
+            xl:mt-[-70px] min-[768px]:scale-[0.80] shadow-2xl" src="lucky.svg" alt=""/>
 
 <div className="  w-[330px] h-[50px]  border-transparent border-[2px] ml-[-20px] mt-[300px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
@@ -173,8 +175,7 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <p className=" text-black text-[18px] ml-5 text-left  min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la versione mobile il design dell'app rimane invariato e privo di eventuali bug.</p>
 </div>
 
-<img className=" w-[700px] h-[400px] mt-[80px] ml-[-62px] pl-[20px] min-[1400px]:scale-[.99] min-[1400px]:ml-[400px] min-[1400px]:mt-[-100px]  xl:ml-[500px] xl:scale-[1.10]
-xl:mt-[80px] min-[768px]:scale-[1.30]" src="lr2.svg" alt="" />
+
 
 <div className="h-[500px]"></div>
 

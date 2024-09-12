@@ -51,11 +51,11 @@ function SuperCounterApp (){
 
         <div className={` w-[100px] h-[103px] border-transparent border-2 ml-[-42px] mt-[490px] rounded-[15px] cursor-pointer  absolute ${Animation ? "animate-Jump" : ""}  `} onClick={clickmouse}>
 
-            <div className=" justify-center w-[49px] h-[33px]  border-black border-2 bg-orange-600 rounded-tl-[11px] "></div>
+            <div className=" justify-center w-[49px] h-[33px]  border-black border-2 bg-orange-600 rounded-tl-[19px] "></div>
             <div className=" justify-center w-[20px] h-[33px]  border-black border-2 bg-orange-600"></div>
-            <div className=" justify-center w-[49px] h-[33px] border-black border-2   bg-orange-600 rounded-bl-[11px]"></div>
-            <div className=" justify-center border-black border-2 w-[47px] h-[33px] ml-[49px] mt-[-33px]  rounded-br-[11px] bg-orange-600"></div>
-            <div className=" justify-center border-black border-2 w-[47px] h-[33px] ml-[49px] mt-[-99px]  rounded-tr-[11px] bg-orange-600"></div>
+            <div className=" justify-center w-[49px] h-[33px] border-black border-2   bg-orange-600 rounded-bl-[19px]"></div>
+            <div className=" justify-center border-black border-2 w-[47px] h-[33px] ml-[49px] mt-[-33px]  rounded-br-[19px] bg-orange-600"></div>
+            <div className=" justify-center border-black border-2 w-[47px] h-[33px] ml-[49px] mt-[-99px]  rounded-tr-[19px] bg-orange-600"></div>
             <div className=" justify-center w-[20px] h-[33px] ml-[76px]  border-black border-2 bg-orange-600"></div>
             <div className=" justify-center  border-black border-2 w-[56px] h-[33px] ml-[21%] mt-[-33px]   bg-orange-600"></div>
          

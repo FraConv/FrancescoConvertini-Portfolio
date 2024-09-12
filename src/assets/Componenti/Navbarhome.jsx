@@ -1,14 +1,15 @@
 
 import { Link } from 'react-router-dom';
-import { useState} from 'react';
+import { useState, useEffect } from 'react';
 
 
 
-function Navbar() {
+function  Navbarhome() {
 
   const [Comparsa, setComparsa]= useState (  "mt-[5000px]");
   const [MovimentoGiu, setMovimentoGiu]= useState ("mt-[-40px]");
   const [MovimentoSu, setMovimentoSu]= useState ("mt-[-40px]");
+  const [CambioColore, setCambioColore]=useState (false);
 
   const clickMouse= () => {
   
@@ -19,6 +20,30 @@ function Navbar() {
     setMovimentoSu(prevMovimentoSu => prevMovimentoSu === "mt-[-40px]" ? "translate-y-[-6px]" : "mt-[-40px]");
 
   }
+
+    useEffect(()=>{
+
+      const handleScroll= () => {
+
+        const AltezzaScroll=1495
+          if(window.scrollY>AltezzaScroll){
+            setCambioColore(true)
+          }else{
+            setCambioColore(false)
+          }
+
+      };
+
+      window.addEventListener('scroll', handleScroll);
+
+      return()=>{
+        window.removeEventListener('scroll',handleScroll);
+      }
+
+   
+    }, []);
+
+
     
 
   return (
@@ -86,10 +111,10 @@ function Navbar() {
 
       </header>
 
-      <div className="border-2 border-transparent w-[100%] h-[96px] left-0 top-0 z-20 fixed bg-[#faf5eb]"></div>
+      <div className={`border-2 border-transparent w-[100%] h-[96px] left-0 top-0 z-20 fixed ${CambioColore ? 'bg-[#443e3e]' : 'bg-[#faf5eb]'} transition-colors duration-500`}></div>
 
     </>
   );
 }
 
-export default Navbar;
+export default Navbarhome;

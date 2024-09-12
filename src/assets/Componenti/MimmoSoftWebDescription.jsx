@@ -1,7 +1,7 @@
 import ColorPallet from "./ColorPallet";
 import FooterWeb from "./FooterWeb";
 import Navbar from "./NavBar"
-import { Link } from 'react-router-dom';
+
 
 function MimmoSoftWebDescription(){
 
@@ -190,6 +190,6 @@ function MimmoSoftWebDescription(){
 
     );
 
-};
+}
 
 export default MimmoSoftWebDescription;

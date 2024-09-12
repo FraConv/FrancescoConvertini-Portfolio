@@ -1,8 +1,52 @@
 
 import FooterWeb from "./FooterWeb";
 import Navbar from "./NavBar";
+import { useInView } from 'react-intersection-observer';
+import { useState, useEffect } from "react";
 
 function Chisono () {
+  const [visible, setVisible] = useState(false);
+  const [visible2, setVisible2] = useState(false);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      const triggerHeight = 950; // Altezza di scroll in pixel per attivare l'animazione
+      if (position > triggerHeight) {
+        setVisible(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      const triggerHeight = 2120; // Altezza di scroll in pixel per attivare l'animazione
+      if (position > triggerHeight) {
+        setVisible2(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+  const { ref, inView } = useInView({
+    threshold: 0.1, // Quando l'elemento è visibile al 10%
+    triggerOnce: true, // L'animazione si attiva solo una volta
+  });
 
     return(
     
@@ -12,12 +56,15 @@ function Chisono () {
 
 
     <div className="  w-[330px] h-[80px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-150px] min-[1400px]:w-[360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
-<h1 className=" text-black scale-120 ml-5 text-left min-[1400px]:text-[70px]">Chi sono.</h1>
+<h1 ref={ref} className={` text-black scale-120 ml-5 text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
+'-translate-x-20 opacity-0'}`}>Chi sono.</h1>
 </div>
 
 <div className="  w-[330px] h-[670px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-150px] min-[1400px]:w-[600px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
 
-<p className=" text-black text-[20px]  ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[22px]">Mi chiamo Francesco Convertini, sono nato il 16 Marzo del 2002 e attualmente vivo in Puglia a Palo Del Colle(BA).
+<p  ref={ref} className={` text-black text-[20px]  ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[22px]transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
+'-translate-x-20 opacity-0'}`}>Sono nato il 16 Marzo del 2002 e attualmente vivo in Puglia a Palo Del Colle(BA).
+  <br />
 Ho frequentato il liceo artistico De Nittis di Bari diplomandomi in industrial design, in cui progettavo oggetti di vario tipo con diverse complessità.
 
 <br />
@@ -38,11 +85,11 @@ Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sem
 </p>
 </div>
 
-<div className="  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[300px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+<div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[300px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 <h3 className=" text-black text-[30px] ml-5 text-left min-[1400px]:text-[35px]">Skill web designer:</h3>
 </div>
 
-<ul  className="  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+<ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 HTML5
@@ -138,11 +185,11 @@ xl:mt-[-200px]">
 
 </ul>
 
-<div className="  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[1500px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[950px]  xl:mt-[950px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+<div className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[1500px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[950px]  xl:mt-[950px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 <h3 className=" text-black text-[30px] ml-5 text-left  min-[1400px]:text-[35px]">Skill graphic designer:</h3>
 </div>
     
-<ul  className="  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+<ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 
 <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 Illustrator
@@ -192,7 +239,25 @@ xl:mt-[-150px]">
 
 </ul>
 
-<div className="mt-[816px] :w-[375px] h-[80px] bg-transparent]"></div>
+            <div className="w-[330px] h-[160px]  border-transparent border-[2px] ml-[-20px] mt-[800px] min-[1400px]:ml-[-520px]  min-[1400px]:w-[1000px] xl:ml-[-330px] xl:w-[800px] xl:h-[180px]
+              min-[768px]:ml-[-150px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[500px] xl:mt-[500px]">
+                <p className=" text-black text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-medium ">
+                  Vorresti che i tuoi progetti siano funzionali, accattivanti e 
+                    
+                  interessanti?</p>
+            </div>
+
+
+              <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-600px]  min-[1400px]:w-[300px] xl:ml-[-410px] min-[768px]:ml-[-232px]
+              min-[1400px]:mt-[15px] xl:mt-[25px] ">
+                <div  className="ml-[80px] bg-[#d46767] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
+                  <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-white hover:text-white">
+                    <h6 className="mt-[-6px]">CONTATTAMI</h6></a>
+                </div>
+              </div>
+
+
+<div className="mt-[316px] :w-[375px] h-[80px] xl:mt-[200px] bg-transparent]"></div>
     
   <FooterWeb></FooterWeb>
 
