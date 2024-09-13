@@ -92,11 +92,11 @@ function FrancescoConvertiniPortfolioDescription(){
             </div>
 
 
-            <img className=" w-[200px] h-[300px]  mt-5 ml-[-42px] pl-[20px] min-[1400px]:ml-[520px] min-[1400px]:mt-[-230px] min-[1400px]:scale-[1.20]
+            <img className=" w-[200px] h-[300px]  mt-5 ml-[-15px] pl-[20px] min-[1400px]:ml-[520px] min-[1400px]:mt-[-230px] min-[1400px]:scale-[1.20]
             xl:ml-[350px] xl:mt-[-70px] min-[768px]:ml-[-10px]" src="Cattura9.svg" alt="" />
             
             
-            <img className=" w-[200px] h-[300px]  mt-[-10px] ml-[-42px] pl-[20px] min-[1400px]:ml-[920px] min-[1400px]:mt-[-295px] min-[1400px]:scale-[1.20]
+            <img className=" w-[200px] h-[300px]  mt-[-10px] ml-[-15px] pl-[20px] min-[1400px]:ml-[920px] min-[1400px]:mt-[-295px] min-[1400px]:scale-[1.20]
             xl:ml-[700px] xl:mt-[-295px] min-[768px]:ml-[-10px]" src="Logo mio.svg" alt="Francesco Convertini logo" />
 
 

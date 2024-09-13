@@ -84,9 +84,9 @@ illustrandone solo gli angoli e il punteggio di una delle faccie, che in questo 
 Il risultato è un logo indentificativo bello da vedere e in tema con il sito.</p>
 </div>
 
-<img className=" w-[330px] h-[300px]  mt-[100px] ml-[-85px] pl-[10px] min-[1400px]:ml-[520px] min-[1400px]:mt-[-230px] min-[1400px]:scale-[1.20]  xl:ml-[400px] xl:mt-[-70px]
+<img className=" w-[330px] h-[300px]  scale-[.85] mt-[100px] ml-[-65px] pl-[10px] min-[1400px]:ml-[520px] min-[1400px]:mt-[-230px] min-[1400px]:scale-[1.20]  xl:ml-[400px] xl:mt-[-70px]
 " src="Roll v2 p2.svg" alt="" />
-<img className=" w-[350px] h-[300px]  mt-[50px] ml-[-42px] pl-[20px] min-[1400px]:ml-[900px] min-[1400px]:mt-[-210px] min-[1400px]:scale-[1.40]  xl:ml-[770px] xl:mt-[-228px] 
+<img className=" w-[350px] h-[300px] scale-[.85] mt-[50px] ml-[-32px] pl-[20px] min-[1400px]:ml-[900px] min-[1400px]:mt-[-210px] min-[1400px]:scale-[1.40]  xl:ml-[770px] xl:mt-[-228px] 
 xl:scale-[1.10] " src="Roll v2.svg" alt="" />
 
 <div className="  w-[330px] h-[70px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]

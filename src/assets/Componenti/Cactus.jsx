@@ -59,7 +59,7 @@ In alto a sinistra si trova la scritta "Agenda 2024" mentre in basso a destra in
 </p>
 </div>
 
-<img className=" w-[400px] h-[300px]  mt-[90px] ml-[-62px] pl-[20px] min-[1400px]:scale-[1.90] min-[1400px]:ml-[530px] min-[1400px]:mt-[-70px] xl:ml-[600px] xl:mt-[-20px]
+<img className=" w-[400px] h-[300px]  mt-[90px] ml-[-52px] pl-[20px] min-[1400px]:scale-[1.90] min-[1400px]:ml-[530px] min-[1400px]:mt-[-70px] xl:ml-[600px] xl:mt-[-20px]
 xl:scale-[1.50] min-[768px]:scale-[1.50]" src="cactusv3.svg" alt="" />
 
 <br />

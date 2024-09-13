@@ -60,7 +60,7 @@ Il risultato è una illustrazione di impatto, che mette curiosità e inquietudin
 </p>
 </div>
 
-<img className=" w-[400px] h-[300px]  mt-[90px] ml-[-62px] pl-[20px]  min-[1400px]:scale-[1.60] min-[1400px]:ml-[530px] min-[1400px]:mt-[-80px] xl:ml-[600px] xl:mt-[50px]
+<img className=" w-[400px] h-[300px]  mt-[90px] ml-[-90px] pl-[20px]  min-[1400px]:scale-[1.60] min-[1400px]:ml-[530px] min-[1400px]:mt-[-80px] xl:ml-[600px] xl:mt-[50px]
 xl:scale-[1.50] min-[768px]:scale-[1.40]" src="mostro letto.svg" alt="" />
 
 <br />
