@@ -162,7 +162,7 @@ function MimmoSoftWebDescription(){
     <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Tipografia:</h3>
     </div>
 
-    <div className="  w-[330px] h-[100px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
+    <div className="  w-[330px] h-[100px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px]
     min-[768px]:ml-[10px] min-[768px]:w-[500px]">
     <p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Il font utilizzato per questo sito è Roboto Mono.</p>
     </div>

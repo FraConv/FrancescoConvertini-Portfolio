@@ -154,7 +154,7 @@ function FrancescoConvertiniPortfolioDescription(){
             <div className="  w-[330px] h-[260px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px]
             min-[768px]:ml-[10px] min-[768px]:w-[500px]">
             <p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px  min-[768px]:text-[22px] min-[1400px]:text-[26px]"> Cliccando sull'opzione Portfolio si verrà portati in una pagina con varie
-                cards, ogni cards mostra un progetto personale diverso di web design e graphic design, descritto in maniera pulita, coerente e con le varie immagini
+                cards, ogni cards mostra un progetto personale diverso di web design e graphic design, descritto in maniera pulita, coerente e con le varie immagini.
             </p>
             </div>
 
@@ -172,14 +172,14 @@ function FrancescoConvertiniPortfolioDescription(){
             <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette header:</h3>
             </div>
 
-                <ColorPallet className="bg-[#ffcb3c]" code="#ffcb3c"></ColorPallet>
+                <ColorPallet className="bg-[#8bd3dd]" code="#ffcb3c"></ColorPallet>
 
             <div className="  w-[330px] h-[50px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px]
             min-[768px]:ml-[10px] min-[768px]:w-[500px]">
             <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette body:</h3>
             </div>
 
-                <ColorPallet className="bg-[#ffffff]" code="#ffffff"></ColorPallet>
+                <ColorPallet className="bg-[#faf5eb]" code="#ffffff"></ColorPallet>
 
             <div className="  w-[330px] h-[50px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px]
             min-[768px]:ml-[10px] min-[768px]:w-[500px]">
