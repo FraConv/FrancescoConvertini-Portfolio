@@ -139,7 +139,7 @@ function Portfolio () {
               min-[1400px]:mt-[15px] xl:mt-[25px] ">
                 <div  className="ml-[80px] bg-[#d46767] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >
                 <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-black hover:text-black">    
-                  <span className="absolute mt-4 ml-[-53px]">CONTATTAMI </span></a>
+                  <span className="absolute mt-[18px] ml-[-51px]">CONTATTAMI </span></a>
                 </div>
               </div>
             

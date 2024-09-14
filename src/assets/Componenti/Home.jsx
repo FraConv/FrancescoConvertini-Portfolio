@@ -297,7 +297,7 @@ function Home () {
               min-[1400px]:mt-[75px] xl:mt-[25px]">
                  <a href="mailto:francesco16convertini@gmail.com" className="  text-[#000000] hover:text-[#000000]">
                 <div  className="ml-[80px] bg-[#db8f8f] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
-               <span className="absolute mt-4 ml-[-53px]">CONTATTAMI </span>
+               <span className="absolute mt-[18px] ml-[-51px]">CONTATTAMI </span>
                 </div></a>
               </div>
             

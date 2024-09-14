@@ -89,36 +89,36 @@ Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sem
 <h2 className=" text-black text-[30px] ml-5 text-left min-[1400px]:text-[35px] font-bold">Skill web designer:</h2>
 </div>
 
-<ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-30px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
+<ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-55px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 HTML5
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 CSS3
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Javascript
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Git
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Tailwind css
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 React
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Boostrap 5
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 TypeScript
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 WordPress
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Responsive Design
 </li>
 
@@ -189,21 +189,21 @@ xl:mt-[-200px]">
 <h2 className=" text-black text-[30px] ml-5 text-left  min-[1400px]:text-[35px] font-bold">Skill graphic designer:</h2>
 </div>
     
-<ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
+<ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-15px]  min-[1400px]:mt-[-53px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] xl:mt-[-55px] min-[768px]:ml-[-150px] min-[768px]:mt-[-58px] min-[768px]:w-[500px]`}>
 
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Illustrator
 </li>
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Photoshop
 </li>
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Indesign
 </li>
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Figma
 </li>
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
+<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 UX/UI Design
 </li>
 
@@ -251,7 +251,7 @@ xl:mt-[-150px]">
               <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-600px]  min-[1400px]:w-[300px] xl:ml-[-410px] min-[768px]:ml-[-232px]
               min-[1400px]:mt-[15px] xl:mt-[25px] ">
                 <div  className="ml-[80px] bg-[#db8f8f] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
-                <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-black hover:text-black"><span className="absolute mt-4 ml-[-53px]">CONTATTAMI </span></a>
+                <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-black hover:text-black"><span className="absolute mt-[18px] ml-[-51px]">CONTATTAMI </span></a>
                 </div>
               </div>
             
