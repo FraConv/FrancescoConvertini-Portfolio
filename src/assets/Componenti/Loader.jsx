@@ -19,9 +19,9 @@ function Loader() {
   return (
     <>
       <div
-        className={`transform transition-all duration-1000 grid grid-cols-5 w-[100vw] h-[700vw] bg-[#faf5eb] z-40 fixed ml-[-33px] mt-[-100px] min-[414px]:ml-[-52px] 
-        min-[390px]:ml-[-40px] min-[430px]:ml-[-60px] 
-        min-[412px]:ml-[-51px] min-[1400px]:w-[110%] min-[1400px]:left-0 xl:w-[110%] xl:left-0 min-[768px]:left-0 min-[768px]:w-[120%] ${fadeOut ? "opacity-0" : "opacity-100"}`} // Aggiungi transizione opacità
+        className={`transform transition-all duration-1000 grid grid-cols-5 w-[100vw] h-[700vw] bg-[#faf5eb] z-40 fixed ml-[-33px] mt-[-100px] min-[414px]:ml-[-30px] 
+        min-[390px]:ml-[-30px] min-[430px]:ml-[-30px] 
+        min-[412px]:ml-[-30px] min-[1400px]:w-[110%] min-[1400px]:left-0 xl:w-[110%] xl:left-0 min-[768px]:left-0 min-[768px]:w-[120%] ${fadeOut ? "opacity-0" : "opacity-100"}`} // Aggiungi transizione opacità
       >
         <div className="w-20 h-20 bg-[#80c6cf] ml-[153px] mt-[250px] min-[1400px]:ml-[956px] rotate-45 min-[1400px]:mt-[450px] min-[390px]:ml-[160px] min-[414px]:ml-[170px] 
         animate-Loaderr min-[430px]:ml-[178px] min-[412px]:ml-[164px] xl:ml-[706px] xl:mt-[350px] min-[768px]:ml-[430px] min-[768px]:mt-[420px]"></div>
