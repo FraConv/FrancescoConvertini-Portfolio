@@ -86,10 +86,10 @@ Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sem
 </div>
 
 <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[300px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
-<h3 className=" text-black text-[30px] ml-5 text-left min-[1400px]:text-[35px]">Skill web designer:</h3>
+<h2 className=" text-black text-[30px] ml-5 text-left min-[1400px]:text-[35px] font-bold">Skill web designer:</h2>
 </div>
 
-<ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
+<ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-30px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 
 <li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 HTML5
@@ -185,11 +185,11 @@ xl:mt-[-200px]">
 
 </ul>
 
-<div className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[1500px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[950px]  xl:mt-[950px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
-<h3 className=" text-black text-[30px] ml-5 text-left  min-[1400px]:text-[35px]">Skill graphic designer:</h3>
+<div className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[1500px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[950px]  xl:mt-[950px] min-[1400px]:w-[600px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
+<h2 className=" text-black text-[30px] ml-5 text-left  min-[1400px]:text-[35px] font-bold">Skill graphic designer:</h2>
 </div>
     
-<ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
+<ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-10px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 
 <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px]'>
 Illustrator
@@ -247,16 +247,14 @@ xl:mt-[-150px]">
                   interessanti?</p>
             </div>
 
-
+         
               <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-600px]  min-[1400px]:w-[300px] xl:ml-[-410px] min-[768px]:ml-[-232px]
               min-[1400px]:mt-[15px] xl:mt-[25px] ">
-                <div  className="ml-[80px] bg-[#d46767] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
-                  <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-white hover:text-white">
-                    <h6 className="mt-[-6px]">CONTATTAMI</h6></a>
+                <div  className="ml-[80px] bg-[#db8f8f] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
+                <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-black hover:text-black"><span className="absolute mt-4 ml-[-53px]">CONTATTAMI </span></a>
                 </div>
               </div>
-
-
+            
 <div className="mt-[316px] :w-[375px] h-[80px] xl:mt-[200px] bg-transparent]"></div>
     
   <FooterWeb></FooterWeb>

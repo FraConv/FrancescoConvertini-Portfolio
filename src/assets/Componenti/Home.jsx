@@ -73,23 +73,23 @@ function Home () {
         <Navbarhome></Navbarhome>
 
 
-          <div className="w-[330px] h-[300px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-200px] min-[1400px]:w-[700px] xl:ml-[-100px] xl:w-[500px] xl:h-[150px]
-          min-[1400px]:h-[300px] min-[768px]:ml-[-150px] min-[768px]:w-[500px] min-[768px]:h-[100px] ab">
+          <div className="w-[330px] h-[300px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-200px] min-[1400px]:w-[700px] xl:ml-[10px] xl:w-[500px] xl:h-[150px]
+          min-[1400px]:h-[300px] min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:h-[100px] ab">
             <h1 className=" text-black text-[46px] text-left min-[1400px]:text-[70px] transition-all duration-1000 transform">
                     SALVE A TUTTI SONO UN WEB DESIGNER E GRAPHIC DESIGNER.
             </h1>
           </div>
 
 
-          <div className="w-[330px] h-[160px]  border-transparentborder-[2px] ml-[-20px] mt-[30px] min-[1400px]:ml-[-200px] min-[1400px]:mt-[120px] min-[1400px]:w-[700px] xl:ml-[-100px] xl:w-[500px] xl:h-[180px]
-          min-[768px]:ml-[-150px] min-[768px]:w-[500px] min-[768px]:mt-[120px]">
+          <div className="w-[330px] h-[160px]  border-transparentborder-[2px] ml-[-20px] mt-[30px] min-[1400px]:ml-[-200px] min-[1400px]:mt-[120px] min-[1400px]:w-[700px] xl:ml-[10px] xl:w-[500px] xl:h-[180px]
+          min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:mt-[120px]">
             <p className=" text-black text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000">
             Il mio nome è Francesco Convertini, progetto loghi, siti web e applicazioni web semplici e funzionali per ogni tipo di situazione.😀</p>
           </div>
 
 
-          <div className="w-[300px] h-[300px] mt-[100px] ml-[-20px] xl:w-[350px] xl:h-[350px] xl:ml-[600px] xl:mt-[-300px] min-[1400px]:w-[500px] min-[1400px]:h-[500px] min-[1400px]:ml-[700px]
-          min-[1400px]:mt-[-400px] min-[768px]:ml-[-150px]">
+          <div className="w-[300px] h-[300px] mt-[100px] ml-[-20px] xl:w-[350px] xl:h-[350px] xl:ml-[700px] xl:mt-[-300px] min-[1400px]:w-[500px] min-[1400px]:h-[500px] min-[1400px]:ml-[700px]
+          min-[1400px]:mt-[-400px] min-[768px]:ml-[30px]">
             <img  className="rounded-tl-[100px] rounded-br-[100px] shadow-2xl transition-all duration-1000" src="foto mia.svg" alt=""/>
           </div>
 
@@ -97,27 +97,27 @@ function Home () {
           <div className="mt-[400px]"></div>
 
 
-          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7540px]  min-[1400px]:h-[7240px]  bg-[#443e3e] w-[100%] rounded-tr-[160px] rounded-bl-[160px] min-[1400px]:rounded-tr-[280px]  
+          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7778px]  min-[1400px]:h-[7240px]  bg-[#443e3e] w-[100%] rounded-tr-[160px] rounded-bl-[160px] min-[1400px]:rounded-tr-[280px]  
           min-[1400px]:rounded-bl-[280px] xl:mt-[460px] xl:h-[6400px]  min-[1400px]:mt-[279px] min-[768px]:mt-[180px] min-[768px]:h-[7080px] min-[768px]:rounded-tr-[260px] min-[768px]:rounded-bl-[260px]`}></div>
 
 
-          <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[-50px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1200px] xl:ml-[-120px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[-150px] min-[768px]:mt-[150px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[250px] absolute z-10  xl:mt-[450px]`}>
-                <h3 className=" text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[70vh]">
+          <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[-50px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1200px] xl:ml-[57vh] xl:w-[500px] xl:h-[180px]
+              min-[768px]:ml-[10px] min-[768px]:mt-[150px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[250px] absolute z-10  xl:mt-[450px]`}>
+                <h2 className=" text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[67vh] font-bold">
                   L'importanza del
                     <br />
                   UI e UX Design.🤯
-                </h3>
+                </h2>
             </div>
 
 
-            <img className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[160px] ml-[-70px] pl-[10px] 
-             min-[1400px]:scale-[.40] min-[1400px]:ml-[-160px] min-[1400px]:mt-[250px] xl:ml-[-550px] xl:scale-[.30]
-            xl:mt-[450px] min-[768px]:scale-[0.50] min-[768px]:ml-[-330px] min-[768px]:mt-[290px] rounded-[50px] absolute`} src="Home2.svg" alt=""/>
+            <img className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[560px] ml-[-60px] pl-[10px] 
+             min-[1400px]:scale-[.40] min-[1400px]:ml-[-22px] min-[1400px]:mt-[700px] xl:ml-[-6px] xl:scale-[.30]
+            xl:mt-[850px] min-[768px]:scale-[0.50] min-[768px]:ml-[-152px] min-[768px]:mt-[710px] rounded-[50px]  `} src="Home2.svg" alt=""/>
        
 
-            <div  className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[310px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1300px] xl:ml-[-100px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[-150px] min-[768px]:w-[500px] min-[768px]:mt-[630px] pt-[100px] min-[1400px]:mt-[950px] absolute z-10 xl:mt-[960px]`}>
+            <div  className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[-40px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1300px] xl:ml-[27vh] xl:w-[800px] xl:h-[180px]
+              min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:mt-[-80px] pt-[100px] min-[1400px]:mt-[-170px] absolute z-10 xl:mt-[-260px]`}>
                 <p className=" text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-normal min-[1400px]:ml-[40vh]">
                   Il UX e il UI Design sono due 
                     
@@ -168,20 +168,20 @@ function Home () {
             </div>
 
 
-            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[1600px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[500x] xl:ml-[-115px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[-170px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[1880px] absolute z-10 min-[768px]:mt-[1750px] xl:mt-[2000px]">
-                <h3 className={`transform transition-all duration-1000 ${visible2 ? '-translate-x-0 opacity-100' : '-translate-x-full opacity-0'} text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[-1px]`}>
+            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[1300px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[500x] xl:ml-[-15px] xl:w-[800px] xl:h-[180px]
+              min-[768px]:ml-[10px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[900px] absolute z-10 min-[768px]:mt-[950px] xl:mt-[600px]">
+                <h2 className={`transform transition-all duration-1000 ${visible2 ? '-translate-x-0 opacity-100' : '-translate-x-full opacity-0'} text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[-1px] font-bold`}>
                   Cosa vuol dire progettare un logo funzionale.👌
-                </h3>
+                </h2>
             </div>
 
 
-            <img className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[1860px] ml-[-65px] pl-[10px] min-[1400px]:scale-[.55] min-[1400px]:ml-[-430px] min-[1400px]:mt-[2040px] xl:ml-[-430px]  xl:scale-[.35]
-            xl:mt-[2050px] min-[768px]:scale-[0.50] rounded-[50px] min-[768px]:ml-[-345px] min-[768px]:mt-[1895px]  absolute`} src="Home1.svg" alt=""/>
+            <img className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[1560px] ml-[-60px] pl-[10px] min-[1400px]:scale-[.55] min-[1400px]:ml-[-430px] min-[1400px]:mt-[1050px] xl:ml-[-320px]  xl:scale-[.35]
+            xl:mt-[630px] min-[768px]:scale-[0.50] rounded-[50px] min-[768px]:ml-[-152px] min-[768px]:mt-[1110px]`} src="Home1.svg" alt=""/>
 
 
-            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[2030px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[800px] xl:ml-[-100px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[-150px] min-[768px]:w-[500px] pt-[100px] min-[768px]:mt-[2265px]  min-[1400px]:mt-[2600px] absolute z-10  xl:mt-[2500px]">
+            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[-30px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[800px] xl:ml-[10px] xl:w-[800px] xl:h-[180px]
+              min-[768px]:ml-[30px] min-[768px]:w-[500px] pt-[100px] min-[768px]:mt-[-80px]  min-[1400px]:mt-[-80px] absolute z-10  xl:mt-[-200px]">
                 <p className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-normal`}>
                   Un logo non è soltato un disegno a caso bello da vedere, ma è una cosa molto più complessa.
                     <br /> 
@@ -219,21 +219,19 @@ function Home () {
             </div>
 
 
-            
-            <img className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[4030px] ml-[-65px] pl-[10px] min-[1400px]:scale-[.30] min-[1400px]:ml-[-330px] min-[1400px]:mt-[3780px] xl:ml-[-550px]  xl:scale-[.30]
-            xl:mt-[3920px] min-[768px]:scale-[0.50] rounded-[50px] absolute min-[768px]:ml-[-330px] min-[768px]:mt-[3850px]`} src="Home3.svg" alt=""/>
-
-
-            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[3820px] min-[1400px]:ml-[-60px] min-[1400px]:mt-[4060px]  min-[1400px]:w-[1200px] xl:ml-[-115px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[-150px]  min-[768px]:mt-[3770px] min-[768px]:w-[500px] pt-[100px] absolute z-10 xl:mt-[4000px]">
-                <h3 className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[43vh]`}>
+            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[1800px] min-[1400px]:ml-[-60px] min-[1400px]:mt-[1500px]  min-[1400px]:w-[1200px] xl:ml-[49vh] xl:w-[800px] xl:h-[180px]
+              min-[768px]:ml-[10px]  min-[768px]:mt-[1360px] min-[768px]:w-[500px] pt-[100px] absolute z-10 xl:mt-[1200px]">
+                <h2 className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[43vh] font-bold`}>
                   Cosa fa un Web Designer.🤓
-                </h3>
+                </h2>
             </div>
 
+            <img className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[2020px] ml-[-60px] pl-[10px] min-[1400px]:scale-[.30] min-[1400px]:ml-[-15px] min-[1400px]:mt-[1420px] xl:ml-[1vh]  xl:scale-[.30]
+            xl:mt-[1100px] min-[768px]:scale-[0.50] rounded-[50px] min-[768px]:ml-[-160px] min-[768px]:mt-[1460px]`} src="Home3.svg" alt=""/>
 
-            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[4250px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1300px] xl:ml-[-100px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[-150px] min-[768px]:w-[500px] pt-[100px] absolute z-10 min-[1400px]:mt-[4830px] min-[768px]:mt-[4320px] xl:mt-[4630px]">
+
+            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[-20px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1300px] xl:ml-[27vh] xl:w-[800px] xl:h-[180px]
+              min-[768px]:ml-[10px] min-[768px]:w-[500px] pt-[100px] absolute z-10 min-[1400px]:mt-[-280px] min-[768px]:mt-[-120px] xl:mt-[-330px]">
                 <p className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-normal min-[1400px]:ml-[30vh]`}>
                 Il Web Designer si occupa sia della progettazione estetica ma anche funzionale del Front-End di un sito o app web.
                   <br />
@@ -286,25 +284,25 @@ function Home () {
 
 
 
-            <div className="w-[330px] h-[160px]  border-transparent border-[2px] ml-[-20px] mt-[7500px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1000px] xl:ml-[-100px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[-150px] min-[768px]:mt-[7050px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[7400px] xl:mt-[6800px]">
+            <div className="w-[330px] h-[160px]  border-transparent border-[2px] ml-[-20px] mt-[2850px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1000px] xl:ml-[100px] xl:w-[800px] xl:h-[180px]
+              min-[768px]:ml-[10px] min-[768px]:mt-[2350px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[1750px] xl:mt-[1500px]">
                 <p className=" text-[#db8f8f] text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-medium absolute z-10">
                   Vorresti che i tuoi progetti siano funzionali, accattivanti e 
                     <br />
                   interessanti?</p>
             </div>
 
-
-              <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-279px]  min-[1400px]:w-[300px] xl:ml-[-177px] min-[768px]:ml-[-232px]
+           
+              <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-279px]  min-[1400px]:w-[300px] xl:ml-[10px] min-[768px]:ml-[-65px]
               min-[1400px]:mt-[75px] xl:mt-[25px]">
-                <div  className="ml-[80px] bg-[#d46767] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
-                  <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-white hover:text-white">
-                    <h6 className="mt-[-6px]">CONTATTAMI</h6></a>
-                </div>
+                 <a href="mailto:francesco16convertini@gmail.com" className="  text-[#000000] hover:text-[#000000]">
+                <div  className="ml-[80px] bg-[#db8f8f] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
+               <span className="absolute mt-4 ml-[-53px]">CONTATTAMI </span>
+                </div></a>
               </div>
+            
 
-
-              <div className="mt-[200px]  min-[1400px]:mt-[400px]"></div>
+              <div className="mt-[300px]  min-[1400px]:mt-[400px] xl:mt-[500px]"></div>
       
 
       <FooterWeb></FooterWeb>

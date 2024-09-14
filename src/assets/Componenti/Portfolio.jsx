@@ -134,14 +134,15 @@ function Portfolio () {
                   interessanti?</p>
             </div>
 
-
+           
               <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-280px]  min-[1400px]:w-[300px] xl:ml-[-115px] min-[768px]:ml-[-232px]
               min-[1400px]:mt-[15px] xl:mt-[25px] ">
-                <div  className="ml-[80px] bg-[#d46767] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
-                  <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-white hover:text-white">
-                    <h6 className="mt-[-6px]">CONTATTAMI</h6></a>
+                <div  className="ml-[80px] bg-[#d46767] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >
+                <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-black hover:text-black">    
+                  <span className="absolute mt-4 ml-[-53px]">CONTATTAMI </span></a>
                 </div>
               </div>
+            
 
 <div className="w-2 h-[900px] mt-[-700px] xl:mt-[-600px]"></div>
 

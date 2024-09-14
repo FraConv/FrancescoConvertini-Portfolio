@@ -37,7 +37,7 @@ function Navbar() {
 
 
 <Link to="/">
- <img src="Logo mio.svg"/>
+ <img alt="Logo Francesco Convertini" src="Logo mio.svg" />
  </Link>
 
         </div>
