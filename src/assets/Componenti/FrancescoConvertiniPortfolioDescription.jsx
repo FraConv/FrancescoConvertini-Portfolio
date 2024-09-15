@@ -41,19 +41,19 @@ function FrancescoConvertiniPortfolioDescription(){
 
             <ul  className="w-[240px] h-[160px]  border-transparent border-[2px] ml-[-20px] mt-[100px]  min-[1400px]:ml-[-250px] min-[1400px]:w-[600px] xl:ml-[50px] xl:w-[700px]
             min-[768px]:ml-[10px] min-[768px]:w-[500px]">
-                <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
+                <li className='text-black text-[18px] ml-12 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
                      HTML
                 </li>
-                 <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
+                 <li className='text-black text-[18px] ml-12 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
                     CSS
                 </li>
-                <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
+                <li className='text-black text-[18px] ml-12 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
                     Javascript
                  </li>
-                <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
+                <li className='text-black text-[18px] ml-12 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
                     Tailwind css
                 </li>
-                <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
+                <li className='text-black text-[18px] ml-12 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
                     React
                 </li>                   
             </ul>       
@@ -69,7 +69,7 @@ function FrancescoConvertiniPortfolioDescription(){
 
             <ul  className="  w-[240px] h-[30px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[600px] xl:ml-[50px] xl:w-[700px]
             min-[768px]:ml-[10px] min-[768px]:w-[500px]">               
-                <li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
+                <li className='text-black text-[18px] ml-12 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px] list-disc'>
                     Illustrator
                 </li>          
             </ul> 

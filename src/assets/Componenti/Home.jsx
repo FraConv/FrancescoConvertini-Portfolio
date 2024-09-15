@@ -76,7 +76,7 @@ function Home () {
           <div className="w-[330px] h-[300px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-200px] min-[1400px]:w-[700px] xl:ml-[10px] xl:w-[500px] xl:h-[150px]
           min-[1400px]:h-[300px] min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:h-[100px] ab">
             <h1 className=" text-black text-[46px] text-left min-[1400px]:text-[70px] transition-all duration-1000 transform">
-                    SALVE A TUTTI SONO UN WEB DESIGNER E GRAPHIC DESIGNER.
+                    SALVE A TUTTI SONO UN WEB DESIGNER E GRAPHIC DESIGNER.<h2 className="min-[1400px]:ml-[690px] min-[768px]:ml-[452px] xl:ml-[452px] ml-[238px] min-[1400px]:mt-[-58px] mt-[-52px] text-[40px]">👋</h2>
             </h1>
           </div>
 

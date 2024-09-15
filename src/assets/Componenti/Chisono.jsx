@@ -57,7 +57,7 @@ function Chisono () {
 
     <div className="  w-[330px] h-[80px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-150px] min-[1400px]:w-[360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
 <h1 ref={ref} className={` text-black scale-120 ml-5 text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
-'-translate-x-20 opacity-0'}`}>Chi sono.</h1>
+'-translate-x-20 opacity-0'}`}>Chi sono. <h2 className="min-[1400px]:ml-[333px] ml-[238px] min-[1400px]:mt-[-58px] mt-[-52px] text-[40px]">🧐</h2> </h1>
 </div>
 
 <div className="  w-[330px] h-[670px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-150px] min-[1400px]:w-[600px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
@@ -91,35 +91,38 @@ Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sem
 
 <ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-55px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 HTML5
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 CSS3
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Javascript
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Git
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Tailwind css
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 React
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Boostrap 5
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 TypeScript
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 WordPress
 </li>
-<li className='text-black text-[18px] ml-5 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Responsive Design
+</li>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+UI/UX Design
 </li>
 
 
@@ -189,23 +192,21 @@ xl:mt-[-200px]">
 <h2 className=" text-black text-[30px] ml-5 text-left  min-[1400px]:text-[35px] font-bold">Skill graphic designer:</h2>
 </div>
     
-<ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-15px]  min-[1400px]:mt-[-53px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] xl:mt-[-55px] min-[768px]:ml-[-150px] min-[768px]:mt-[-58px] min-[768px]:w-[500px]`}>
+<ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[-55px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
 
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left mt-11 min-[768px]:mt-1 min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Illustrator
 </li>
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Photoshop
 </li>
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
-Indesign
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+InDesign
 </li>
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 Figma
 </li>
-<li className='text-black text-[18px] ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
-UX/UI Design
-</li>
+
 
 <div className=" grid grid-cols-2 gap-20 min-[1400px]:grid-cols-4  min-[1400px]:gap-52 min-[1400px]:ml-[550px] min-[1400px]:mt-[-178px] xl:grid-cols-4 xl:gap-52 xl:ml-[250px]
 xl:mt-[-150px]">
