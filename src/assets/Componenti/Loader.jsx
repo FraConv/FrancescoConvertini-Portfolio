@@ -9,7 +9,7 @@ function Loader() {
     const timer = setTimeout(() => {
       setFadeOut(true); // Attiva la dissolvenza
       setTimeout(() => setLoading(false), 1000); // Nasconde il loader dopo la dissolvenza
-    }, 300000); // 3 secondi
+    }, 3000); // 3 secondi
 
     return () => clearTimeout(timer);
   }, []);
