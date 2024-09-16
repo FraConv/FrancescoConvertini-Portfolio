@@ -28,7 +28,7 @@ function Loader() {
         animate-Loaderr min-[430px]:ml-[178px] min-[412px]:ml-[164px] xl:ml-[670px] xl:mt-[350px] min-[768px]:ml-[430px] min-[768px]:mt-[420px]"></div>
 
         <div className="w-5 h-5 bg-black ml-[108px] mt-[280px] min-[1400px]:ml-[536px] min-[1400px]:mt-[480px] rotate-45 animate-Loaderr2 min-[414px]:ml-[117px] min-[390px]:ml-[112px] 
-        min-[430px]:ml-[122px] min-[412px]:ml-[112px] xl:mt-[380px] xl:ml-[410px] min-[768px]:ml-[268px] min-[768px]:mt-[450px] min-[820px]:ml-[400px]"></div>
+        min-[430px]:ml-[122px] min-[412px]:ml-[112px] xl:mt-[380px] xl:ml-[400px] min-[768px]:ml-[268px] min-[768px]:mt-[450px] min-[820px]:ml-[400px]"></div>
       </div>
     </>
   );
