@@ -25,10 +25,10 @@ function Loader() {
         min-[412px]:ml-[-32px] min-[1400px]:w-[110%] min-[1400px]:left-0 xl:w-[110%] xl:left-0 min-[768px]:left-0 min-[768px]:w-[120%] ${fadeOut ? "opacity-0" : "opacity-100"}`} // Aggiungi transizione opacità
       >
         <div className="w-20 h-20 bg-[#80c6cf] ml-[153px] mt-[250px] min-[1400px]:ml-[925px] rotate-45 min-[1400px]:mt-[450px] min-[390px]:ml-[160px] min-[414px]:ml-[170px] 
-        animate-Loaderr min-[430px]:ml-[178px] min-[412px]:ml-[164px] xl:ml-[680px] xl:mt-[350px] min-[768px]:ml-[430px] min-[768px]:mt-[420px]"></div>
+        animate-Loaderr min-[430px]:ml-[178px] min-[412px]:ml-[164px] xl:ml-[670px] xl:mt-[350px] min-[768px]:ml-[430px] min-[768px]:mt-[420px]"></div>
 
         <div className="w-5 h-5 bg-black ml-[108px] mt-[280px] min-[1400px]:ml-[536px] min-[1400px]:mt-[480px] rotate-45 animate-Loaderr2 min-[414px]:ml-[117px] min-[390px]:ml-[112px] 
-        min-[430px]:ml-[122px] min-[412px]:ml-[112px] xl:mt-[380px] xl:ml-[420px] min-[768px]:ml-[268px] min-[768px]:mt-[450px] min-[820px]:ml-[400px]"></div>
+        min-[430px]:ml-[122px] min-[412px]:ml-[112px] xl:mt-[380px] xl:ml-[410px] min-[768px]:ml-[268px] min-[768px]:mt-[450px] min-[820px]:ml-[400px]"></div>
       </div>
     </>
   );
