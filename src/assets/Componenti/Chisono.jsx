@@ -113,6 +113,9 @@ React
 Boostrap 5
 </li>
 <li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+jQuery
+</li>
+<li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
 TypeScript
 </li>
 <li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
