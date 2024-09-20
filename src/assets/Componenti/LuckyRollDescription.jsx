@@ -94,13 +94,12 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette logo:</h3>
 </div>
 
-    <ColorPallet className="bg-[#5a5aba]" code="#5a5aba"></ColorPallet>
-    <ColorPallet className="bg-[#000000]" code="#000000"></ColorPallet>
+    <ColorPallet className="bg-[#ffffff]" code="#ffffff"></ColorPallet>
 
 <div className="  w-[330px] h-[200px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
-<p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il suo colore che tende verso il viola 
-va ha ricchiamare il mistero (il mistero su che cosa potrebbe uscire ogni volta che si clicca sul tasto "roll") mentre il nero richiama eleganza e serietà.</p>
+<p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il suo colore bianco 
+va ha ricchiamare semplicità e legerezza.</p>
 </div>
 
 <div className="  w-[330px] h-[70px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
@@ -134,26 +133,25 @@ Ad ogni click sul tasto Roll il dado si muoverà con una breve animazione,
 Al primo click su Roll la scritta Roll the dice! cambierà in Roll again!, e durante il lancio la scritta cambierà in Rolling.</p>
 </div>
 
-<div className="  w-[330px] h-[90px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[600px] xl:ml-[50px] xl:w-[700px]
-min-[768px]:ml-[10px] min-[768px]:w-[500px]">
-<h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette header:</h3>
-</div>
-
-    <ColorPallet className="bg-[#ffcb3c]" code="#ffcb3c"></ColorPallet>
 
 <div className="  w-[330px] h-[50px]  border-transparent border-[2px] ml-[-20px] mt-[100px]  min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette body:</h3>
 </div>
 
-    <ColorPallet className="bg-[#faf5eb]" code="#faf5eb"></ColorPallet>
+    <ColorPallet className="bg-[#001743]" code="#001743"></ColorPallet>
 
-<div className="  w-[330px] h-[50px]  border-transparent border-[2px] ml-[-20px] mt-[100px]  min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
+    <ColorPallet className="bg-[#000000]" code="#000000"></ColorPallet>
+
+
+    <div className="  w-[330px] h-[50px]  border-transparent border-[2px] ml-[-20px] mt-[100px]  min-[1400px]:ml-[-250px] min-[1400px]:w-[500px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
-<h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette footer:</h3>
+<h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette elements:</h3>
 </div>
 
-    <ColorPallet className="bg-[#443e3e]" code="#443e3e"></ColorPallet>
+    <ColorPallet className="bg-[#D7DFFF]" code="#D7DFFF"></ColorPallet>
+
+    <ColorPallet className="bg-[#000000]" code="#000000"></ColorPallet>
 
 <div className="  w-[330px] h-[70px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">

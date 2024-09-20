@@ -61,7 +61,7 @@ function Portfolio () {
        hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4></div>
     </div>
 </Link>
-<Cards Immagine="roll cop.svg" Titolo="Lucky Roll" Descrizione="Applicazione web che simula il lancio dei dadi a sei faccie.">
+<Cards Immagine="sroll.svg" Titolo="Lucky Roll" Descrizione="Applicazione web che simula il lancio dei dadi a sei faccie.">
 </Cards>
 
 <Link className="border-2 border-[#443e3e]  w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-650px] xl:ml-[-1950px]" to="/Super Counter">

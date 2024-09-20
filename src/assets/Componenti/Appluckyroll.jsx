@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react"
-import FooterWeb from "./FooterWeb"
+import {useState } from "react"
 
 function Appluckyroll (){
 
@@ -19,37 +18,64 @@ function Appluckyroll (){
   
     return (
       <>
-        <header className="shadow-lg min-[1400px]:w-[100%] min-[500px]:w-[100%] h-[80px] top-0 bg-[#ffcb3c] absolute left-0  min-[412px]:w-[100%] min-[414px]:w-[100%] min-[430px]:w-[100%] min-[375px]:w-[100%] min-[390px]:w-[100%]">
-          <div className='w-[250px] h-[50px] mt-[15px] ml-[75px] min-[375px]:ml-14 min-[412px]:ml-[80px] min-[1400px]:ml-[800px] xl:ml-[520px] min-[768px]:ml-[245px]'>
-            <img className="mt-[-140px] " src="Roll v22.svg" />
+       
+    
+        <div className=" w-[100%] left-0 top-0 h-[188%] absolute bg-gradient-to-bl from-[#001743] via-[#060d1a] to-[black] z-10"></div>
+
+
+        <div className="flex justify-center items-center">
+        <img className="absolute z-30 scale-[.52] top-[-190px] min-[1400px]:scale-[.13] min-[]: min-[1400px]:mt-[-1040px] xl:scale-[.20] xl:mt-[-640px] flex justify-center items-center
+        min-[768px]:mt-[-260px] min-[768px]:scale-[.35]" 
+        src="Roll v2.svg" alt="" />
+        </div>
+
+
+        <img className="absolute z-30 scale-[.17] min-[1400px]:scale-[.1] min-[1400px]:ml-[-1500px] ml-[-220px]  min-[1400px]:mt-[-10px] mt-140px] 
+        rotate-45 xl:ml-[250px] xl:mt-[350px] min-[768px]:mt-[-180px] min-[768px]:ml-[-420px] min-[768px]:scale-[.1]" src="dado.svg" alt="" />
+        <img className="absolute z-30 scale-[.17] min-[1400px]:scale-[.2] min-[1400px]:ml-[400px] min-[1400px]:mt-[400px] ml-[-30px] xl:ml-[-1000px] 
+        xl:mt-[150px] xl:scale-[.1] mt-[110px] rotate-[-45deg] min-[768px]:mt-[80px] min-[768px]:ml-[-20px] min-[768px]:scale-[.1]" src="dado.svg" alt="" />
+        
+
+              <br />
+                <br />
+                  <br />
+                    <br />
+                  <br />
+                <br />
+              <br />
+              
+            
+        <div className="flex justify-center items-center mt-[300px]">
+          <h1 className="text-white text-center  absolute z-30">Do you feel lucky?</h1>
+        </div>
+    
+
+        <div className="flex justify-center items-center mt-[200px]">
+          <div className={`flex justify-center items-center border-[4px] border-[#D7E0FF] w-16 h-16 rounded-[19px] ${rolling ? 'animate-Roll' : ''} absolute z-30`}>
+            <span className="text-2xl text-white font-normal">{diceNumber}</span>
           </div>
-        </header>
-  
-        <h1 className="text-black mt-[200px] leading-[70px] min-[1400px]:ml-[10px]">Do you feel lucky?</h1>
-  
-        <div className={`border-[4px] border-black w-16 h-16 mt-24 ml-[126px] min-[1400px]:ml-[200px] rounded-[10px] ${rolling ? 'animate-Roll' : ''} flex items-center 
-          xl:ml-[202px] justify-center min-[414px]:ml-[147px] min-[412px]:ml-[146px] min-[390px]:ml-[137px] min-[430px]:ml-[157px] min-[768px]:ml-[205px]`}>
-          <span className="text-2xl text-black">{diceNumber}</span>
         </div>
-  
-        <div className=" text-black text-center mt-4 text-xl min-[1400px]:ml-[-15px]">
-          {statusMessage}
-        </div>
-  
-        <div className="w-[180px] h-[100px] ml-[70px] mt-[45px] min-[1400px]:ml-[112px]  xl:ml-[115px] min-[768px]:ml-[117px]">
-          <div className="ml-[10px] bg-[#d46767] w-[154px] h-[60px] rounded-full mt-10 xl:hover:shadow-red-300 xl:hover:shadow-2xl min-[414px]:ml-[30px] min-[412px]:ml-[30px] min-[390px]:ml-[21px] min-[430px]:ml-[41px]" onClick={rollDice}>
-            <h6 className="mt-[-6px] p-5 pt-[18px] text-white hover:text-white cursor-pointer">Roll</h6>
+
+        
+        <div className="flex justify-center items-center mt-[100px]">
+          <div className="text-white flex justify-center items-center text-center text-xl absolute z-30">
+            {statusMessage}
           </div>
         </div>
-  
-        <div className="w-2 h-[400px] min-[768px]:h-[750px]"></div>
-        <FooterWeb></FooterWeb>
+
+
+        <div className="flex justify-center items-center mt-[10px]">
+          <div className="w-[180px] h-[100px] flex justify-center items-center relative z-30">
+            <div className="bg-[#D7E0FF] w-[154px] h-[40px] rounded-full flex justify-center items-center cursor-pointer" onClick={rollDice}>
+              <span className="text-black hover:text-black cursor-pointer font-bold">Roll</span> 
+            </div>
+          </div>
+        </div>
+
+
       </>
     );
   }
-<FooterWeb></FooterWeb>
-
-
 
 
 export default Appluckyroll
