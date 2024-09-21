@@ -84,7 +84,7 @@ function Home () {
           <div className="w-[330px] h-[160px]  border-transparentborder-[2px] ml-[-20px] mt-[30px] min-[1400px]:ml-[-200px] min-[1400px]:mt-[120px] min-[1400px]:w-[700px] xl:ml-[10px] xl:w-[500px] xl:h-[180px]
           min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:mt-[120px]">
             <p className=" text-black text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000">
-            Il mio nome è Francesco Convertini, progetto loghi, siti web e applicazioni web semplici e funzionali per ogni tipo di situazione.😀</p>
+            Il mio nome è Francesco Convertini, progetto loghi, siti web e applicazioni web semplici e funzionali per ogni tipo di situazione.🚀</p>
           </div>
 
 

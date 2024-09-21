@@ -26,7 +26,7 @@ function Appluckyroll (){
         <div className="flex justify-center items-center">
         <img className="absolute z-30 scale-[.52] top-[-190px] min-[1400px]:scale-[.13] min-[]: min-[1400px]:mt-[-1040px] xl:scale-[.20] xl:mt-[-640px] flex justify-center items-center
         min-[768px]:mt-[-260px] min-[768px]:scale-[.35]" 
-        src="Roll v2.svg" alt="" />
+        src="Roll v2.5000.svg" alt="" />
         </div>
 
 

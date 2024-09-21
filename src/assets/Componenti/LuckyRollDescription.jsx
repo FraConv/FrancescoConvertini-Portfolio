@@ -21,8 +21,8 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <p className=" text-black text-[20px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Applicazione web che simula il lancio dei dadi a sei faccie.</p>
 </div>
 
-<img className="scale-105 mt-[100px] ml-[-20px] pl-[10px] min-[1400px]:scale-[.70] min-[1400px]:ml-[230px] min-[1400px]:mt-[-210px] xl:ml-[230px] xl:scale-[.60]
-            xl:mt-[-70px] min-[768px]:scale-[0.80] shadow-2xl" src="lucky.svg" alt=""/>
+<img className="scale-105 mt-[100px] ml-[-20px] pl-[10px] min-[1400px]:scale-[.90] min-[1400px]:ml-[330px] min-[1400px]:mt-[-210px] xl:ml-[-97px] xl:scale-[.60]
+            xl:mt-[-70px] min-[768px]:scale-[0.80] min-[768px]:ml-[-40px]" src="sfondorollnew.svg" alt=""/>
 
 <div className="  w-[330px] h-[50px]  border-transparent border-[2px] ml-[-20px] mt-[300px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
@@ -63,8 +63,8 @@ Illustrator
 <div className="  w-[194px] h-[64px] rounded-full  ml-[7px] mt-[200px]  min-[1400px]:w-[194px] xl:w-[700px]
  min-[768px]:w-[500px] min-[768px]:ml-[-3550px] xl:ml-[-3550px] min-[1400px]:ml-[-200px]">
 <Link className=" w-10 h-[200px] ml-[-100px] border-black min-[768px]:ml-[-3550px] " to="/App Lucky Roll">
-<div  className=" ml-[-2px] border-[3px] border-[#d46767] w-[194px] h-[60px] xl:hover:bg-[#d46767] xl:hover:rounded-full transition-colors duration-150 rounded-full mt-[16px] min-[768px]:ml-[3580px] xl:ml-[3615px] min-[1400px]:ml-[-25px]" >     
-<h6 className=" mt-[-15px] p-5 pt-[18px] text-black xl:hover:text-white Stransition-colors duration-150">Prova applicazione</h6>
+<div  className=" ml-[-2px] border-[3px] border-[#db8f8f] w-[194px] h-[60px] xl:hover:bg-[#db8f8f] xl:hover:rounded-full transition-colors duration-150 rounded-full mt-[16px] min-[768px]:ml-[3580px] xl:ml-[3615px] min-[1400px]:ml-[-25px]" >     
+<h6 className=" mt-[-15px] p-5 pt-[18px] text-black xl:hover:text-black Stransition-colors duration-150">Prova applicazione</h6>
 </div>
 </Link>
 </div>
@@ -84,10 +84,10 @@ illustrandone solo gli angoli e il punteggio di una delle faccie, che in questo 
 Il risultato è un logo indentificativo bello da vedere e in tema con il sito.</p>
 </div>
 
-<img className=" w-[330px] h-[300px]  scale-[.85] mt-[100px] ml-[-65px] pl-[10px] min-[1400px]:ml-[520px] min-[1400px]:mt-[-230px] min-[1400px]:scale-[1.20]  xl:ml-[400px] xl:mt-[-70px]
+<img className=" w-[330px] h-[300px]  scale-[.85] mt-[100px] ml-[-65px] pl-[10px] min-[1400px]:ml-[520px] min-[1400px]:mt-[-230px] min-[1400px]:scale-[1.20]  xl:ml-[-15px] xl:mt-[-70px]
 " src="Roll v2 p2.svg" alt="" />
-<img className=" w-[350px] h-[300px] scale-[.85] mt-[50px] ml-[-32px] pl-[20px] min-[1400px]:ml-[900px] min-[1400px]:mt-[-210px] min-[1400px]:scale-[1.40]  xl:ml-[770px] xl:mt-[-228px] 
-xl:scale-[1.10] " src="Roll v2.svg" alt="" />
+<img className=" w-[350px] h-[300px] scale-[1.15] mt-[50px] ml-[-50px] pl-[20px] min-[1400px]:ml-[900px] min-[1400px]:mt-[-230px] min-[1400px]:scale-[1.50]  xl:ml-[220px] xl:mt-[-252px] 
+xl:scale-[1.10] " src="Roll v2.50.svg" alt="" />
 
 <div className="  w-[330px] h-[70px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
@@ -117,15 +117,16 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <h1 className=" text-black scale-120 ml-5 text-left min-[1400px]:text-[70px]">Design web app</h1>
 </div>
 
-<div className="  w-[330px] h-[720px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px] xl:h-[420px]
+<div className="  w-[330px] h-[720px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px] xl:h-[520px]
 min-[1400px]:h-[720px] min-[768px]:ml-[10px] min-[768px]:w-[500px]">
-<p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il design della app è basato su uno stile molto minimal per via del contenuto che offre e per un esperienza pulita.
-L'header comprende solo il logo, posizionato al centro e il footer comprende il copyright del sito.
+<p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il design della app è basato su uno stile minimal per via del contenuto che offre e per un esperienza pulita.
 <br />
 <br />
-La pagina è strutturata con tutti gli elementi centrati in essa. 
-    Una scritta al centro del sito recita "Do you feel lucky?" con sotto un quadrato, ovvero il dado, e una scritta che recita Roll the dice! e ancora più 
-    sotto si trova un bottone per il lancio, animato all'hover.
+La pagina è strutturata con il logo e tutti gli elementi centrati, eccetto per le decorazioni, che sarebbero due elementi quadrati di diversa dimensione che vanno a rapresentare dei dadi con il punteggio di 6. 
+    <br />
+    <br />
+    Una scritta al centro dell'app recita "Do you feel lucky?" con sotto un quadrato, ovvero il dado, e una scritta che recita Roll the dice! e ancora più 
+    sotto si trova un bottone, per il lancio del dado.
     <br />
     <br />
 Ad ogni click sul tasto Roll il dado si muoverà con una breve animazione, 
@@ -153,6 +154,14 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 
     <ColorPallet className="bg-[#000000]" code="#000000"></ColorPallet>
 
+    <div className="  w-[330px] h-[50px]  border-transparent border-[2px] ml-[-20px] mt-[100px]  min-[1400px]:ml-[-250px] min-[1400px]:w-[500px] xl:ml-[50px] xl:w-[700px]
+min-[768px]:ml-[10px] min-[768px]:w-[500px]">
+<h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette typograph:</h3>
+</div>
+
+    <ColorPallet className="bg-[#ffffff]" code="#ffffff"></ColorPallet>
+
+
 <div className="  w-[330px] h-[70px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Tipografia:</h3>
@@ -160,7 +169,7 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 
 <div className="  w-[330px] h-[100px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
-<p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per questo sito è Encode Sans.</p>
+<p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per l'applicazione è Encode Sans.</p>
 </div>
 
 <div className="  w-[330px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[250px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px]
@@ -170,12 +179,17 @@ min-[768px]:ml-[10px] min-[768px]:w-[500px]">
 
 <div className="  w-[330px] h-[100px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[-250px] min-[1400px]:w-[700px] xl:ml-[50px] xl:w-[700px]
 min-[768px]:ml-[10px] min-[768px]:w-[500px]">
-<p className=" text-black text-[18px] ml-5 text-left  min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la versione mobile il design dell'app rimane invariato e privo di eventuali bug.</p>
+<p className=" text-black text-[18px] ml-5 text-left  min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la versione mobile il design dell'app rimane invariato, eccetto per 
+    le decorazioni che cambieranno posizione, per il resto l'app fornisce un ottima UI Design anche su dispositivi mobile.</p>
 </div>
 
+<div className="h-[700px]">
+            <img className=" scale-[.80] mt-[90px] ml-[-50px] pl-[10px]  min-[1400px]:scale-[.56] min-[1400px]:ml-[500px] min-[1400px]:mt-[-295px] xl:ml-[-50px] xl:scale-[.50]
+            xl:mt-[-120px] min-[768px]:scale-[.63] min-[768px]:mt-[10px]" src="telroll.svg" alt="" />
+            </div> 
 
 
-<div className="h-[500px]"></div>
+<div className="h-[500px] mt-[300px]"></div>
 
 <FooterWeb></FooterWeb>
 

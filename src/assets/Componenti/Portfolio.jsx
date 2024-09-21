@@ -12,18 +12,21 @@ function Portfolio () {
       });
 
     return(
-    
     <>
 
     
-    
-    <Navbar></Navbar>
+     <Navbar></Navbar>
 
-<div className="  w-[330px] h-[80px]  border-transparent border-[2px] ml-[-20px] mt-[200px]  min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[-50px] xl:w-[500px] xl:h-[150px]
- min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
-    <h1 ref={ref} className={` text-black scale-120 ml-5 text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
-'-translate-x-20 opacity-0'}`}>Portfolio. <h2 className="min-[1400px]:ml-[318px] ml-[228px] min-[1400px]:mt-[-56px] mt-[-52px] text-[40px]">😎</h2> </h1>
-</div>
+
+      <div className="  w-[330px] h-[80px]  border-transparent border-[2px] ml-[-20px] mt-[200px]  min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[-50px] xl:w-[500px] xl:h-[150px]
+      min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
+          <h1 ref={ref} className={` text-black scale-120 ml-5 text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
+          '-translate-x-20 opacity-0'}`}>Portfolio. 
+            <h2 className="min-[1400px]:ml-[318px] ml-[228px] min-[1400px]:mt-[-56px] mt-[-52px] text-[40px]">😎</h2> 
+          </h1>
+      </div>
+        
+        
         <div className="  w-[330px] h-[70px]  border-transparent border-[2px] ml-[-20px] mt-[50px] min-[1400px]:ml-[-250px] min-[1400px]:w-[600px]  
         xl:ml-[-50px] xl:mt-[-30px] xl:w-[500px] xl:h-[80px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
             <p ref={ref} className={` text-black text-[20px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
@@ -40,7 +43,7 @@ function Portfolio () {
     </div>
     
 </Link>
-<Cards Immagine="mioo.svg" Titolo="FrancescoConvertini Portfolio" Descrizione="Sito web personale per far conoscere e mostare le proprie abilità di graphic design e programazzione.">
+<Cards Immagine="sfondohome.svg" Titolo="FrancescoConvertini Portfolio" Descrizione="Sito web personale per far conoscere e mostare le proprie abilità di graphic design e programazzione.">
 </Cards>
 
 <Link className="border-2 border-[#443e3e] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1950px] xl:ml-[-1950px]" to="/MimmoSoftWeb">
@@ -51,7 +54,7 @@ function Portfolio () {
     </div>
     
 </Link>
-<Cards Immagine="Mimmocopp.svg" Titolo="MimmoSoftWeb" Descrizione="Sito web di guide tech su vari progetti con raspberry, MySQL e Python.">
+<Cards Immagine="sfondomimmo.svg" Titolo="MimmoSoftWeb" Descrizione="Sito web di guide tech su vari progetti con raspberry, MySQL e Python.">
 </Cards>
 
 <Link className="border-2 border-[#443e3e] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1950px] xl:ml-[-1950px]" to="/Lucky Roll">
