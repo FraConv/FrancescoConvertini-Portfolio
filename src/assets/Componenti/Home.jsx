@@ -93,8 +93,8 @@ function Home () {
           <div className="mt-[400px]"></div>
 
 
-          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7778px]  min-[1400px]:h-[7240px]  bg-[#443e3e] w-[100%] rounded-tl-[160px] rounded-bl-[160px] min-[1400px]:rounded-tl-[280px]  
-          min-[1400px]:rounded-bl-[280px] xl:mt-[460px] xl:h-[6400px]  min-[1400px]:mt-[279px] min-[768px]:mt-[180px] min-[768px]:h-[7080px] min-[768px]:rounded-tl-[260px] min-[768px]:rounded-bl-[260px]`}></div>
+          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7778px]  min-[1400px]:h-[7240px]  bg-[#443e3e] w-[100%] rounded-tr-[160px] rounded-bl-[160px] min-[1400px]:rounded-tr-[280px]  
+          min-[1400px]:rounded-bl-[280px] xl:mt-[460px] xl:h-[6400px]  min-[1400px]:mt-[279px] min-[768px]:mt-[180px] min-[768px]:h-[7080px] min-[768px]:rounded-tr-[260px] min-[768px]:rounded-bl-[260px]`}></div>
 
 
           <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[-50px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1200px] xl:ml-[-15px] xl:w-[500px] xl:h-[180px]
