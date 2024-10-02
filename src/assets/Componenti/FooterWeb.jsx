@@ -4,6 +4,7 @@ function FooterWeb(){
 
         <>
 
+
             <footer className=" w-[100%] h-24  left-0 absolute bg-[#443e3e] z-30">
                 <h3 className=" text-white text-[12px] mt-[40px] ml-[-56px] min-[1400px]:ml-[-1356px] min-[1400px]:text-[15px] xl:ml-[-860px]  
                 min-[768px]:text-[15px] min-[768px]:ml-[-254px] font-medium">
@@ -15,10 +16,10 @@ function FooterWeb(){
                 href="https://www.iubenda.com/privacy-policy/13617581/cookie-policy">Cookie Policy</a>
             </footer>
 
+
         </>
 
     )
-
 
 }
 

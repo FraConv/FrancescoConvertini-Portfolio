@@ -1,9 +1,7 @@
 import FooterWeb from "./FooterWeb";
 import Loader from "./Loader";
 import Navbarhome from "./Navbarhome";
-import { useInView } from 'react-intersection-observer';
 import { useEffect, useState } from "react";
-
 
 
 function Home () {
@@ -63,8 +61,6 @@ function Home () {
   }, []);
 
 
-
-
   return(
     
     <>
@@ -97,8 +93,8 @@ function Home () {
           <div className="mt-[400px]"></div>
 
 
-          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7778px]  min-[1400px]:h-[7240px]  bg-[#443e3e] w-[100%] rounded-tr-[160px] rounded-bl-[160px] min-[1400px]:rounded-tr-[280px]  
-          min-[1400px]:rounded-bl-[280px] xl:mt-[460px] xl:h-[6400px]  min-[1400px]:mt-[279px] min-[768px]:mt-[180px] min-[768px]:h-[7080px] min-[768px]:rounded-tr-[260px] min-[768px]:rounded-bl-[260px]`}></div>
+          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7778px]  min-[1400px]:h-[7240px]  bg-[#443e3e] w-[100%] rounded-tl-[160px] rounded-br-[160px] min-[1400px]:rounded-tl-[280px]  
+          min-[1400px]:rounded-br-[280px] xl:mt-[460px] xl:h-[6400px]  min-[1400px]:mt-[279px] min-[768px]:mt-[180px] min-[768px]:h-[7080px] min-[768px]:rounded-tl-[260px] min-[768px]:rounded-br-[260px]`}></div>
 
 
           <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[-50px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1200px] xl:ml-[-15px] xl:w-[500px] xl:h-[180px]
@@ -215,7 +211,6 @@ function Home () {
                   <br />
                   <li className=' min-[1400px]:ml-[360px] text-white text-[18px] text-left ml-[20px] min-[1400px]:text-[22px] min-[768px]:text-[20px] font-normal'>Mascotte: Loghi basati su personaggi che danno vita al brend.</li>
                 </ul>
-                
             </div>
 
 
@@ -270,18 +265,9 @@ function Home () {
                 L'HTML viene usato per la struttura del sito, il CSS per dare lo stile, colori, forme, font ecc, invece il JavaScript serve a rendere interattiva e dinamica l'applicazione o il sito web.
                   <br />
                   <br />
-                Il JavaScript viene usato se si deve lavorare con i form, creare bottoni che causano eventi o funzioni specifiche o semplicemente per eventi che accadono automaticamente se si fa qualcosa nella pagina.
-              
-
-                  
-              
-                  
+                Il JavaScript viene usato se si deve lavorare con i form, creare bottoni che causano eventi o funzioni specifiche o semplicemente per eventi che accadono automaticamente se si fa qualcosa nella pagina.   
                 </p>
             </div>
-
-
-
-
 
 
             <div className="w-[330px] h-[160px]  border-transparent border-[2px] ml-[-20px] mt-[2850px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1000px] xl:ml-[100px] xl:w-[800px] xl:h-[180px]
@@ -307,10 +293,13 @@ function Home () {
 
       <FooterWeb></FooterWeb>
   
+
     </>
     
   );
     
 }
-    
+   
+
+
 export default Home;

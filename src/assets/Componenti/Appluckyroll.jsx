@@ -24,7 +24,7 @@ function Appluckyroll (){
 
 
         <div className="flex justify-center items-center">
-        <img className="absolute z-30 scale-[.52] top-[-190px] min-[1400px]:scale-[.13] min-[]: min-[1400px]:mt-[-1040px] xl:scale-[.20] xl:mt-[-640px] flex justify-center items-center
+        <img className="absolute z-30 scale-[.52] top-[-190px] min-[1400px]:scale-[.13] min-[1400px]:mt-[-1040px] xl:scale-[.20] xl:mt-[-640px] flex justify-center items-center
         min-[768px]:mt-[-260px] min-[768px]:scale-[.35]" 
         src="Roll v2.5000.svg" alt="" />
         </div>
@@ -51,20 +51,20 @@ function Appluckyroll (){
     
 
         <div className="flex justify-center items-center mt-[200px]">
-          <div className={`flex justify-center items-center border-[4px] border-[#D7E0FF] w-16 h-16 rounded-[19px] ${rolling ? 'animate-Roll' : ''} absolute z-30`}>
+          <div className={` border-[4px] border-[#D7E0FF] w-16 h-16 rounded-[19px] ${rolling ? 'animate-Roll' : ''} flex justify-center items-center  absolute z-30`}>
             <span className="text-2xl text-white font-normal">{diceNumber}</span>
           </div>
         </div>
 
         
         <div className="flex justify-center items-center mt-[100px]">
-          <div className="text-white flex justify-center items-center text-center text-xl absolute z-30">
+          <div className="text-white text-center text-xl absolute z-30 ">
             {statusMessage}
           </div>
         </div>
 
 
-        <div className="flex justify-center items-center mt-[10px]">
+        <div className="mt-[10px]">
           <div className="w-[180px] h-[100px] flex justify-center items-center relative z-30">
             <div className="bg-[#D7E0FF] w-[154px] h-[40px] rounded-full flex justify-center items-center cursor-pointer" onClick={rollDice}>
               <span className="text-black hover:text-black cursor-pointer font-bold">Roll</span> 
