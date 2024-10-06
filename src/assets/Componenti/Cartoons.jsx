@@ -50,7 +50,7 @@ function Cartoons(){
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il negozio di abbigliamento sostenibile GreenThreads 
+                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il negozio di abbigliamento sostenibile GreenThreads 
                     vorrebbe un logo che comunicasse sostenibilità, natura e moda.
                         <br />
                         <br />
@@ -73,17 +73,13 @@ function Cartoons(){
                 
                 <div className="flex justify-center items-center flex-col">
                     <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Fase di progettazione:</p>
-                        <img className="scale-[.55] xl:scale-[.33] min-[1400px]:scale-[.35] min-[768px]:scale-[.40]" src="gt2.svg" alt="" />
+                        <img className="scale-[.75] xl:scale-[.33] min-[1400px]:scale-[.35] min-[768px]:scale-[.40] min-[1400px]:mt-[-200px] xl:mt-[-300px]" src="gt2.svg" alt="" />
+                        <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px] min-[1400px]:mt-[-100px] xl:mt-[-200px]">Risultato finale:</p>
+                        <img className="scale-[.75] xl:scale-[.33] min-[1400px]:scale-[.37] min-[768px]:scale-[.40] min-[1400px]:mt-[-200px] xl:mt-[-300px]" src="gt3.svg" alt="" />
                 </div>
 
 
-                 <div className="flex justify-center items-center flex-col">
-                    <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Risultato finale:</p>
-                        <img className="scale-[.55] xl:scale-[.33] min-[1400px]:scale-[.37] min-[768px]:scale-[.40]" src="gt3.svg" alt="" />
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[300px]">
+                <div className="flex justify-center items-center mt-[100px]  min-[1400px]:mt-[-150px] xl:mt-[-250px]">
                     <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Color palette logo:</h3>
                 </div>
 
@@ -110,7 +106,7 @@ function Cartoons(){
                 </div>
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 ml-5 text-left">Mockup</h1>
+                    <h1 className=" text-black scale-120 text-left">Mockup</h1>
                 </div>
 
 

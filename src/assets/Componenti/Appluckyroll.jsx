@@ -74,7 +74,9 @@ function Appluckyroll (){
 
 
       </>
+    
     );
+
   }
 
 

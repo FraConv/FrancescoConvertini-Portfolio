@@ -46,8 +46,7 @@ function Portfolio () {
               </div>
             </div>
           </Link>
-          <Cards Immagine="sfondohome.svg" Titolo="FrancescoConvertini Portfolio" Descrizione="Sito web personale per far conoscere e mostare le proprie abilità di graphic design e 
-          programazzione.">
+          <Cards Immagine="sfondohome.svg" Titolo="Francesco Convertini" Descrizione="Portfolio personale per far conoscere le proprie abilità di Graphic Design e programazzione.">
           </Cards>
 
 

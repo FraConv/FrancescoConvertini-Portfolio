@@ -57,7 +57,7 @@ function Navbar() {
             <Link to="/Chi sono" className='text-white'>Chi sono</Link>
           </li>
           <li className='mt-[-50px] bg-black w-[85px] h-8 p-1 ml-[10px] rounded-full'>
-            <Link to="/Portfolio" className='text-white'>Portflio</Link>
+            <Link to="/Portfolio" className='text-white'>Portfolio</Link>
           </li>
         </ul>
         
@@ -71,7 +71,7 @@ function Navbar() {
               <Link to="/Chi sono" className='text-black hover:text-black text-[20px]'>Chi sono</Link>
             </li>
             <li className=''>
-              <Link to="/Portfolio" className='text-black hover:text-black text-[20px]'>Portflio</Link>
+              <Link to="/Portfolio" className='text-black hover:text-black text-[20px]'>Portfolio</Link>
             </li>
           </ul>
               </nav>

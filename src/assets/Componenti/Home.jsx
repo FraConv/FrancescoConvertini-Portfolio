@@ -3,7 +3,6 @@ import Loader from "./Loader";
 import Navbarhome from "./Navbarhome";
 import { useEffect, useState } from "react";
 
-
 function Home () {
 
   const [visible, setVisible] = useState(false);
@@ -82,7 +81,7 @@ function Home () {
             <p className=" text-black text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000">
             Il mio nome è Francesco Convertini, progetto loghi, siti web e applicazioni web semplici e funzionali per ogni tipo di situazione.🚀</p>
           </div>
-
+      
 
           <div className="w-[300px] h-[300px] mt-[100px] ml-[-20px] xl:w-[350px] xl:h-[350px] xl:ml-[700px] xl:mt-[-300px] min-[1400px]:w-[500px] min-[1400px]:h-[500px] min-[1400px]:ml-[700px]
           min-[1400px]:mt-[-400px] min-[768px]:ml-[30px]">
@@ -234,7 +233,7 @@ function Home () {
                 Il Front-End è la parte visibile di un sito o un'applicazione web, quella con cui l'utente interagisce direttamente, e include diversi elementi, come pulsanti, immagini, form, menu, ecc.
                   <br />
                   <br />
-                Il Web Designer deve saper fare un buon lavoro con il UI/UX Design, saper scegliere i colori giusti, la tipografia adeguata, le giuste forme, creare i giusti spazi bianchi e usare i vari linguaggi di programmazione.
+                Il Web Designer deve saper fare un buon lavoro con il UI/UX Design, saper scegliere i colori giusti, la tipografia adeguata, le giuste forme, implementare i giusti spazi bianchi e sapere la base dei linguaggi di programmazione, HTML, CSS e JavaScript.
                   <br />
                   <br />
                 Prima di tutto un Web Designer deve avere in mente la struttura dell'interfaccia utente che si vuole creare.
@@ -252,20 +251,8 @@ function Home () {
                 Deve assolutamente essere applicata se si vuole che il sito o applicazione web sia visto in maniera chiara su più dispositivi.
                   <br />
                   <br />
-                Dopo aver creato su carta o su Figma l'interfaccia utente con il menu, i form, i testi, i pulsanti, le immagini ecc, mettendo in pratica le regole citate prima, 
-                si può iniziare a programmare.
-                  <br />
-                  <br />
-                I linguaggi di programmazione da usare sono HTML, CSS (anche se questi non sono linguaggi di programmazione) JavaScript e TypeScript.
-                  <br />
-                  <br />
-                In oltre si usano per semplificare il lavoro i vari framework/librerie come React, Angular, Vue.js, Tailwind, Bootstrap ecc.
-                  <br />
-                  <br />
-                L'HTML viene usato per la struttura del sito, il CSS per dare lo stile, colori, forme, font ecc, invece il JavaScript serve a rendere interattiva e dinamica l'applicazione o il sito web.
-                  <br />
-                  <br />
-                Il JavaScript viene usato se si deve lavorare con i form, creare bottoni che causano eventi o funzioni specifiche o semplicemente per eventi che accadono automaticamente se si fa qualcosa nella pagina.   
+                Dopo che il Web Designer avrà progettato su Figma l'interfaccia utente con il menu, i form, i testi, i pulsanti, le immagini ecc, mettendo in pratica le regole citate prima, 
+                si darà la responsabilità al Front-End Developer che si occuperà di realizzare il prodotto con i vari linguaggi di programazzione.   
                 </p>
             </div>
 

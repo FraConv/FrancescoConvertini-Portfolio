@@ -67,11 +67,11 @@ function Thing(){
 
 
                 <div className="flex justify-center items-center flex-col">
-                    <img className="scale-[.55] xl:scale-[.23] min-[1400px]:scale-[.30] min-[768px]:scale-[.40]" src="mostro letto.svg" alt="" />
+                    <img className="scale-[.62] xl:scale-[.28] min-[1400px]:scale-[.35] min-[768px]:scale-[.40] min-[1400px]:mt-[-200px] xl:mt-[-500px]" src="mostro letto.svg" alt="" />
                 </div>
 
 
-                <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[-100px]">
+                <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[-100px] xl:mt-[-250px]">
                     <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Color palette illustrazione:</h3>
                 </div>
 

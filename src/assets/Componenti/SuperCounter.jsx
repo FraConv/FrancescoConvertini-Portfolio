@@ -30,7 +30,7 @@ function SuperCounter(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Programmazione:</h3>
+                    <h3 className=" text-black text-[29px]text-left min-[1400px]:text-[35px]">Programmazione:</h3>
                 </div>
 
 
@@ -54,7 +54,7 @@ function SuperCounter(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Logo design:</h3>
+                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Logo design:</h3>
                 </div>
 
 
@@ -74,68 +74,6 @@ function SuperCounter(){
                              </div>
                         </Link>
                     </div>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 text-left min-[1400px]:text-[70px]">Creazione del logo</h1>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per il logo ho creato degli elementi che ricordassero il 
-                    blocco di mattoni di Super Mario con la moneta all'interno.
-                        <br />
-                        <br />
-                    In oltre ho posizionato gli elementi in modo tale che ricordassero la S di Super.
-                        <br />
-                        <br />
-                    a destra invece è posizionato il nome Super Counter, con la parola Super di un colore e la parola Counter di un altro,
-                    in modo tale che andassero a richiamare i colori del pittogramma.
-                        <br />
-                        <br />
-                    Il risultato è un logo identificativo che trasmette giocosità e divertimento e che racconta in breve l'app.
-                    </p>
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col">
-                    <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Fase di progettazione:</p>
-                        <img className="scale-[.55] xl:scale-[.23] min-[1400px]:scale-[.37] min-[768px]:scale-[.40]" src="sc4.svg" alt="" />
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col min-[1400px]:mt-[-300px]">
-                    <p className="text-black text-[18px] text-left mt-[400px] font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Risultato finale:</p>
-                        <img className="scale-[1.15] xl:scale-[.53] min-[1400px]:scale-[.57] min-[768px]:scale-95" src="Super counter cop.svg" alt="" />
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[300px]">
-                    <h3 className=" text-black text-[29px]  text-left min-[1400px]:text-[35px]">Color palette logo:</h3>
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col mt-[100px]">
-                    <ColorPallet className="bg-[#ea580c]" code="#ea580c"></ColorPallet>
-                    <ColorPallet className="bg-[#fbbf24]" code="#fbbf24"></ColorPallet>
-                    <ColorPallet className="bg-[#f7931e]" code="#f7931e"></ColorPallet>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[100px]">
-                    <p className=" text-black text-[18px]  text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">I suoi colori molto vivaci vanno a 
-                    richiamare vivacità, vitalità e giocosità.</p>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[200px]">
-                    <h3 className=" text-black text-[29px]  text-left min-[1400px]:text-[35px]">Tipografia:</h3>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px]  text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per questo logo è il Gotham Medium.</p>
                 </div>
 
 
@@ -191,11 +129,11 @@ function SuperCounter(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120  text-left min-[1400px]:text-[70px]">Versione mobile</h1>
+                    <h1 className=" text-black scale-120 text-left min-[1400px]:text-[70px]">Versione mobile</h1>
                 </div>
 
                 <div className="flex justify-center items-center mt-[90px]">
-                <p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la versione mobile il design del sito rimane invariato e privo di eventuali bug.</p>
+                <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la versione mobile il design del sito rimane invariato e privo di eventuali bug.</p>
                 </div>
 
                 <div className=" h-[900px]">

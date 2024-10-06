@@ -70,8 +70,8 @@ function Chisono () {
           Ho frequentato il liceo artistico De Nittis di Bari diplomandomi in industrial design, in cui progettavo oggetti di vario tipo con diverse complessità.
             <br />
             <br />
-          Sono specializzato principalmente nello sviluppo front-end di applicazioni e siti web, nel Logo Design,   
-          nell' Illustration Design, modellazione 3D e UX/UI Design.
+          Sono specializzato principalmente nel Web Design, nello sviluppo Front-End in ambito web, nella progettazione di loghi e 
+          illustrazioni, nella modellazione 3D e nel UX/UI Design.
 
             <br />
             <br />
@@ -87,13 +87,13 @@ function Chisono () {
 
 
         <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} w-[330px] h-[130px]  border-transparent border-[2px] 
-        ml-[-20px] mt-[300px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
-          <h2 className=" text-black text-[30px] ml-5 text-left min-[1400px]:text-[35px] font-bold">Skill web designer:</h2>
+        ml-[-20px] mt-[300px] min-[1400px]:ml-[-550px] min-[1400px]:w-[500px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
+          <h2 className=" text-black text-[30px] ml-5 text-left min-[1400px]:text-[35px] font-bold">Skill Front-End Developer:</h2>
         </div>
 
 
         <ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent 
-        border-[2px] ml-[-20px] mt-[-55px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
+        border-[2px] ml-[-20px] mt-[-15px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[-50px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:mt-[-50px] xl:mt-[-50px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
           <li className='text-black text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           HTML5
           </li>
@@ -165,7 +165,7 @@ function Chisono () {
         <div className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[330px] h-[130px]  
         border-transparent border-[2px] ml-[-20px] mt-[1500px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[950px]  xl:mt-[950px] min-[1400px]:w-[600px] xl:ml-[-360px] min-[768px]:ml-[-150px] 
         min-[768px]:w-[500px]`}>
-          <h2 className=" text-black text-[30px] ml-5 text-left  min-[1400px]:text-[35px] font-bold">Skill graphic designer:</h2>
+          <h2 className=" text-black text-[30px] ml-5 text-left  min-[1400px]:text-[35px] font-bold">Skill Graphic Designer:</h2>
         </div>
                 
         <ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent 

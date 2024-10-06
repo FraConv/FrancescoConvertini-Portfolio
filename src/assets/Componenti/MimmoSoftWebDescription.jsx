@@ -29,7 +29,7 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Programmazione:</h3>
+                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Programmazione:</h3>
                 </div>
 
 
@@ -74,46 +74,6 @@ function MimmoSoftWebDescription(){
             
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 min-[1400px]:text-[70px] text-left">Creazione del logo</h1>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per il logo ho creato 
-                    un monogramma basato sulle tre lettere principali che compongono il nome del sito, ovvero la M di Mimmo, la S di Soft e la W di Web.
-                    Ottenendo cosi un logo semplice, pulito e simetrico.</p>
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col">
-                    <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Fase di progettazione:</p>
-                        <img className="scale-[.55] xl:scale-[.23] min-[1400px]:scale-[.27] min-[768px]:scale-[.40]" src="Mimmologop.svg" alt="" />
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col min-[1400px]:mt-[-800px]">
-                    <p className="text-black text-[18px] text-left mt-[400px] font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Risultato finale:</p>
-                        <img className="scale-[.65] xl:scale-[.33] min-[1400px]:scale-[.27] min-[768px]:scale-50" src="MimmoLogo.svg" alt="" />
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[-300px]">
-                    <h3 className="  text-black text-[29px] min-[1400px]:text-[35px]">Color palette logo:</h3>
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col mt-[100px]">
-                    <ColorPallet className="bg-[#e2b330]" code="#5a5aba"></ColorPallet>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[100px]">
-                    <p className="text-black text-[18px] min-[1400px]:text-[26px] min-[768px]:text-[22px] text-left">Il suo colore che tende verso il giallo va 
-                    ha ricchiamare la creatività e la sicurezza.</p>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[300px]">
                     <h1 className=" text-black scale-120 min-[1400px]:text-[70px] text-left">Design sito web </h1>
                 </div>
 
@@ -154,7 +114,7 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette navbar:</h3>
+                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Color palette navbar:</h3>
                 </div>
 
 
@@ -165,7 +125,7 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[150px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette body:</h3>
+                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Color palette body:</h3>
                 </div>
 
 
@@ -175,7 +135,7 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[150px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette footer:</h3>
+                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Color palette footer:</h3>
                 </div>
 
 
@@ -185,28 +145,28 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[200px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Tipografia:</h3>
+                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Il font utilizzato per questo sito è Roboto Mono.</p>
+                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Il font utilizzato per questo sito è Roboto Mono.</p>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 ml-5 text-left min-[1400px]:text-[70px]">Versione mobile</h1>
+                    <h1 className=" text-black scale-120  text-left min-[1400px]:text-[70px]">Versione mobile</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Per la versione mobile il design 
+                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Per la versione mobile il design 
                     rimane pressoché invariato e privo di eventuali bug.</p>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <img className=" scale-[1.50] mt-[90px] ml-[-120px] min-[1400px]:scale-[.70]  min-[1400px]:mt-[-90px] xl:scale-[.60]
+                    <img className=" scale-[1.50] mt-[90px] min-[1400px]:scale-[.70]  min-[1400px]:mt-[-90px] xl:scale-[.60]
                     xl:mt-[-80px] min-[768px]:scale-[1.30]" src="mimmo4.svg" alt="" />
                 </div>
 

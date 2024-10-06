@@ -66,17 +66,14 @@ function Moon(){
 
                 <div className="flex justify-center items-center flex-col">
                     <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Fase di progettazione:</p>
-                        <img className="scale-[.55] xl:scale-[.23] min-[1400px]:scale-[.30] min-[768px]:scale-[.40]" src="wa3.svg" alt="" />
+                        <img className="scale-[.60] xl:scale-[.23] min-[1400px]:scale-[.30] min-[768px]:scale-[.40] min-[1400px]:mt-[-200px] xl:mt-[-300px]" src="wa3.svg" alt="" />
+                            <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[1400px]:mt-[-100px] min-[768px]:text-[22px] xl:mt-[-200px]">
+                            Risultato finale:</p>
+                                <img className="scale-[.60] xl:scale-[.23] min-[1400px]:scale-[.37] min-[768px]:scale-[.40] min-[1400px]:mt-[-200px] xl:mt-[-300px]" src="wa4.svg" alt="" />
                 </div>
 
 
-                <div className="flex justify-center items-center flex-col">
-                    <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Risultato finale:</p>
-                        <img className="scale-[.55] xl:scale-[.23] min-[1400px]:scale-[.37] min-[768px]:scale-[.40]" src="wa4.svg" alt="" />
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[300px]">
+                <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[-10px] xl:mt-[-100px]">
                     <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette logo:</h3>
                 </div>
 

@@ -76,58 +76,7 @@ function LuckRollDescription(){
                 </div>
 
 
-                <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 min-[1400px]:text-[70px] text-left">Creazione del logo</h1>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la creazione del logo mi sono ispirato ad un dado a sei faccie, 
-                    illustrandone solo gli angoli e il punteggio di una delle faccie, che in questo caso è il 6.
-                        <br />
-                        <br />
-                    Il risultato è un logo indentificativo bello da vedere e in tema con il sito.</p>
-                </div>
-
-              
-                <div className="flex justify-center items-center flex-col ">
-                    <p className="text-black text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Fase di progettazione:</p>
-                        <img className="scale-[.55] xl:scale-[.23] min-[1400px]:scale-[.23] min-[768px]:scale-[.40]" src="Roll v2 p2.svg" alt="" />
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col min-[1400px]:mt-[-800px]">
-                    <p className="text-black text-[18px] text-left mt-[400px] font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Risultato finale:</p>
-                        <img className="scale-[.65] xl:scale-[.33] min-[1400px]:scale-[.30] min-[768px]:scale-50" src="Roll v2.50.svg" alt="" />
-                </div>
-             
-
-                <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[-300px]">
-                    <h3 className=" text-black text-[29px] min-[1400px]:text-[35px]">Color palette logo:</h3>
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col mt-[100px]">
-                    <ColorPallet className="bg-[#ffffff]" code="#ffffff"></ColorPallet>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[100px]">
-                    <p className=" text-black text-[18px] min-[1400px]:text-[26px] min-[768px]:text-[22px] text-left">Il suo colore bianco 
-                    va ha ricchiamare semplicità e legerezza.</p>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[200px]">
-                    <h3 className=" text-black text-[29px] min-[1400px]:text-[35px]">Tipografia:</h3>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per questo logo è il Roboto Mono Medium.</p>
-                </div>
-
-
+                
                 <div className="flex justify-center items-center mt-[300px]">
                     <h1 className=" text-black scale-120 min-[1400px]:text-[70px] text-left">Design web app</h1>
                 </div>
@@ -168,7 +117,7 @@ function LuckRollDescription(){
 
 
                 <div className="flex justify-center items-center mt-[150px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette elements:</h3>
+                    <h3 className=" text-black text-[29px]text-left min-[1400px]:text-[35px]">Color palette elements:</h3>
                 </div>
 
 
@@ -183,7 +132,7 @@ function LuckRollDescription(){
 
                 
                 <div className="flex justify-center items-center mt-[150px]">
-                    <h3 className=" text-black text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette typograph:</h3>
+                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Color palette typograph:</h3>
                 </div>
 
 
@@ -193,7 +142,7 @@ function LuckRollDescription(){
 
 
                 <div className="flex justify-center items-center mt-[200px]">
-                    <h3 className=" text-black text-[29px]  text-left min-[1400px]:text-[35px]">Tipografia:</h3>
+                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
                 </div>
 
 
