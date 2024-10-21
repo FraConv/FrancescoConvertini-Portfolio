@@ -14,12 +14,12 @@ function LuckRollDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 min-[1400px]:text-[70px] text-left xl:text-[50px]">Lucky Roll</h1>
+                    <h1 className=" text-white scale-120 min-[1400px]:text-[70px] text-left xl:text-[50px]">Lucky Roll</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] min-[1400px]:text-[26px] min-[768px]:text-[22px]">Applicazione web che simula il lancio dei dadi a sei faccie.</p>
+                    <p className=" text-white text-[18px] min-[1400px]:text-[26px] min-[768px]:text-[22px]">Applicazione web che simula il lancio dei dadi a sei faccie.</p>
                 </div>
 
 
@@ -29,36 +29,36 @@ function LuckRollDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h2 className=" text-black text-[29px] min-[1400px]:text-[35px]">Programmazione:</h2>
+                    <h2 className=" text-white text-[29px] min-[1400px]:text-[35px]">Programmazione:</h2>
                 </div>
 
 
                 <ul  className="mt-[90px]">
-                    <li className='text-black text-[18px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
+                    <li className='text-white text-[18px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
                         HTML
                     </li>
-                    <li className='text-black text-[18px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[18px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         CSS
                     </li>
-                    <li className='text-black text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         Javascript
                     </li>
-                    <li className='text-black text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         Tailwind css
                     </li>
-                    <li className='text-black text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         React
                     </li>
                 </ul> 
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h2 className=" text-black text-[29px] min-[1400px]:text-[35px]">Logo design:</h2>
+                    <h2 className=" text-white text-[29px] min-[1400px]:text-[35px]">Logo design:</h2>
                 </div>
 
 
                 <ul  className="mt-[90px]">
-                    <li className='text-black text-[18px] flex justify-center items-center min-[1400px]:text-[26px] min-[768px]:text-[22px] list-disc'>
+                    <li className='text-white text-[18px] flex justify-center items-center min-[1400px]:text-[26px] min-[768px]:text-[22px] list-disc'>
                         Illustrator
                     </li>
                 </ul> 
@@ -69,7 +69,7 @@ function LuckRollDescription(){
                         <Link className="w-10 h-[200px] border-black" to="/App Lucky Roll">
                             <div  className="border-[3px] border-[#db8f8f] w-[194px] h-[60px] xl:hover:bg-[#db8f8f] xl:hover:rounded-full 
                             transition-colors duration-150 rounded-full mt-[16px]" >     
-                                <h6 className="mt-[-15px] p-5 pt-[18px] text-black xl:hover:text-black Stransition-colors duration-150">Prova applicazione</h6>
+                                <h6 className="mt-[-15px] p-5 pt-[18px] text-white xl:hover:text-black transition-colors duration-150">Prova applicazione</h6>
                              </div>
                         </Link>
                     </div>
@@ -78,12 +78,12 @@ function LuckRollDescription(){
 
                 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 min-[1400px]:text-[70px] text-left">Design web app</h1>
+                    <h1 className=" text-white scale-120 min-[1400px]:text-[70px] text-left">Design web app</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il design della app è basato su uno stile 
+                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il design dell'app è basato su uno stile 
                     minimal per via del contenuto che offre e per un esperienza pulita.
                         <br />
                         <br />
@@ -102,22 +102,12 @@ function LuckRollDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-black text-[29px] min-[1400px]:text-[35px]">Color palette body:</h3>
+                    <h3 className=" text-white text-[29px] min-[1400px]:text-[35px]">Color palette:</h3>
                 </div>
 
 
                 <div className="flex justify-center items-center flex-col mt-[100px]">
                     <ColorPallet className="bg-[#001743] mt-[100px]" code="#001743"></ColorPallet>
-                </div>
-                
-                
-                <div className="flex justify-center items-center flex-col mt-[100px]">
-                    <ColorPallet className="bg-[#000000]" code="#000000"></ColorPallet>
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[150px]">
-                    <h3 className=" text-black text-[29px]text-left min-[1400px]:text-[35px]">Color palette elements:</h3>
                 </div>
 
 
@@ -130,36 +120,26 @@ function LuckRollDescription(){
                     <ColorPallet className="bg-[#000000]" code="#000000"></ColorPallet>
                 </div>
 
-                
-                <div className="flex justify-center items-center mt-[150px]">
-                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Color palette typograph:</h3>
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col mt-[100px]">
-                    <ColorPallet className="bg-[#ffffff]" code="#ffffff"></ColorPallet>
-                </div>
-
 
                 <div className="flex justify-center items-center mt-[200px]">
-                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
+                    <h3 className=" text-white text-[29px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per l'applicazione è Encode Sans.</p>
+                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per l'applicazione è Encode Sans.</p>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 text-left min-[1400px]:text-[70px]">Versione mobile</h1>
+                    <h1 className=" text-white scale-120 text-left min-[1400px]:text-[70px]">Versione mobile</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className="text-black text-[18px] flex justify-center items-center text-left  min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la 
+                    <p className="text-whitek text-[18px] flex justify-center items-center text-left  min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la 
                     versione mobile il design dell'app rimane invariato, eccetto per 
-                    le decorazioni che cambieranno posizione, per il resto l'app fornisce un ottima UI Design anche su dispositivi mobile.</p>
+                    le decorazioni che cambieranno posizione rispetto al dispositivo che si usa, per il resto l'app fornisce un ottima UI anche su dispositivi mobile.</p>
                 </div>
 
 

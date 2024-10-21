@@ -70,16 +70,17 @@ function Home () {
 
           <div className="w-[330px] h-[300px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-200px] min-[1400px]:w-[700px] xl:ml-[10px] xl:w-[500px] xl:h-[150px]
           min-[1400px]:h-[300px] min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:h-[100px] ab">
-            <h1 className=" text-black text-[46px] text-left min-[1400px]:text-[70px] transition-all duration-1000 transform">
-                    SALVE A TUTTI SONO UN WEB DESIGNER E GRAPHIC DESIGNER.<h2 className="min-[1400px]:ml-[690px] min-[768px]:ml-[452px] xl:ml-[452px] ml-[238px] min-[1400px]:mt-[-58px] mt-[-52px] text-[40px]">👋</h2>
+            <h1 className=" text-white text-[46px] text-left min-[1400px]:text-[70px] transition-all duration-1000 transform">
+                    SALVE A TUTTI SONO UN WEB E GRAPHIC DESIGNER.<h2 className="min-[1400px]:ml-[690px] min-[768px]:ml-[452px] xl:ml-[452px] 
+                    ml-[238px] min-[1400px]:mt-[-58px] mt-[-52px] text-[40px]">👋</h2>
             </h1>
           </div>
 
 
           <div className="w-[330px] h-[160px]  border-transparentborder-[2px] ml-[-20px] mt-[30px] min-[1400px]:ml-[-200px] min-[1400px]:mt-[120px] min-[1400px]:w-[700px] xl:ml-[10px] xl:w-[500px] xl:h-[180px]
           min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:mt-[120px]">
-            <p className=" text-black text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000">
-            Il mio nome è Francesco Convertini, progetto loghi, siti web e applicazioni web semplici e funzionali per ogni tipo di situazione.🚀</p>
+            <p className=" text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000">
+            Il mio nome è Francesco Convertini, progetto loghi, illustrazioni, siti e applicazioni web semplici e funzionali per ogni tipo di situazione.🚀</p>
           </div>
       
 
@@ -92,8 +93,10 @@ function Home () {
           <div className="mt-[400px]"></div>
 
 
-          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7778px]  min-[1400px]:h-[7240px]  bg-[#443e3e] w-[100%] rounded-tr-[160px] rounded-bl-[160px] min-[1400px]:rounded-tr-[280px]  
-          min-[1400px]:rounded-bl-[280px] xl:mt-[460px] xl:h-[6400px]  min-[1400px]:mt-[279px] min-[768px]:mt-[180px] min-[768px]:h-[7080px] min-[768px]:rounded-tr-[260px] min-[768px]:rounded-bl-[260px]`}></div>
+          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7778px]  min-[1400px]:h-[7240px]  
+          bg-[#213a46] w-[100%] rounded-tr-[160px] rounded-bl-[160px] min-[1400px]:rounded-tr-[280px]  
+          min-[1400px]:rounded-bl-[280px] xl:mt-[460px] xl:h-[6400px]  min-[1400px]:mt-[279px] min-[768px]:mt-[180px] min-[768px]:h-[7080px] min-[768px]:rounded-tr-[260px] 
+          min-[768px]:rounded-bl-[260px]`}></div>
 
 
           <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[-50px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1200px] xl:ml-[-15px] xl:w-[500px] xl:h-[180px]

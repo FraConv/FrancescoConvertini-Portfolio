@@ -29,7 +29,7 @@ function Navbar() {
  
 
  
-      <header className=" shadow-lg min-[500px]:w-[375px] h-[80px]  bg-[#8bd3dd] fixed top-4 left-4 xl:w-[97%] xl:ml-[4px]  
+      <header className=" shadow-lg min-[500px]:w-[375px] h-[80px]  bg-[#76ABAE] fixed top-4 left-4 xl:w-[97%] xl:ml-[4px]  
       min-[768px]:w-[96%] min-[412px]:w-[382px] min-[414px]:w-[382px] min-[430px]:w-[399px] min-[375px]:w-[343px] min-[390px]:w-[359px] rounded-tl-full rounded-br-full 
       z-30 min-[1400px]:w-[98%]">
 
@@ -48,39 +48,61 @@ function Navbar() {
         </div>
 
 
-        <ul className={` shadow-lg grid grid-rows mt-[-200px] w-[105px]   pt-[50px] transition-all duration-700 xl:hidden bg-[#8bd3dd] rounded-bl-[100px] h-[300px]
+        <ul className={` shadow-lg grid grid-rows mt-[-200px] w-[105px]   pt-[50px] transition-all duration-700 xl:hidden bg-[#76ABAE] rounded-bl-[100px] h-[300px]
         ${Comparsa}  `}>
-          <li className=' bg-black w-[85px] h-8 mt-[-22px] p-1 ml-[10px] rounded-full'>
-            <Link to="/" className='text-white '>Home</Link>
+          <li className=' border-black border-[3px] w-[85px] h-8 mt-[-20px] p-[1px] ml-[10px] rounded-full'>
+            <Link to="/" className='text-black '>Home</Link>
           </li>
-          <li className='mt-[-40px] bg-black w-[85px] h-8 p-1 ml-[10px] rounded-full'>
-            <Link to="/Chi sono" className='text-white'>Chi sono</Link>
+          <li className='mt-[-45px] border-black border-[3px] w-[85px] h-8 p-[1px] ml-[10px] rounded-full'>
+            <Link to="/Chi sono" className='text-black'>Chi sono</Link>
           </li>
-          <li className='mt-[-50px] bg-black w-[85px] h-8 p-1 ml-[10px] rounded-full'>
-            <Link to="/Portfolio" className='text-white'>Portfolio</Link>
+          <li className='mt-[-55px] border-black border-[3px] w-[85px] h-8 p-[1px] ml-[10px] rounded-full'>
+            <Link to="/Portfolio" className='text-black'>Portfolio</Link>
+          </li>
+          <li className='mt-[-68px] bg-black w-[85px] h-8 p-1 ml-[10px] rounded-full'>
+            <a href="mailto:francesco16convertini@gmail.com" className='text-white'>Contatti</a>
           </li>
         </ul>
         
 
         <nav>
-          <ul className='xl:grid xl:grid-cols-3 hidden mt-[-40px] ml-[1050px] xl:gap-360 xl:ml-[650px] min-[1400px]:gap-10 min-[1400px]:ml-[960px]'>
-            <li className=''>
-              <Link to="/" className='text-black hover:text-black text-[20px]'>Home</Link>
-            </li>
-            <li className=''>
-              <Link to="/Chi sono" className='text-black hover:text-black text-[20px]'>Chi sono</Link>
-            </li>
-            <li className=''>
-              <Link to="/Portfolio" className='text-black hover:text-black text-[20px]'>Portfolio</Link>
-            </li>
+          <ul className='xl:grid xl:grid-cols-4 hidden mt-[-40px] ml-[1050px]  xl:ml-[500px] min-[1400px]:gap-10 min-[1400px]:ml-[960px] '>
+            <div className='ml-[-30px] flex justify-left items-left'>
+              <Link to="/" className='text-black hover:text-black text-[20px] '>
+                <li className='border-black border-[2px] w-[130px] h-9 rounded-full '>
+                Home
+                </li>
+              </Link>
+            </div>
+            <div className='ml-[-30px] flex justify-left items-left'>
+              <Link to="/Chi sono" className='text-black hover:text-black text-[20px]'>
+                <li className='border-black border-[2px] w-[130px] h-9 rounded-full'>
+                Chi sono
+                </li>
+              </Link>
+            </div>
+            <div className='ml-[-30px] flex justify-left items-left'>
+              <Link to="/Portfolio" className='text-black hover:text-black text-[20px]'>
+                <li className='border-black border-[2px] w-[130px] h-9 rounded-full'>
+                Portfolio
+                </li>
+              </Link>
+            </div>
+            <div className='ml-[-30px] flex justify-left items-left'>
+              <a href="mailto:francesco16convertini@gmail.com" className='text-white hover:text-white text-[20px]'>
+                <li className='bg-black w-[130px] h-9 rounded-full p-[3px]'>
+                Contatti
+                </li>
+              </a>
+            </div>
           </ul>
-              </nav>
+        </nav>
 
 
       </header>
 
 
-      <div className="border-2 border-transparent w-[100%] h-[96px] left-0 top-0 z-20 fixed bg-[#faf5eb]"></div>
+      <div className="border-2 border-transparent w-[100%] h-[96px] left-0 top-0 z-20 fixed bg-[#181c20]"></div>
 
 
     </>

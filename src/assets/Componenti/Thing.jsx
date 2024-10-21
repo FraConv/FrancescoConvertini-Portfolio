@@ -12,13 +12,13 @@ function Thing(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black text-[30px] text-left min-[1400px]:text-[70px] xl:text-[50px]">The Thing under the bed
+                    <h1 className=" text-white  text-[30px] text-left min-[1400px]:text-[70px] xl:text-[50px]">The Thing under the bed
                     </h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Illustrazione per la copertina di un libro di genere horror. </p>
+                    <p className=" text-white  text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Illustrazione per la copertina di un libro di genere horror. </p>
                 </div>
 
 
@@ -29,27 +29,27 @@ function Thing(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">software usati:</h3>
+                    <h3 className=" text-white text-[29px] text-left min-[1400px]:text-[35px]">software usati:</h3>
                 </div>
 
 
                 <ul  className="mt-[90px]">
-                    <li className='text-black text-[18px] text-left min-[1400px]:text-[26px] flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
+                    <li className='text-white  text-[18px] text-left min-[1400px]:text-[26px] flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
                     Illustrator
                     </li>
-                    <li className='text-black text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white  text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                     Photoshop
                     </li>
                 </ul> 
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black text-[37px] text-left min-[1400px]:text-[70px]">Creazione dell'illustrazione</h1>
+                    <h1 className=" text-white  text-[37px] text-left min-[1400px]:text-[70px]">Creazione dell'illustrazione</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">lo scrittore Luke Smith per la copertina
+                    <p className=" text-white  text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">lo scrittore Luke Smith per la copertina
                     del suo nuovo libro horror "The Thing under the bed" vuole un'illustrazione semplice che descriva il libro.
                         <br />
                         <br />
@@ -72,7 +72,7 @@ function Thing(){
 
 
                 <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[-100px] xl:mt-[-250px]">
-                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Color palette illustrazione:</h3>
+                    <h3 className=" text-white  text-[29px] text-left min-[1400px]:text-[35px]">Color palette:</h3>
                 </div>
 
 
@@ -92,24 +92,24 @@ function Thing(){
 
 
                 <div className="flex justify-center items-center mt-[100px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">I sui colori leggermente scuri vanno a dare un senso 
+                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">I sui colori leggermente scuri vanno a dare un senso 
                     di tensione e inquietudine.
                     </p>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[200px]">
-                    <h3 className=" text-black text-[29px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
+                    <h3 className=" text-white  text-[29px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-black text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per questa illustrazione è il Minion Variable Concept.</p>
+                    <p className=" text-white  text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per questa illustrazione è il Minion Variable Concept.</p>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-black scale-120 text-left">Mockup</h1>
+                    <h1 className=" text-white  scale-120 text-left">Mockup</h1>
                 </div>
 
 

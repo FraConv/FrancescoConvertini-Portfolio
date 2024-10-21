@@ -30,7 +30,7 @@ function SuperCounterApp (){
 
         <>
  
-        <div className=" bg-black top-0 left-0 w-[90%] ml-[5%] h-[80px] absolute justify-center rounded-b-[180px]">
+        <div className=" bg-[#213a46] top-0 left-0 w-[90%] ml-[5%] h-[80px] absolute justify-center rounded-b-[180px]">
 
         <div className="w-[365px] mt-[-60px]  min-[412px]:ml-[3px] min-[375px]:ml-[-15px] min-[1400px]:ml-[650px] min-[1400px]:mt-[-80px] min-[1400px]:w-[420px] 
        min-[390px]:ml-[-7px] min-[430px]:ml-[13px]">
@@ -43,7 +43,7 @@ function SuperCounterApp (){
         <div className="bg-amber-500 w-3 h-10 ml-[22px] mt-2 absolute rounded-sm "></div>
         </div>
 
-        <h1 className="text-black absolute mt-[200px] ml-[20px] "> {count}</h1>
+        <h1 className="text-white absolute mt-[200px] ml-[20px] "> {count}</h1>
 
         <div className={`bg-amber-400 w-16 h-16 rounded-full mt-[510px] ml-[-23px] absolute ${AnimationM ? "animate-Jump2" : ""}`}>
         <div className="bg-amber-500 w-3  h-12 ml-[26px] mt-2 absolute rounded-sm  "></div>
