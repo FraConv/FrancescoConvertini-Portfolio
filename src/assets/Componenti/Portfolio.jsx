@@ -39,7 +39,7 @@ function Portfolio () {
         <div className="min-[1400px]:grid min-[1400px]:grid-cols-6 min-[1400px]:gap-80 xl:grid-cols-4 xl:gap-80 xl:grid">
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1950px] xl:ml-[-1950px]" to="/FrancescoConvertini Portfolio">
-            <div className=" border-2 border-[#213a46] w-[260px] h-[574px] ml-[-20px] absolute mt-[214px] z-10 rounded-br-[125px] min-[1400px]:ml-[1720px] min-[1400px]:mt-[215px]
+            <div className=" border-2 border-[#213a46] w-[260px] h-[574px] ml-[24px] absolute mt-[214px] z-10 rounded-br-[125px] min-[1400px]:ml-[1720px] min-[1400px]:mt-[215px]
             xl:ml-[1920px] xl:mt-[215px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
               hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4>
@@ -51,7 +51,7 @@ function Portfolio () {
 
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1950px] xl:ml-[-1950px]" to="/MimmoSoftWeb">
-            <div className=" border-2 border-[#213a46] w-[260px] h-[574px] ml-[-20px] absolute mt-[214px] z-10 rounded-br-[125px] min-[1400px]:ml-[1720px] min-[1400px]:mt-[215px]
+            <div className=" border-2 border-[#213a46] w-[260px] h-[574px] ml-[24px] absolute mt-[214px] z-10 rounded-br-[125px] min-[1400px]:ml-[1720px] min-[1400px]:mt-[215px]
             xl:ml-[1920px] xl:mt-[215px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
             hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4>
@@ -63,7 +63,7 @@ function Portfolio () {
 
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1950px] xl:ml-[-1950px]" to="/Lucky Roll">
-            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[-20px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[1720px] min-[1400px]:mt-[217px]
+            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[24px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[1720px] min-[1400px]:mt-[217px]
             xl:ml-[1920px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
             hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4>
@@ -75,7 +75,7 @@ function Portfolio () {
 
 
           <Link className="border-2 border-[#213a46]  w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-650px] xl:ml-[-1950px]" to="/Super Counter">
-            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[-20px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[420px] min-[1400px]:mt-[217px]
+            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[24px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[420px] min-[1400px]:mt-[217px]
             xl:ml-[1920px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
               hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4>
@@ -87,7 +87,7 @@ function Portfolio () {
 
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1500px] xl:ml-[-1950px]" to="/Wanderlust Adventures">
-            <div className=" border-2 border-[#213a46] w-[260px] h-[575px] ml-[-20px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[1270px] min-[1400px]:mt-[217px]
+            <div className=" border-2 border-[#213a46] w-[260px] h-[575px] ml-[24px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[1270px] min-[1400px]:mt-[217px]
             xl:ml-[1920px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
               hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4>
@@ -99,7 +99,7 @@ function Portfolio () {
 
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1800px] xl:ml-[-1950px]" to="/Airnote">
-            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[-20px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[1570px] min-[1400px]:mt-[217px]
+            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[24px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[1570px] min-[1400px]:mt-[217px]
             xl:ml-[1920px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
             hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4>
@@ -111,7 +111,7 @@ function Portfolio () {
 
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1000px] xl:ml-[-1950px]" to="/GreenThreads">
-            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[-20px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[770px] min-[1400px]:mt-[217px]
+            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[24px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[770px] min-[1400px]:mt-[217px]
             xl:ml-[1920px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
               hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4>
@@ -123,7 +123,7 @@ function Portfolio () {
 
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none  min-[1400px]:ml-[-1500px] xl:ml-[-1950px]" to="/Agenda 2024">
-            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[-20px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[1270px] min-[1400px]:mt-[217px]
+            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[24px] absolute mt-[215px] z-10 rounded-br-[130px] min-[1400px]:ml-[1270px] min-[1400px]:mt-[217px]
             xl:ml-[1920px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
               hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4></div>
@@ -134,7 +134,7 @@ function Portfolio () {
 
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1800px] xl:ml-[-1950px]" to="/The Thing under the bed">
-            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[-20px] absolute mt-[215px] z-10 rounded-br-[130px]  min-[1400px]:ml-[1570px] min-[1400px]:mt-[217px]
+            <div className="border-2 border-[#213a46] w-[260px] h-[575px] ml-[24px] absolute mt-[215px] z-10 rounded-br-[130px]  min-[1400px]:ml-[1570px] min-[1400px]:mt-[217px]
             xl:ml-[1920px]">
               <div className=" w-[200px] h-[30px] border-[3px] border-[#db8f8f] bg-transparent z-50 mt-[450px] ml-[10px] hover:bg-[#db8f8f] rounded-full
               hover:text-black transition-colors duration-150"><h4 className=" mt-[-1px] text-[17px] text-white  hover:text-black">Vedi progetto</h4></div>

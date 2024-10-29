@@ -109,7 +109,7 @@ function Chisono () {
           <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           Tailwind css
           </li>
-          <li className='text-whitek text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           React
           </li>
           <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>

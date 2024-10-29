@@ -55,7 +55,7 @@ function  Navbarhome() {
 
  
       <header className=" shadow-lg min-[500px]:w-[375px] h-[80px]  bg-[#76ABAE] fixed top-4 left-4 xl:w-[97%] xl:ml-[4px]  
-        min-[768px]:w-[96%] min-[412px]:w-[382px] min-[414px]:w-[382px] min-[430px]:w-[399px] min-[375px]:w-[343px] min-[390px]:w-[359px] rounded-tl-full rounded-br-full 
+        min-[768px]:w-[96%] min-[412px]:w-[382px] min-[414px]:w-[382px]  min-[360px]:w-[330px] min-[430px]:w-[399px] min-[375px]:w-[343px] min-[390px]:w-[359px] rounded-tl-full rounded-br-full 
         z-30 min-[1400px]:w-[98%]">
 
         <div className=' w-[50px] h-[50px] mt-4 ml-7 '>
@@ -130,7 +130,7 @@ function  Navbarhome() {
 
       </header>
 
-      <div className={`border-2 border-transparent w-[100%] h-[96px] left-0 top-0 z-20 fixed ${CambioColore ? 'bg-[#213a46]' : 'bg-[#181c20]'} transition-colors duration-500`}></div>
+      <div className={`border-2 border-transparent w-[100%] h-[96px] left-0 top-0 z-20 fixed ${CambioColore ? 'bg-[#213a46]' : 'bg-[#181c20]'} transition-colors duration-500 `}></div>
 
     </>
   );

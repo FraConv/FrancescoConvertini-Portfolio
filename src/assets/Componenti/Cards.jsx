@@ -5,7 +5,7 @@ function Cards ({Immagine,Titolo,Descrizione}){
         <>
 
   
-            <div className=" border-[2px] border-transparent w-[260px] h-[365px] bg-[#213a46] mt-[400px] pt-32 ml-[-20px] text-[20px] rounded-br-[130px] min-[1400px]:ml-[-550px]
+            <div className=" border-[2px] border-transparent w-[260px] h-[365px] bg-[#213a46] mt-[400px] pt-32 ml-[24px] text-[20px] rounded-br-[130px] min-[1400px]:ml-[-550px]
             xl:ml-[-350px] xl:mt-[425px] ">
                 <div className=" mt-[-340px] w-[262px] ml-[-75px] h-[212px] border-2 border-transparent absolute ">    
                     <img className="ml-[72px]" src={Immagine} alt="" />

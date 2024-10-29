@@ -137,7 +137,7 @@ function LuckRollDescription(){
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className="text-whitek text-[18px] flex justify-center items-center text-left  min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la 
+                    <p className="text-white text-[18px] flex justify-center items-center text-left  min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la 
                     versione mobile il design dell'app rimane invariato, eccetto per 
                     le decorazioni che cambieranno posizione rispetto al dispositivo che si usa, per il resto l'app fornisce un ottima UI anche su dispositivi mobile.</p>
                 </div>
