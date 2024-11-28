@@ -51,20 +51,15 @@ function Chisono () {
   return(
     
     <>
-    
-      <Navbar></Navbar>
+  
 
-
-        <div className="  w-[330px] h-[80px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[10px] min-[1400px]:w-[360px] min-[768px]:ml-[-150px] 
-        min-[768px]:w-[500px] xl:ml-[-10px]">
-          <h1 ref={ref} className={` text-white scale-120 ml-5 text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
-          '-translate-x-20 opacity-0'}`}>Chi sono. <h2 className="min-[1400px]:ml-[333px] ml-[238px] min-[1400px]:mt-[-58px] mt-[-52px] text-[40px]">🧐</h2> </h1>
-        </div>
-
-
-        <div className="  w-[330px] h-[670px]  border-transparent border-[2px] ml-[-20px] mt-[100px] min-[1400px]:ml-[10px] min-[1400px]:w-[600px] min-[768px]:ml-[-150px] 
-        min-[768px]:w-[500px] xl:ml-[-10px]">
-          <p  ref={ref} className={` text-white text-[20px]  ml-5 text-left min-[1400px]:text-[22px] min-[768px]:text-[22px]transition-all duration-1000 
+  <div className="grid grid-cols-1 sm:grid-cols-2 absolute top-0 left-0 w-[100%] z-20">
+          <div className="border-black border-[2px] col-span-1 sm:col-span-2 h-[100px]">
+           <Navbar></Navbar>
+          </div>
+          <div className="border-black border-[2px]"><h1 ref={ref} className={` text-white scale-120  pt-24 p-10 text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 
+          'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>Chi sono.🧐</h1>
+              <p ref={ref} className={` text-white text-[17px]   pt-5 p-10 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]transition-all duration-1000 
           ${inView ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>Sono nato il 16 Marzo del 2002 e attualmente vivo in Puglia a Palo Del Colle(BA).
             <br />
           Ho frequentato il liceo artistico De Nittis di Bari diplomandomi in industrial design, in cui progettavo oggetti di vario tipo con diverse complessità.
@@ -83,153 +78,144 @@ function Chisono () {
 
             Sono una persona abbastanza riservata, tranquilla e collaborativa, che cerca sempre di migliorarsi e di realizzare le proprie idee.
           </p>
+          </div>
         </div>
 
 
-        <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} w-[330px] h-[130px]  border-transparent border-[2px] 
-        ml-[-20px] mt-[300px] min-[1400px]:ml-[-550px] min-[1400px]:w-[500px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
-          <h2 className=" text-white text-[30px] ml-5 text-left min-[1400px]:text-[35px] font-bold">Skill Front-End Developer:</h2>
-        </div>
-
-
-        <ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent 
-        border-[2px] ml-[-20px] mt-[-15px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[-50px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:mt-[-50px] xl:mt-[-50px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+        <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} border-black border-[2px] 
+        grid  grid-cols-1 absolute left-0 w-[100%] mt-[1300px] p-10`}>
+          <h2 className=" text-white text-[30px] text-left min-[1400px]:text-[35px] font-bold">Skill Front-End Developer:</h2>
+          <ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} pt-5`}>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           HTML5
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           CSS3
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           Javascript
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           Git
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           Tailwind css
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           React
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           Boostrap 5
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           TypeScript
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           Dart
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           WordPress
           </li>
-          <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+          MySQL
+          </li>
+          <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
           Responsive Design
           </li>
     
 
-          <div className=" grid grid-cols-2  min-[1400px]:grid-cols-4  min-[1400px]:gap-52 gap-20 min-[1400px]:ml-[550px] min-[1400px]:mt-[-250px] xl:grid-cols-4 xl:gap-52 xl:ml-[260px]
-          xl:mt-[-200px]">
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[110px] ml-4 '>
+          <div className="grid sm:grid-cols-4 sm:gap-28 grid-cols-1 mt-24">
+            <div className=' w-[150px] h-[150px] border-transparent border-[2px]  '>
               <img src="htmlv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
             </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[110px] ml-4 '>
+            <div className=' w-[150px] h-[150px] border-transparent border-[2px] '>
               <img src="cssv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
             </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 ml-4 min-[1400px]:mt-[159px] xl:mt-[159px]'>
-              <img src="Javascriptv2.svg" className=" scale-[.80] mt-[-50px] min-[1400px]:scale-[.90]" alt="" />
+            <div className=' w-[150px] h-[150px] border-transparent border-[2px] '>
+              <img src="Javascriptv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
             </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[-27px] ml-4 min-[1400px]:mt-[109px] xl:mt-[109px]'>
-              <img src="git.svg" className=" scale-[1.30] mt-[-50px] min-[1400px]:scale-[1.50]" alt="" />
+            <div className=' w-[150px] h-[150px] border-transparent border-[2px]'>
+              <img src="rectv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
             </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-6 xl:mt-[-100px]  ml-4 '>
-              <img src="rectv2.svg" className=" scale-[.80] mt-[-70px] ml-[-5px] min-[1400px]:scale-[.90]" alt="" />
+            <div className=' w-[150px] h-[150px] border-transparent border-[2px]'>
+              <img src="telv2.svg" className=" scale-[.80]  min-[1400px]:scale-[.90]" alt="" />
             </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 xl:mt-[-120px] ml-4 '>
-              <img src="telv2.svg" className=" scale-[.80] mt-[-60px] ml-[-5px] min-[1400px]:scale-[.90]" alt="" />
-            </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 xl:mt-[-120px] ml-4 '>
-              <img src="boostrap.svg" className=" scale-[.80] mt-[-60px] ml-[-5px] min-[1400px]:scale-[.90]" alt="" />
-            </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 xl:mt-[-120px] ml-4 '>
-              <img src="ts.svg" className=" scale-[.60] mt-[-60px] ml-[-5px] min-[1400px]:scale-[.70] rounded-xl"  alt="" />
-            </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-6 xl:mt-[-100px]  ml-4 '>
-              <img src="w.svg" className=" scale-[.80] mt-[-70px] ml-[-5px] min-[1400px]:scale-[.90]" alt="" />
+            <div className=' w-[150px] h-[150px] border-transparent border-[2px]'>
+              <img src="ts.svg" className=" scale-[.60]  min-[1400px]:scale-[.70] rounded-xl"  alt="" />
             </div>
             </div>
+          
         </ul>
-
-
-        <div className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[300px] h-[130px]  
-        border-transparent border-[2px] ml-[-20px] mt-[1500px] min-[1400px]:ml-[-550px]  min-[1400px]:mt-[950px]  xl:mt-[950px] min-[1400px]:w-[600px] xl:ml-[-360px] min-[768px]:ml-[-150px] 
-        min-[768px]:w-[500px]`}>
-          <h2 className=" text-white text-[30px] ml-5 text-left  min-[1400px]:text-[35px] font-bold">Skill Graphic e Web Designer:</h2>
         </div>
-                
-        <ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}  w-[240px] h-[130px]  border-transparent 
-        border-[2px] ml-[-20px] mt-[-55px] min-[1400px]:ml-[-550px] min-[1400px]:w-[400px] xl:ml-[-360px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]`}>
-          <li className='text-white text-[18px] ml-12 text-left mt-11 min-[768px]:mt-1 min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+
+
+       
+
+
+        <div className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} border-black border-[2px] 
+        grid  grid-cols-1 absolute left-0 w-[100%] mt-[2850px] p-10`}>
+          <h2 className=" text-white text-[30px] ml-5 text-left  min-[1400px]:text-[35px] font-bold">Skill Graphic e Web Designer:</h2>
+
+          <ul  className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} p-5`}>
+          <li className='text-white text-[17px] ml-12 text-left mt-11 min-[768px]:mt-1 min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
             Illustrator
             </li>
-            <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+            <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
             Photoshop
             </li>
-            <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+            <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
             InDesign
             </li>
-            <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+            <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
             Figma
             </li>
-            <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+            <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
             Blender
             </li>
-            <li className='text-white text-[18px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
+            <li className='text-white text-[17px] ml-12 text-left  min-[1400px]:text-[22px] min-[768px]:text-[20px] list-disc'>
             UI/UX Design
             </li>
 
-            <div className=" grid grid-cols-2 gap-20 min-[1400px]:grid-cols-4  min-[1400px]:gap-52 min-[1400px]:ml-[550px] min-[1400px]:mt-[-178px] xl:grid-cols-4 xl:gap-52 xl:ml-[250px]
-            xl:mt-[-150px]">
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[110px] ml-4 '>
+            <div className=" grid sm:grid-cols-4 sm:gap-28 grid-cols-1  mt-24">
+            <div className=' w-[150px] h-[150px]'>
               <img src="aiv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90] " alt="" />
             </div>
-            <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-[110px] ml-4 '>
+            <div className=' w-[150px] h-[150px]'>
               <img src="idv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
             </div>
 
 
-          <div className=' w-[150px] h-[150px] border-transparentborder-[2px] mt-4 ml-[-5px] min-[1400px]:mt-[180px] xl:mt-[180px]'>
-            <img src="psv2.svg" className=" scale-[.80] mt-[-70px] ml-[20px] min-[1400px]:scale-[.90]" alt="" />
+          <div className=' w-[150px] h-[150px]'>
+            <img src="psv2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
           </div>
 
 
-          <div className=' w-[150px] h-[150px] border-transparent border-[2px] mt-4 ml-4 min-[1400px]:mt-[160px] xl:mt-[180px]'>
-            <img src="figmav2.svg" className=" scale-[.80] mt-[-70px] min-[1400px]:scale-[1.20]" alt="" />
+          <div className=' w-[150px] h-[150px]'>
+            <img src="figmav2.svg" className=" scale-[.80] min-[1400px]:scale-[.90]" alt="" />
           </div>
 
+          
 
+        
+          <div className="flex justify-start items-start sm:mt-72 ml-[-40px] mt-28">
+            <p className=" text-[#db8f8f] text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-medium absolute p-5">
+              Vorresti che i tuoi progetti siano funzionali, accattivanti e interessanti?</p>
+              <a href="mailto:francesco16convertini@gmail.com" className="flex justify-center items-center bg-[#db8f8f] w-[115px] h-[40px] rounded-full mt-48 animate-Bottone ml-5 xl:w-[180px] xl:h-[60px]">
+                
+               <span className="absolute mt-[1px] ml-[-1px] text-[14px] xl:text-[18px] text-[#2e1d1d]">CONTATTAMI </span>
+                </a>
+          </div>
           </div>
         </ul>
+        </div>
+                
+    
 
 
-          <div className="w-[330px] h-[160px]  border-transparent border-[2px] ml-[-20px] mt-[800px] min-[1400px]:ml-[-520px]  min-[1400px]:w-[1000px] xl:ml-[-330px] xl:w-[800px] xl:h-[180px]
-            min-[768px]:ml-[-150px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[500px] xl:mt-[500px]">
-              <p className=" text-[#db8f8f] text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-medium ">
-              Vorresti che i tuoi progetti siano funzionali, accattivanti e interessanti?</p>
-          </div>
-
-                    
-          <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-600px]  min-[1400px]:w-[300px] xl:ml-[-410px] min-[768px]:ml-[-232px]
-          min-[1400px]:mt-[15px] xl:mt-[25px] ">
-            <div  className="ml-[80px] bg-[#db8f8f] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
-              <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-black hover:text-black"><span className="absolute mt-[18px] ml-[-51px]">
-                CONTATTAMI </span></a>
-            </div>
-          </div>
+          
 
 
-          <div className="mt-[316px] :w-[375px] h-[80px] xl:mt-[200px] bg-transparent]"></div>
+          <div className="mt-[5000px] xl:mt-[4500px] "></div>
     
 
         <FooterWeb></FooterWeb>

@@ -12,7 +12,7 @@ function Home () {
   useEffect(() => {
     const handleScroll = () => {
       const position = window.scrollY;
-      const triggerHeight = 900; // Altezza di scroll in pixel per attivare l'animazione
+      const triggerHeight = 1190; // Altezza di scroll in pixel per attivare l'animazione
       if (position > triggerHeight) {
         setVisible(true);
       }
@@ -46,7 +46,7 @@ function Home () {
   useEffect(() => {
     const handleScroll = () => {
       const position = window.scrollY;
-      const triggerHeight = 4900; // Altezza di scroll in pixel per attivare l'animazione
+      const triggerHeight = 4300; // Altezza di scroll in pixel per attivare l'animazione
       if (position > triggerHeight) {
         setVisible3(true);
       }
@@ -65,172 +65,129 @@ function Home () {
     <>
 
       <Loader></Loader>
-        <Navbarhome></Navbarhome>
-
-
-          <div className="w-[330px] h-[300px]  border-transparent border-[2px] ml-[-20px] mt-[200px] min-[1400px]:ml-[-200px] min-[1400px]:w-[700px] xl:ml-[10px] xl:w-[500px] xl:h-[150px]
-          min-[1400px]:h-[300px] min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:h-[100px]  min-[360px]:w-[330px] ">
-            <h1 className=" text-white text-[46px] text-left min-[1400px]:text-[70px] transition-all duration-1000 transform">
-                    SALVE A TUTTI SONO UN WEB E GRAPHIC DESIGNER.<h2 className="min-[1400px]:ml-[690px] min-[768px]:ml-[452px] xl:ml-[452px] 
-                    ml-[238px] min-[1400px]:mt-[-58px] mt-[-52px] text-[40px]">👋</h2>
-            </h1>
-          </div>
-
-
-          <div className="w-[330px] h-[160px]  border-transparentborder-[2px] ml-[-20px] mt-[30px] min-[1400px]:ml-[-200px] min-[1400px]:mt-[120px] min-[1400px]:w-[700px] xl:ml-[10px] xl:w-[500px] xl:h-[180px]
-          min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:mt-[120px]">
-            <p className=" text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000">
-            Il mio nome è Francesco Convertini, progetto loghi, illustrazioni, siti e applicazioni web semplici e funzionali per ogni tipo di situazione.🚀</p>
-          </div>
-      
-
-          <div className="w-[300px] h-[300px] mt-[100px] ml-[-20px] xl:w-[350px] xl:h-[350px] xl:ml-[700px] xl:mt-[-300px] min-[1400px]:w-[500px] min-[1400px]:h-[500px] min-[1400px]:ml-[700px]
-          min-[1400px]:mt-[-400px] min-[768px]:ml-[30px]">
-            <img  className="rounded-tl-[100px] rounded-br-[100px] shadow-2xl transition-all duration-1000" src="foto mia.svg" alt=""/>
-          </div>
-
-
-          <div className="mt-[400px]"></div>
-
-
-          <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} left-0 absolute h-[7778px]  min-[1400px]:h-[7240px]  
-          bg-[#213a46] w-[100%] rounded-tr-[160px] rounded-bl-[160px] min-[1400px]:rounded-tr-[280px]  
-          min-[1400px]:rounded-bl-[280px] xl:mt-[460px] xl:h-[6400px]  min-[1400px]:mt-[279px] min-[768px]:mt-[180px] min-[768px]:h-[7080px] min-[768px]:rounded-tr-[260px] 
-          min-[768px]:rounded-bl-[260px]`}></div>
-
-
-          <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[-50px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1200px] xl:ml-[-15px] xl:w-[500px] xl:h-[180px]
-              min-[768px]:ml-[10px] min-[768px]:mt-[150px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[250px] absolute z-10  xl:mt-[450px]`}>
-                <h2 className=" text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[67vh] font-bold">
-                  L'importanza del
-                    <br />
-                  UI e UX Design.🤯
-                </h2>
-            </div>
-
-
-            <img className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[560px] ml-[-60px] pl-[10px] 
-             min-[1400px]:scale-[.40] min-[1400px]:ml-[-22px] min-[1400px]:mt-[700px] xl:ml-[-420px] xl:scale-[.30]
-            xl:mt-[850px] min-[768px]:scale-[0.50] min-[768px]:ml-[-152px] min-[768px]:mt-[710px] rounded-[50px]  `} src="Home2.svg" alt=""/>
        
 
-            <div  className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[-40px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1300px] xl:ml-[10px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[30px] min-[768px]:w-[500px] min-[768px]:mt-[-80px] pt-[100px] min-[1400px]:mt-[-170px] absolute z-10 xl:mt-[-260px]`}>
-                <p className=" text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-normal min-[1400px]:ml-[40vh]">
-                  Il UX e il UI Design sono due 
+        <div className="grid grid-cols-1 sm:grid-cols-2 absolute top-0 left-0 w-[100%] z-20">
+          <div className="border-black border-[2px] col-span-1 sm:col-span-2 h-[100px]">
+            <Navbarhome></Navbarhome>
+          </div>
+          <div className="border-black border-[2px]"><h1 className=" text-white text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 transform pt-24 p-10">
+            SALVE A TUTTI SONO UN WEB E GRAPHIC DESIGNER.👋</h1>
+              <p className=" text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000 pt-5 p-10">
+                Il mio nome è Francesco Convertini, progetto loghi, illustrazioni, siti e applicazioni web semplici e funzionali per ogni tipo di situazione.🚀</p>
+          </div>
+          <div className="border-black border-[2px]"> 
+            <img  className="rounded-tl-[100px] rounded-br-[100px] w-[530px] transition-all duration-1000 p-6 sm:mt-[300px] sm:ml-[100px] min-[768px]:w-[300px] xl:w-[530px]" 
+            src="foto mia.svg" alt=""/>
+          </div>
+        </div>
+
+
+        <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}
+        border-black border-[2px] grid  grid-cols-1 absolute left-0 w-[100%] z-10 mt-[1260px] bg-[#213a46] rounded-tl-[180px] rounded-br-[180px]`}>
+          <div className="mt-[180px]"></div>
+          <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} border-black border-[2px]`}>
+            <h2 className=" text-[#db8f8f] text-[30px] text-left min-[1400px]:text-[35px] flex justify-center items-center font-bold p-10">
+              L'importanza del UI e UX Design.🤯</h2>
+          </div>
+          <div className="border-black border-[2px] flex justify-center items-center">
+            <img className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[450px] mt-20 rounded-[50px] p-10`} 
+              src="Home2.svg" alt="" />
+          </div>
+          <div className="border-black border-[2px] flex justify-center items-center">
+            <p className=" text-white text-[17px] text-left min-[1400px]:text-[23px] min-[768px]:text-[22px] font-normal p-10 sm:pl-96 sm:pr-96 pt-10">
+              Il UX e il UI Design sono due 
                     
-                  discipline molto importanti, utili
+              discipline molto importanti, utili
                 
-                  per la progettazione di prodotti
+              per la progettazione di prodotti
                     
-                  digitali come siti web e
+              digitali come siti web e
                  
-                  applicazioni web e non.
-                    <br /> 
-                    <br />
-                  Nonostante siano due discipline
+              applicazioni web e non.
+                <br /> 
+                <br />
+              Nonostante siano due discipline
                    
-                  che vanno a braccetto sono 
+              che vanno a braccetto sono 
                    
-                  diverse tra di loro.
-                    <br /> 
-                    <br />
-                  Il UI Design (User Interface Design) 
+              diverse tra di loro.
+                <br /> 
+                <br />
+              Il UI Design (User Interface Design) 
                   
-                  si occupa dell'interfaccia utente.
-                  <br />
+              si occupa dell'interfaccia utente.
+                <br />
                    
-                  Un UI designer ha il compito di creare interfacce grafiche
+              Un UI designer ha il compito di creare interfacce grafiche
                     
-                  piacevoli ed efficaci.
-                    <br />
-                    <br />
-                  Il UI Design si occupa di varie cose 
+              piacevoli ed efficaci.
+                <br />
+                <br />
+              Il UI Design si occupa di varie cose 
                    
-                  come il layout, i colori, elementi interattivi, tipografia e coerenza visiva.
-                    <br />
-                    <br />
-                  Il UX Design (User Experience Design)
-                  si occupa dell'esperienza utente.
-                  <br />
-                  <br />
-                  Un UX designer ha il compito
+              come il layout, i colori, elementi interattivi, tipografia e coerenza visiva.
+                <br />
+                <br />
+              Il UX Design (User Experience Design)
+              si occupa dell'esperienza utente.
+                <br />
+                <br />
+              Un UX designer ha il compito
                   
-                  di rendere l'esperienza dell'utente
+              di rendere l'esperienza dell'utente
                   
-                  su un prodotto digitale il più fluida, intuitiva e piacevole possibile.
-                  <br />
-                  <br />
-                  Il UX Design si occupa di aspetti come ricerca sugli utenti, architettura dell'informazione, prototipazione, test di usabilità e wireframing. 
-                </p>
-            </div>
-
-
-            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[1300px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[500x] xl:ml-[-15px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[10px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[900px] absolute z-10 min-[768px]:mt-[950px] xl:mt-[600px]">
-                <h2 className={`transform transition-all duration-1000 ${visible2 ? '-translate-x-0 opacity-100' : '-translate-x-full opacity-0'} text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[-1px] font-bold`}>
-                  Cosa vuol dire progettare un logo funzionale.👌
-                </h2>
-            </div>
-
-
-            <img className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[1560px] ml-[-60px] pl-[10px] min-[1400px]:scale-[.55] min-[1400px]:ml-[-430px] min-[1400px]:mt-[1050px] xl:ml-[-320px]  xl:scale-[.35]
-            xl:mt-[630px] min-[768px]:scale-[0.50] rounded-[50px] min-[768px]:ml-[-152px] min-[768px]:mt-[1110px]`} src="Home1.svg" alt=""/>
-
-
-            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[-30px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[800px] xl:ml-[10px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[30px] min-[768px]:w-[500px] pt-[100px] min-[768px]:mt-[-80px]  min-[1400px]:mt-[-80px] absolute z-10  xl:mt-[-200px]">
-                <p className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-normal`}>
-                  Un logo non è soltato un disegno a caso bello da vedere, ma è una cosa molto più complessa.
-                    <br /> 
-                    <br />
-                  Molto probabilmente è l'elemento più importante per rapresentare un branding.
-                    <br /> 
-                    <br />
-                  Un logo progettato come si deve ha come compito quello di racconatere una storia, comunicare i sentimenti e i valori del brend a cui si riferisce.
-                    <br />
-                    <br />
-                  Per avere un logo che comunichi le giuste cose bisogna informarsi tanto sul brend e
-                  In oltre bisogna saper scegliere la tipografia, i colori e le forme giuste.
-                    <br />
-                    <br />
-                  Come ultima cosa bisogna sapere che esistono 7 tipologie di logo, il giusto tipo deve essere utilizzato in base all'obiettivo del marchio.
-                </p>
-
-                <ul  className="  w-[300px] h-[130px]  border-transparent border-[2px] ml-[-20px] mt-[35px]  min-[1400px]:w-[1000px] xl:ml-[-1px] 
-                min-[768px]:ml-[1px] min-[768px]:w-[500px] absolute z-10 list-disc min-[1400px]:ml-[-338px]">
-                  <li className=' min-[1400px]:ml-[360px] text-white  text-[18px] text-left ml-[20px] min-[1400px]:text-[22px] min-[768px]:text-[20px] font-normal'>Logotipo: Loghi creati con solo testo usando font caratteristici.</li>
-                  <br />
-                  <li className=' min-[1400px]:ml-[360px] text-white text-[18px] text-left ml-[20px] min-[1400px]:text-[22px] min-[768px]:text-[20px] font-normal'>Monogramma: Utilizzano le iniziali di un brend per creare il logo.</li>
-                  <br />
-                  <li className=' min-[1400px]:ml-[360px] text-white text-[18px] text-left ml-[20px] min-[1400px]:text-[22px] min-[768px]:text-[20px] font-normal'>Pittogramma: Loghi che rappresentano il brend con solo un'immagine o simbolo.</li>
-                  <br />
-                  <li className=' min-[1400px]:ml-[360px] text-white text-[18px] text-left ml-[20px] min-[1400px]:text-[22px] min-[768px]:text-[20px] font-normal'>Logo astratto: Sono elementi astratti usati per evocare le emozioni del brend. </li>
-                  <br />
-                  <li className=' min-[1400px]:ml-[360px] text-white text-[18px] text-left ml-[20px] min-[1400px]:text-[22px] min-[768px]:text-[20px] font-normal'>Stemma: Questi loghi incorporano font e immagini in forme che richiamano antichi simboli di nobiltà come per esempio degli scudi.</li>
-                  <br />
-                  <li className=' min-[1400px]:ml-[360px] text-white text-[18px] text-left ml-[20px] min-[1400px]:text-[22px] min-[768px]:text-[20px] font-normal' >Logo combinato: Questi sono loghi che combinano pittogramma e logotipo.</li>
-                  <br />
-                  <li className=' min-[1400px]:ml-[360px] text-white text-[18px] text-left ml-[20px] min-[1400px]:text-[22px] min-[768px]:text-[20px] font-normal'>Mascotte: Loghi basati su personaggi che danno vita al brend.</li>
-                </ul>
-            </div>
-
-
-            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-35px] mt-[1800px] min-[1400px]:ml-[-60px] min-[1400px]:mt-[1500px]  min-[1400px]:w-[1200px] xl:ml-[-15px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[10px]  min-[768px]:mt-[1360px] min-[768px]:w-[500px] pt-[100px] absolute z-10 xl:mt-[1200px]">
-                <h2 className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} text-[#db8f8f] text-[30px] ml-5 text-left min-[1400px]:text-[35px] min-[1400px]:ml-[43vh] font-bold`}>
-                  Cosa fa un Web Designer.🤓
-                </h2>
-            </div>
-
-            <img className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} scale-75 mt-[2020px] ml-[-60px] pl-[10px] min-[1400px]:scale-[.30] min-[1400px]:ml-[-15px] min-[1400px]:mt-[1420px] xl:ml-[-420px]  xl:scale-[.30]
-            xl:mt-[1100px] min-[768px]:scale-[0.50] rounded-[50px] min-[768px]:ml-[-160px] min-[768px]:mt-[1460px]`} src="Home3.svg" alt=""/>
-
-
-            <div className="w-[310px] h-[160px]  border-transparent border-[2px] ml-[-15px] mt-[-20px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1300px] xl:ml-[10px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[10px] min-[768px]:w-[500px] pt-[100px] absolute z-10 min-[1400px]:mt-[-280px] min-[768px]:mt-[-120px] xl:mt-[-330px]">
-                <p className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-normal min-[1400px]:ml-[30vh]`}>
-                Il Web Designer si occupa sia della progettazione estetica ma anche funzionale del Front-End di un sito o app web.
+              su un prodotto digitale il più fluida, intuitiva e piacevole possibile.
+                <br />
+                <br />
+              Il UX Design si occupa di aspetti come ricerca sugli utenti, architettura dell'informazione, prototipazione, test di usabilità e wireframing. 
+            </p>
+          </div>
+          <div className="mt-[400px]"></div>
+          <div className="border-black border-[2px] flex justify-center items-center">
+            <h2 className={`transform transition-all duration-1000 ${visible2 ? '-translate-x-0 opacity-100' : '-translate-x-full opacity-0'} text-[#db8f8f] text-[30px] 
+            text-left min-[1400px]:text-[35px] p-10 font-bold`}>
+              Cosa vuol dire progettare un logo funzionale.👌</h2>
+          </div>
+          <div className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} border-black border-[2px] 
+          flex justify-center items-center`}>
+            <img className= "w-[450px] mt-20 rounded-[50px] p-10" 
+              src="Home1.svg" alt="" />
+          </div>
+          <div className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} flex 
+          justify-center items-center`}>
+            <p className=" text-white text-[17px] text-left min-[1400px]:text-[23px] min-[768px]:text-[22px] font-normal p-10 sm:pl-96 sm:pr-96 pt-10">
+              Un logo non è soltato un disegno a caso bello da vedere, ma è una cosa molto più complessa.
+                <br /> 
+                <br />
+              Molto probabilmente è l'elemento più importante per rapresentare un branding.
+                <br /> 
+                <br />
+              Un logo progettato come si deve ha come compito quello di racconatere una storia, comunicare i sentimenti e i valori del brend a cui si riferisce.
+                <br />
+                <br />
+              Per avere un logo che comunichi le giuste cose bisogna informarsi tanto sul brend e
+              In oltre bisogna saper scegliere la tipografia, i colori e le forme giuste.
+                <br />
+                <br />
+              Come ultima cosa bisogna sapere che esistono 7 tipologie di logo, il giusto tipo deve essere utilizzato in base all'obiettivo del marchio. 
+            </p>
+          </div>
+          <div className="mt-[400px]"></div>
+          <div className="border-black border-[2px] flex justify-center items-center">
+            <h2 className={`transform transition-all duration-1000 ${visible3 ? '-translate-x-0 opacity-100' : '-translate-x-full opacity-0'} text-[#db8f8f] text-[30px] 
+            text-left min-[1400px]:text-[35px] p-10 font-bold`}>
+               Cosa fa un Web Designer.🤓</h2>
+          </div>
+          <div className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} border-black border-[2px] 
+          flex justify-center items-center`}>
+            <img className= "w-[450px] mt-20 rounded-[50px] p-10" 
+              src="Home3.svg" alt="" />
+          </div>
+          <div className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} flex 
+          justify-center items-center`}>
+            <p className=" text-white text-[17px] text-left min-[1400px]:text-[23px] min-[768px]:text-[22px] font-normal p-10 sm:pl-96 sm:pr-96 pt-10">
+            Il Web Designer si occupa sia della progettazione estetica ma anche funzionale del Front-End di un sito o app web.
                   <br />
                   <br />
                 Il Front-End è la parte visibile di un sito o un'applicazione web, quella con cui l'utente interagisce direttamente, e include diversi elementi, come pulsanti, immagini, form, menu, ecc.
@@ -255,34 +212,39 @@ function Home () {
                   <br />
                   <br />
                 Dopo che il Web Designer avrà progettato su Figma l'interfaccia utente con il menu, i form, i testi, i pulsanti, le immagini ecc, mettendo in pratica le regole citate prima, 
-                si darà la responsabilità al Front-End Developer che si occuperà di realizzare il prodotto con i vari linguaggi di programazzione.   
-                </p>
-            </div>
-
-
-            <div className="w-[330px] h-[160px]  border-transparent border-[2px] ml-[-20px] mt-[2850px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1000px] xl:ml-[100px] xl:w-[800px] xl:h-[180px]
-              min-[768px]:ml-[10px] min-[768px]:mt-[2350px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[1750px] xl:mt-[1500px]">
-                <p className=" text-[#db8f8f] text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-medium absolute z-10">
-                  Vorresti che i tuoi progetti siano funzionali, accattivanti e 
-                    <br />
-                  interessanti?</p>
-            </div>
-
-           
-              <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-279px]  min-[1400px]:w-[300px] xl:ml-[10px] min-[768px]:ml-[-65px]
-              min-[1400px]:mt-[75px] xl:mt-[25px]">
-                 <a href="mailto:francesco16convertini@gmail.com" className="  text-[#000000] hover:text-[#000000]">
-                <div  className="ml-[80px] bg-[#db8f8f] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >     
-               <span className="absolute mt-[18px] ml-[-51px]">CONTATTAMI </span>
-                </div></a>
-              </div>
+                si darà la responsabilità al Front-End Developer che si occuperà di realizzare il prodotto con i vari linguaggi di programazzione.  
+            </p>
+          </div>
+          <div className="mt-[400px]"></div>
+          <div className="flex justify-start items-start">
+            <p className=" text-[#db8f8f] text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-medium absolute z-10 p-10">
+              Vorresti che i tuoi progetti siano funzionali, accattivanti e interessanti?</p>
+              <a href="mailto:francesco16convertini@gmail.com"  className="flex justify-center items-center bg-[#db8f8f] w-[115px] h-[40px] rounded-full mt-40 
+              animate-Bottone ml-10 xl:w-[180px] xl:h-[60px]">
             
+               <span className="absolute mt-[1px] ml-[-1px] text-[14px] xl:text-[18px] text-[#2e1d1d]">CONTATTAMI </span>
+                </a>
+                <div className="mt-[360px]"></div>
+          </div>
+          
+               
+          </div>
+            
+        
+        
+        
 
-              <div className="mt-[300px]  min-[1400px]:mt-[400px] xl:mt-[500px]"></div>
-      
 
-      <FooterWeb></FooterWeb>
-  
+        <div className="grid grid-cols-1  absolute mt-[9976px] 2xl:mt-[7806px]  left-0 w-[100%] z-20">
+          <div className="border-[2px] border-black"><FooterWeb></FooterWeb></div>
+        </div>
+
+
+<div className="h-[9970px] 2xl:h-[7800px]"></div>
+
+
+
+          
 
     </>
     

@@ -20,15 +20,20 @@ function Loader() {
   return (
     <>
       <div
-        className={`transform transition-all duration-1000 grid grid-cols-5 w-[100vw] right-0 h-[700vw] bg-[#181c20] z-40 fixed ml-[-33px] mt-[-100px] min-[414px]:ml-[-32px] 
-        min-[390px]:ml-[-32px] min-[430px]:ml-[-32px] 
-        min-[412px]:ml-[-32px] min-[1400px]:w-[110%] min-[1400px]:left-0 xl:w-[110%] xl:left-0 min-[768px]:left-0 min-[768px]:w-[120%] ${fadeOut ? "opacity-0" : "opacity-100"}`} // Aggiungi transizione opacità
-      >
-        <div className="w-20 h-20 bg-[#76ABAE] ml-[153px] mt-[250px] min-[1400px]:ml-[925px] rotate-45 min-[1400px]:mt-[450px] min-[390px]:ml-[160px] min-[414px]:ml-[170px] 
-        animate-Loaderr min-[430px]:ml-[178px] min-[412px]:ml-[164px] xl:ml-[670px] xl:mt-[350px] min-[768px]:ml-[430px] min-[768px]:mt-[420px]"></div>
+        className={`transform transition-all duration-1000 grid grid-cols-1 w-[100%] h-[100%]  bg-[#181c20]  z-40 fixed left-0 top-0 
+          ${fadeOut ? "opacity-0" : "opacity-100"}`} 
+>
+        <div className="z-40 col-span-1 flex items-center  justify-center ">
+        <div className="w-20 h-20 bg-[#76ABAE]  mt-[-200px]  rotate-45  
+        animate-Loaderr rounded-[4px] relative">  </div>
+   <div className="z-40 col-span-1 flex items-center  justify-center ">
+        <div className="w-20 h-20 bg-[#325464]  mt-[-200px]  rotate-45  
+        animate-Loaderr2 rounded-[4px] relative">  </div>
+  
+        </div>
+        </div>
 
-        <div className="w-5 h-5 bg-[#213a46] ml-[108px] mt-[280px] min-[1400px]:ml-[536px] min-[1400px]:mt-[480px] rotate-45 animate-Loaderr2 min-[414px]:ml-[117px] min-[390px]:ml-[112px] 
-        min-[430px]:ml-[122px] min-[412px]:ml-[112px] xl:mt-[380px] xl:ml-[403px] min-[768px]:ml-[268px] min-[768px]:mt-[450px] min-[820px]:ml-[400px]"></div>
+      
       </div>
     </>
   );

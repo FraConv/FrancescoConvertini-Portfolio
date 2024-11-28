@@ -13,12 +13,12 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white text-[2.3em] min-[1400px]:text-[70px] text-left xl:text-[50px]">MimmoSoftWeb</h1>
+                    <h1 className=" text-white text-[30px] min-[1400px]:text-[70px] text-left xl:text-[50px]">MimmoSoftWeb</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className="text-white text-[18px] min-[1400px]:text-[26px] min-[768px]:text-[22px] text-left">Sito web di guide tech su vari progetti 
+                    <p className="text-white text-[20px] min-[1400px]:text-[26px] min-[768px]:text-[22px] text-left">Sito web di guide tech su vari progetti 
                     con raspberry, MySQL e Python.</p>
                 </div>
 
@@ -29,58 +29,58 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-white text-[29px] text-left min-[1400px]:text-[35px]">Programmazione:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Programmazione:</h3>
                 </div>
 
 
                 <ul  className="mt-[90px]">
-                    <li className='text-white text-[18px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
+                    <li className='text-white text-[17px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
                         HTML
                     </li>
-                    <li className='text-white text-[18px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         CSS
                     </li>
-                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         Javascript
                     </li>
-                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         Tailwind css
                     </li>
-                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         React
                     </li>
                 </ul> 
   
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h2 className=" text-white text-[29px] min-[1400px]:text-[35px]">Logo design:</h2>
+                    <h2 className=" text-white text-[23px] min-[1400px]:text-[35px]">Logo design:</h2>
                 </div>
 
 
                 <ul  className="mt-[90px]">
-                    <li className='text-white text-[18px] flex justify-center items-center min-[1400px]:text-[26px] min-[768px]:text-[22px] list-disc'>
+                    <li className='text-white text-[17px] flex justify-center items-center min-[1400px]:text-[26px] min-[768px]:text-[22px] list-disc'>
                         Illustrator
                     </li>
                 </ul> 
 
 
                 <div className="flex justify-center items-center mt-[100px] hover:text-black    ">
-                    <a href="https://mimmosoftweb.netlify.app" className="  text-[#000000] hover:text-[#000000]">
-                        <button  className=" border-[#db8f8f] border-[3px] w-[170px] h-[60px] rounded-full mt-10 decoration-none hover:border-[#db8f8f] focus:outline-none focus:ring 
-                        focus:ring-transparent bg-transparent hover:text-black" >     
-                            <span className="absolute mt-[-12px] ml-[-38px] font-semibold text-white">Vai al sito</span>
-                        </button>
+                    <a href="https://mimmosoftweb.netlify.app" className=" border-[#db8f8f] border-[3px] w-[170px] h-[60px] rounded-full mt-10 decoration-none hover:border-[#db8f8f] focus:outline-none focus:ring 
+                        focus:ring-transparent bg-transparent hover:text-black">
+                      
+                            <span className="absolute mt-[13px] ml-[-38px] font-semibold text-white">Vai al sito</span>
+                        
                     </a>
                 </div>
             
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white scale-120 min-[1400px]:text-[70px] text-left">Design sito web </h1>
+                    <h1 className=" text-white scale-120 min-[1400px]:text-[70px] text-[30px] text-left">Design sito web </h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il sito si presenta con l'avvio di un loader basato 
+                    <p className=" text-white text-[17px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il sito si presenta con l'avvio di un loader basato 
                     su quatro linee che si muovono su e giù in maniera assimetrica mentra cambiano colore. 
                         <br />
                         <br />
@@ -115,7 +115,7 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-white text-[29px] text-left min-[1400px]:text-[35px]">Color palette:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Color palette:</h3>
                 </div>
 
 
@@ -135,22 +135,22 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[200px]">
-                    <h3 className=" text-white text-[29px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Il font utilizzato per questo sito è Roboto Mono.</p>
+                    <p className=" text-white text-[17px] text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Il font utilizzato per questo sito è Roboto Mono.</p>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white scale-120  text-left min-[1400px]:text-[70px]">Versione mobile</h1>
+                    <h1 className=" text-white scale-120 text-[30px] text-left min-[1400px]:text-[70px]">Versione mobile</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Per la versione mobile il design 
+                    <p className=" text-white text-[17px] text-left min-[1400px]:text-[26px] min-[768px]:text-[20px]">Per la versione mobile il design 
                     rimane pressoché invariato e privo di eventuali bug.</p>
                 </div>
 

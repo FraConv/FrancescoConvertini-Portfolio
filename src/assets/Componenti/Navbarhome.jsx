@@ -25,7 +25,7 @@ function  Navbarhome() {
 
       const handleScroll= () => {
 
-        const AltezzaScroll=1495
+        const AltezzaScroll=1190
           if(window.scrollY>AltezzaScroll){
             setCambioColore(true)
           }else{

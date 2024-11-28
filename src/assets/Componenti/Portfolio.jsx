@@ -17,26 +17,20 @@ function Portfolio () {
     <>
 
     
-      <Navbar></Navbar>
-
-
-        <div className="  w-[330px] h-[80px]  border-transparent border-[2px] ml-[-20px] mt-[200px]  min-[1400px]:ml-[-250px] min-[1400px]:w-[400px] xl:ml-[-50px] xl:w-[500px] xl:h-[150px]
-        min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
-          <h1 ref={ref} className={` text-white scale-120 ml-5 text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
-          '-translate-x-20 opacity-0'}`}>Portfolio. 
-            <h2 className="min-[1400px]:ml-[318px] ml-[228px] min-[1400px]:mt-[-56px] mt-[-52px] text-[40px]">😎</h2> 
-          </h1>
-        </div>
-                
-                
-        <div className="  w-[330px] h-[70px]  border-transparent border-[2px] ml-[-20px] mt-[50px] min-[1400px]:ml-[-250px] min-[1400px]:w-[600px]  
-        xl:ml-[-50px] xl:mt-[-30px] xl:w-[500px] xl:h-[80px] min-[768px]:ml-[-150px] min-[768px]:w-[500px]">
-          <p ref={ref} className={` text-white text-[20px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000 ${inView ? 'translate-x-0 opacity-100' : 
-        '-translate-x-20 opacity-0'}`}>Qui trovate tutti i lavori che ho realizzato.</p>
+  <div className="grid grid-cols-1 sm:grid-cols-1 absolute top-0 left-0 w-[100%] justify-center items-center">
+          <div className="border-black border-[2px] col-span-1 sm:col-span-2 h-[100px]">
+           <Navbar></Navbar>
+          </div>
+          <div className="border-black border-[2px]"><h1 ref={ref} className={` text-white scale-120  pt-24 p-10 text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 
+          'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>Portfolio.😎</h1>
+              <p ref={ref} className={` text-white text-[17px]   pt-5 p-10 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]transition-all duration-1000 
+          ${inView ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>Qui trovate tutti i lavori che ho realizzato.
+          </p>
+          </div>
         </div>
 
 
-        <div className="min-[1400px]:grid min-[1400px]:grid-cols-6 min-[1400px]:gap-80 xl:grid-cols-4 xl:gap-80 xl:grid">
+        <div className="min-[1400px]:grid min-[1400px]:grid-cols-6 min-[1400px]:gap-80 xl:grid-cols-4 xl:gap-80 xl:grid mt-96">
 
           <Link className="border-2 border-[#213a46] w-10 h-[200px] ml-[-100px] border-none min-[1400px]:ml-[-1950px] xl:ml-[-1950px]" to="/FrancescoConvertini Portfolio">
             <div className=" border-2 border-[#213a46] w-[260px] h-[574px] ml-[24px] absolute mt-[214px] z-10 rounded-br-[125px] min-[1400px]:ml-[1720px] min-[1400px]:mt-[215px]
@@ -146,23 +140,22 @@ function Portfolio () {
         </div>
 
 
-        <div className="w-[330px] h-[160px]  border-transparent border-[2px] ml-[-20px] mt-[300px] min-[1400px]:ml-[-200px]  min-[1400px]:w-[1000px] xl:ml-[-30px] xl:w-[800px] xl:h-[180px]
-        min-[768px]:ml-[-150px] min-[768px]:w-[500px] pt-[100px] min-[1400px]:mt-[500px] xl:mt-[500px]">
-          <p className=" text-[#db8f8f] text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-medium ">
-          Vorresti che i tuoi progetti siano funzionali, accattivanti e interessanti?</p>
-        </div>
-
-                  
-        <div className="w-[300px] h-[330px]  border-transparent border-[2px] ml-[-13px] mt-[70px]  min-[1400px]:ml-[-280px]  min-[1400px]:w-[300px] xl:ml-[-115px] min-[768px]:ml-[-232px]
-        min-[1400px]:mt-[15px] xl:mt-[25px] ">
-          <div  className="ml-[80px] bg-[#db8f8f] w-[170px] h-[60px] rounded-full mt-10 animate-Bottone" >
-            <a href="mailto:francesco16convertini@gmail.com" className=" p-10 pt-[30px] text-black hover:text-black">    
-              <span className="absolute mt-[18px] ml-[-51px]">CONTATTAMI </span></a>
+        <div className="flex justify-start items-start sm:mt-96 mt-[150px] 2xl:ml-[-240px] xl:ml-[-50px] ml-[-40px]">
+            <p className=" text-[#db8f8f] text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] font-medium absolute p-5">
+              Vorresti che i tuoi progetti siano funzionali, accattivanti e interessanti?</p>
+              <a href="mailto:francesco16convertini@gmail.com"  className="flex justify-center items-center bg-[#db8f8f] w-[115px] h-[40px] rounded-full mt-48 animate-Bottone ml-5 xl:w-[180px] xl:h-[60px]">   
+             
+                
+               <span className="absolute mt-[1px] ml-[-1px] text-[14px] xl:text-[18px] text-[#2e1d1d]">CONTATTAMI </span>
+               
+                
+                </a>
+                
           </div>
-        </div>
+      
                     
 
-        <div className="w-2 h-[900px] mt-[-700px] xl:mt-[-600px]"></div>
+        <div className="w-2 h-[900px] mt-[-500px] xl:mt-[-600px]"></div>
 
 
       <FooterWeb></FooterWeb>
