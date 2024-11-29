@@ -68,15 +68,16 @@ function Home () {
        
 
         <div className="grid grid-cols-1 sm:grid-cols-2 absolute top-0 left-0 w-[100%] z-20">
-          <div className="border-black border-[2px] col-span-1 sm:col-span-2 h-[100px]">
+          <div className="col-span-1 sm:col-span-2 h-[100px]">
             <Navbarhome></Navbarhome>
           </div>
-          <div className="border-black border-[2px]"><h1 className=" text-white text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 transform pt-24 p-10">
-            SALVE A TUTTI SONO UN WEB E GRAPHIC DESIGNER.👋</h1>
+          <div className=""><h1 className=" text-white text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 transform pt-24 p-10">
+            SALVE A TUTTI, SONO UN GRAPHIC DESIGNER E FRONT-END DEVELOPER.👋</h1>
               <p className=" text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] transition-all duration-1000 pt-5 p-10">
-                Il mio nome è Francesco Convertini, progetto loghi, illustrazioni, siti e applicazioni web semplici e funzionali per ogni tipo di situazione.🚀</p>
+              Ciao, sono Francesco Convertini. Mi occupo di progettare loghi, illustrazioni, siti e applicazioni web, creando soluzioni semplici, funzionali e 
+              su misura per soddisfare ogni esigenza🚀</p>
           </div>
-          <div className="border-black border-[2px]"> 
+          <div className=""> 
             <img  className="rounded-tl-[100px] rounded-br-[100px] w-[530px] transition-all duration-1000 p-6 sm:mt-[300px] sm:ml-[100px] min-[768px]:w-[300px] xl:w-[530px]" 
             src="foto mia.svg" alt=""/>
           </div>
@@ -84,17 +85,17 @@ function Home () {
 
 
         <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'}
-        border-black border-[2px] grid  grid-cols-1 absolute left-0 w-[100%] z-10 mt-[1260px] bg-[#213a46] rounded-tl-[180px] rounded-br-[180px]`}>
+        grid  grid-cols-1 absolute left-0 w-[100%] z-10 mt-[1260px] bg-[#213a46] rounded-tl-[180px] rounded-br-[180px]`}>
           <div className="mt-[180px]"></div>
-          <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} border-black border-[2px]`}>
+          <div className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}>
             <h2 className=" text-[#db8f8f] text-[30px] text-left min-[1400px]:text-[35px] flex justify-center items-center font-bold p-10">
               L'importanza del UI e UX Design.🤯</h2>
           </div>
-          <div className="border-black border-[2px] flex justify-center items-center">
+          <div className="flex justify-center items-center">
             <img className={`transform transition-all duration-1000 ${visible ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} w-[450px] mt-20 rounded-[50px] p-10`} 
               src="Home2.svg" alt="" />
           </div>
-          <div className="border-black border-[2px] flex justify-center items-center">
+          <div className="flex justify-center items-center">
             <p className=" text-white text-[17px] text-left min-[1400px]:text-[23px] min-[768px]:text-[22px] font-normal p-10 sm:pl-96 sm:pr-96 pt-10">
               Il UX e il UI Design sono due 
                     
@@ -144,12 +145,12 @@ function Home () {
             </p>
           </div>
           <div className="mt-[400px]"></div>
-          <div className="border-black border-[2px] flex justify-center items-center">
+          <div className="flex justify-center items-center">
             <h2 className={`transform transition-all duration-1000 ${visible2 ? '-translate-x-0 opacity-100' : '-translate-x-full opacity-0'} text-[#db8f8f] text-[30px] 
             text-left min-[1400px]:text-[35px] p-10 font-bold`}>
               Cosa vuol dire progettare un logo funzionale.👌</h2>
           </div>
-          <div className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} border-black border-[2px] 
+          <div className={`transform transition-all duration-1000 ${visible2 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} 
           flex justify-center items-center`}>
             <img className= "w-[450px] mt-20 rounded-[50px] p-10" 
               src="Home1.svg" alt="" />
@@ -174,12 +175,12 @@ function Home () {
             </p>
           </div>
           <div className="mt-[400px]"></div>
-          <div className="border-black border-[2px] flex justify-center items-center">
+          <div className=" flex justify-center items-center">
             <h2 className={`transform transition-all duration-1000 ${visible3 ? '-translate-x-0 opacity-100' : '-translate-x-full opacity-0'} text-[#db8f8f] text-[30px] 
             text-left min-[1400px]:text-[35px] p-10 font-bold`}>
                Cosa fa un Web Designer.🤓</h2>
           </div>
-          <div className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'} border-black border-[2px] 
+          <div className={`transform transition-all duration-1000 ${visible3 ? '-translate-y-0 opacity-100' : 'translate-y-full opacity-0'}
           flex justify-center items-center`}>
             <img className= "w-[450px] mt-20 rounded-[50px] p-10" 
               src="Home3.svg" alt="" />
@@ -236,7 +237,7 @@ function Home () {
 
 
         <div className="grid grid-cols-1  absolute mt-[9976px] 2xl:mt-[7806px]  left-0 w-[100%] z-20">
-          <div className="border-[2px] border-black"><FooterWeb></FooterWeb></div>
+          <div className=""><FooterWeb></FooterWeb></div>
         </div>
 
 

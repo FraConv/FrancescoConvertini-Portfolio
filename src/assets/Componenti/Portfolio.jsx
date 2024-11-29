@@ -18,10 +18,10 @@ function Portfolio () {
 
     
   <div className="grid grid-cols-1 sm:grid-cols-1 absolute top-0 left-0 w-[100%] justify-center items-center">
-          <div className="border-black border-[2px] col-span-1 sm:col-span-2 h-[100px]">
+          <div className="col-span-1 sm:col-span-2 h-[100px]">
            <Navbar></Navbar>
           </div>
-          <div className="border-black border-[2px]"><h1 ref={ref} className={` text-white scale-120  pt-24 p-10 text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 
+          <div className=""><h1 ref={ref} className={` text-white scale-120  pt-24 p-10 text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 
           'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>Portfolio.😎</h1>
               <p ref={ref} className={` text-white text-[17px]   pt-5 p-10 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]transition-all duration-1000 
           ${inView ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>Qui trovate tutti i lavori che ho realizzato.

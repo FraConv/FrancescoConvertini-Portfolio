@@ -54,10 +54,10 @@ function Chisono () {
   
 
   <div className="grid grid-cols-1 sm:grid-cols-2 absolute top-0 left-0 w-[100%] z-20">
-          <div className="border-black border-[2px] col-span-1 sm:col-span-2 h-[100px]">
+          <div className="col-span-1 sm:col-span-2 h-[100px]">
            <Navbar></Navbar>
           </div>
-          <div className="border-black border-[2px]"><h1 ref={ref} className={` text-white scale-120  pt-24 p-10 text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 
+          <div className=""><h1 ref={ref} className={` text-white scale-120  pt-24 p-10 text-[48px] text-left min-[1400px]:text-[70px] transition-all duration-1000 ${inView ? 
           'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>Chi sono.🧐</h1>
               <p ref={ref} className={` text-white text-[17px]   pt-5 p-10 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]transition-all duration-1000 
           ${inView ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>Sono nato il 16 Marzo del 2002 e attualmente vivo in Puglia a Palo Del Colle(BA).
@@ -82,7 +82,7 @@ function Chisono () {
         </div>
 
 
-        <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} border-black border-[2px] 
+        <div className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} 
         grid  grid-cols-1 absolute left-0 w-[100%] mt-[1300px] p-10`}>
           <h2 className=" text-white text-[30px] text-left min-[1400px]:text-[35px] font-bold">Skill Front-End Developer:</h2>
           <ul  className={`transform transition-all duration-1000 ${visible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} pt-5`}>
@@ -152,7 +152,7 @@ function Chisono () {
        
 
 
-        <div className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} border-black border-[2px] 
+        <div className={`transform transition-all duration-1000 ${visible2 ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} 
         grid  grid-cols-1 absolute left-0 w-[100%] mt-[2850px] p-10`}>
           <h2 className=" text-white text-[30px] ml-5 text-left  min-[1400px]:text-[35px] font-bold">Skill Graphic e Web Designer:</h2>
 

@@ -13,7 +13,7 @@ function MimmoSoftWebDescription(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white text-[30px] min-[1400px]:text-[70px] text-left xl:text-[50px]">MimmoSoftWeb</h1>
+                    <h1 className=" text-white text-[36px] min-[1400px]:text-[70px] text-left xl:text-[50px]">MimmoSoftWeb</h1>
                 </div>
 
 

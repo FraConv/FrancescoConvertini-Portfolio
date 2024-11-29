@@ -14,7 +14,7 @@ function Moon(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white text-[50px] text-left  min-[1400px]:text-[70px] xl:text-[50px]">Wanderlust Adventures
+                    <h1 className=" text-white text-[48px] text-left min-[1400px]:text-[70px] xl:text-[50px]">Wanderlust Adventures
                     </h1>
                 </div>
 
@@ -31,27 +31,27 @@ function Moon(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-white text-[29px] text-left min-[1400px]:text-[35px]">software usati:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">software usati:</h3>
                 </div>
 
 
                 <ul  className="mt-[90px]">
-                    <li className='text-white text-[18px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
+                    <li className='text-white text-[17px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
                     Illustrator
                     </li>
-                    <li className='text-white text-[18px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                     Photoshop
                     </li>
                 </ul> 
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white scale-120  text-left min-[1400px]:text-[70px]">Creazione del logo</h1>
+                    <h1 className=" text-white scale-120 text-[30px] text-left min-[1400px]:text-[70px]">Creazione del logo</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">l'agenzia di viaggo Wanderlust Adventures ha richiesto un logo 
+                    <p className=" text-white text-[17px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">l'agenzia di viaggo Wanderlust Adventures ha richiesto un logo 
                     che trasmetta avventura, esplorazione e meraviglia.
                         <br />
                         <br />
@@ -65,16 +65,16 @@ function Moon(){
 
 
                 <div className="flex justify-center items-center flex-col">
-                    <p className="text-white text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Fase di progettazione:</p>
+                    <p className="text-white text-[17px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[768px]:text-[22px]">Fase di progettazione:</p>
                         <img className="scale-[.60] xl:scale-[.23] min-[1400px]:scale-[.30] min-[768px]:scale-[.40] min-[1400px]:mt-[-200px] xl:mt-[-300px]" src="wa3.svg" alt="" />
-                            <p className="text-white text-[18px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[1400px]:mt-[-100px] min-[768px]:text-[22px] xl:mt-[-200px]">
+                            <p className="text-white text-[17px] mt-[200px] text-left font-semibold min-[1400px]:text-[26px] min-[1400px]:mt-[-100px] min-[768px]:text-[22px] xl:mt-[-200px]">
                             Risultato finale:</p>
                                 <img className="scale-[.60] xl:scale-[.87] min-[1400px]:scale-[1.12] min-[768px]:scale-[.85] min-[768px]:mt-[200px] min-[1400px]:mt-[200px] xl:mt-[200px]" src="rosa per sito.svg" alt="" />
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[100px] min-[1400px]:mt-[200px] xl:mt-[100px]">
-                    <h3 className=" text-white text-[29px] ml-5 text-left min-[1400px]:text-[35px]">Color palette:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Color palette:</h3>
                 </div>
 
 
@@ -84,22 +84,22 @@ function Moon(){
 
 
                 <div className="flex justify-center items-center mt-[100px]">
-                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il suo colore richiama la sicurezza e il mare.</p>
+                    <p className=" text-white text-[17px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il suo colore richiama la sicurezza e il mare.</p>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[200px]">
-                    <h3 className=" text-white text-[29px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Tipografia:</h3>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-white text-[18px] ml-5 text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per questo logo è Gotham-Medium.</p>
+                    <p className=" text-white text-[17px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il font utilizzato per questo logo è Gotham-Medium.</p>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white scale-120 text-left min-[1400px]:text-[70px]">Mockup</h1>
+                    <h1 className=" text-white scale-120 text-[30px] text-left min-[1400px]:text-[70px]">Mockup</h1>
                 </div>
 
 

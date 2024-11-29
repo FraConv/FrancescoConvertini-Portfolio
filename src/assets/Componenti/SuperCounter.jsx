@@ -13,12 +13,12 @@ function SuperCounter(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white scale-120  text-left min-[1400px]:text-[70px] xl:text-[50px]">Super Counter</h1>
+                    <h1 className=" text-white scale-120 text-[48px] text-left min-[1400px]:text-[70px] xl:text-[50px]">Super Counter</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-white text-[20px]  text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Applicazione web che permette di usare un contatore in 
+                    <p className=" text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Applicazione web che permette di usare un contatore in 
                     maniera originale.</p>
                 </div>
 
@@ -30,36 +30,36 @@ function SuperCounter(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-white text-[29px]text-left min-[1400px]:text-[35px]">Programmazione:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Programmazione:</h3>
                 </div>
 
 
                 <ul  className="mt-[90px]">
-                    <li className='text-white text-[18px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
+                    <li className='text-white text-[17px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
                         HTML
                     </li>
-                    <li className='text-white text-[18px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         CSS
                     </li>
-                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         Javascript
                     </li>
-                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         Tailwind css
                     </li>
-                    <li className='text-white text-[18px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
+                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
                         React
                     </li>
                 </ul>       
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-white text-[29px] text-left min-[1400px]:text-[35px]">Logo design:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Logo design:</h3>
                 </div>
 
 
                 <ul  className="mt-[90px]">
-                    <li className='text-white text-[18px] flex justify-center items-center min-[1400px]:text-[26px] min-[768px]:text-[22px] list-disc'>
+                    <li className='text-white text-[17px] flex justify-center items-center min-[1400px]:text-[26px] min-[768px]:text-[22px] list-disc'>
                         Illustrator
                     </li>
                 </ul> 
@@ -78,12 +78,12 @@ function SuperCounter(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white scale-120  text-left min-[1400px]:text-[70px]">Design web app</h1>
+                    <h1 className=" text-white scale-120 text-left min-[1400px]:text-[70px] text-[30px]">Design web app</h1>
                 </div>
 
 
                 <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il design dell'app è basato su uno stile molto minimal 
+                    <p className=" text-white text-[17px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Il design dell'app è basato su uno stile molto minimal 
                     per via del contenuto che offre e per un esperienza pulita.
                         <br />
                         <br />
@@ -99,7 +99,7 @@ function SuperCounter(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-white text-[29px]text-left min-[1400px]:text-[35px]">Color palette:</h3>
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Color palette:</h3>
                 </div>
 
 
@@ -134,11 +134,11 @@ function SuperCounter(){
 
 
                 <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className=" text-white scale-120 text-left min-[1400px]:text-[70px]">Versione mobile</h1>
+                    <h1 className=" text-white scale-120 text-left min-[1400px]:text-[70px] text-[23px]">Versione mobile</h1>
                 </div>
 
                 <div className="flex justify-center items-center mt-[90px]">
-                <p className=" text-white text-[18px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la versione mobile il design del sito rimane invariato e privo di eventuali bug.</p>
+                <p className=" text-white text-[17px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">Per la versione mobile il design del sito rimane invariato e privo di eventuali bug.</p>
                 </div>
 
 
