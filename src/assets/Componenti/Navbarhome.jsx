@@ -1,137 +1,99 @@
-
-import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
+function Navbarhome() {
+  const [menuVisible, setMenuVisible] = useState(false);
+  const [scrollChanged, setScrollChanged] = useState(false);
 
+  // Disabilita lo scroll della pagina quando il menu è aperto
+  useEffect(() => {
+    document.body.style.overflow = menuVisible ? 'hidden' : 'auto';
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [menuVisible]);
 
-function  Navbarhome() {
+  // Cambia sfondo navbar su scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollChanged(window.scrollY > 1190);
+    };
 
-  const [Comparsa, setComparsa]= useState (  "mt-[5000px]");
-  const [MovimentoGiu, setMovimentoGiu]= useState ("mt-[-40px]");
-  const [MovimentoSu, setMovimentoSu]= useState ("mt-[-40px]");
-  const [CambioColore, setCambioColore]=useState (false);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
-  const clickMouse= () => {
-  
-    setComparsa(prevComparsa => prevComparsa ===  "mt-[5000px]" ? "mt-[24px]":   "mt-[5000px]");
-
-    setMovimentoGiu(prevMovimentoGiu => prevMovimentoGiu === "mt-[-40px]" ? "translate-y-[6px]" : "mt-[-40px]");
-
-    setMovimentoSu(prevMovimentoSu => prevMovimentoSu === "mt-[-40px]" ? "translate-y-[-6px]" : "mt-[-40px]");
-
-  }
-
-    useEffect(()=>{
-
-      const handleScroll= () => {
-
-        const AltezzaScroll=1190
-          if(window.scrollY>AltezzaScroll){
-            setCambioColore(true)
-          }else{
-            setCambioColore(false)
-          }
-
-      };
-
-      window.addEventListener('scroll', handleScroll);
-
-      return()=>{
-        window.removeEventListener('scroll',handleScroll);
-      }
-
-   
-    }, []);
-
-
-    
+  // Scrolla verso la sezione e chiude il menu
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      setMenuVisible(false);
+    }
+  };
 
   return (
-  
     <>
-      {/*  NavBar */}
-
- 
-
- 
-      <header className=" shadow-lg min-[500px]:w-[375px] h-[80px]  bg-[#76ABAE] fixed top-4 left-4 xl:w-[97%] xl:ml-[4px]  
-        min-[768px]:w-[96%] min-[412px]:w-[382px] min-[414px]:w-[382px]  min-[360px]:w-[330px] min-[430px]:w-[399px] min-[375px]:w-[343px] min-[390px]:w-[359px] rounded-tl-full rounded-br-full 
-        z-30 min-[1400px]:w-[98%]">
-
-        <div className=' w-[50px] h-[50px] mt-4 ml-7 '>
-
-
-<Link to="/">
- <img src="Logo mio.svg"/>
- </Link>
-
+      <nav className="fixed top-[1rem] gap-40 2xl:gap-[60rem] xl:gap-[27rem] xl:w-[95%] flex flex-row justify-center left-1/2 -translate-x-1/2 w-[90%] 2xl:w-[97%] z-30 h-[80px] bg-[#76ABAE] rounded-tl-full rounded-br-full">
+        <div className='w-12 h-12 mt-[1rem] flex items-start justify-start'>
+          <img className='w-full h-full' src="Logo mio.svg" alt="Logo" onClick={() => scrollToSection('home')} />
         </div>
 
-
-
-
-        <div className='  min-[414px]:ml-[15px] ml-[-30px]   min-[412px]:ml-[5px] xl:hidden mt-1 min-[768px]:ml-[365px]'>
-          <div className= {` bg-black w-7 h-[6px] ml-[270px] mt-[-40px] rounded-t-[100px]   transition-transform duration-700 ${MovimentoGiu} `} onClick={clickMouse}></div>
-          <div className=' bg-black w-9 h-1 ml-[266px] mt-[5px] rounded-[100px]' onClick={clickMouse} ></div>
-          <div className={` bg-black w-7 h-[6px] ml-[270px] mt-[5px] rounded-b-[100px]  transition-transform duration-700 ${MovimentoSu}`}  onClick={clickMouse}></div>
+        <div
+          className="w-12 h-12 mt-[1rem] flex items-center justify-center cursor-pointer 2xl:hidden xl:hidden"
+          onClick={() => setMenuVisible(prev => !prev)}
+        >
+          {/* ANIMAZIONE HAMBURGER → X */}
+          <div className="flex flex-col justify-between items-center w-[60%] h-[50%]">
+            <div
+              className={`w-full h-[4px] bg-black rounded-full transition-all duration-300 ease-in-out  rounded-b-[50px] ${
+                menuVisible ? 'rotate-45 translate-y-[10px] h-[4px] rounded-b-[0px]' : 'rotate-0'
+              }`}
+            />
+            <div
+              className={`w-[40px] h-[4px] bg-black rounded-full transition-all duration-300 ease-in-out ${
+                menuVisible ? 'opacity-0' : 'opacity-100'
+              }`}
+            />
+            <div
+              className={`w-full h-[4px] bg-black rounded-full transition-all duration-300 ease-in-out rounded-t-[50px] ${
+                menuVisible ? '-rotate-45 -translate-y-[10px] h-[4px] rounded-b-[0px]' : 'rotate-0'
+              }`}
+            />
+          </div>
         </div>
 
+        <div className='grid grid-cols-4 gap-10 mt-4 max-[500px]:hidden text-black'>
+          <div>
+            <button className='w-[8rem] h-auto rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('home')}>Home</button>
+          </div>
+          <div>
+            <button className='w-[8rem] h-auto rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('chi-sono')}>Chi sono</button>
+          </div>
+          <div>
+            <button className='w-[8rem] h-auto rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('portfolio')}>Portfolio</button>
+          </div>
+          <div>
+            <button className='w-[8rem] h-auto rounded-full text-white' onClick={() => scrollToSection('Contatti')}>Contatti</button>
+          </div>
+        </div>
+      </nav>
 
-        <ul className={` shadow-lg grid grid-rows mt-[-200px] w-[105px]   pt-[50px] transition-all duration-700 xl:hidden bg-[#76ABAE] rounded-bl-[100px] h-[300px]
-        ${Comparsa}  `}>
-          <li className=' border-black border-[3px] w-[85px] h-8 mt-[-20px] p-[1px] ml-[10px] rounded-full'>
-            <Link to="/" className='text-black '>Home</Link>
-          </li>
-          <li className='mt-[-45px] border-black border-[3px] w-[85px] h-8 p-[1px] ml-[10px] rounded-full'>
-            <Link to="/Chi sono" className='text-black'>Chi sono</Link>
-          </li>
-          <li className='mt-[-55px] border-black border-[3px] w-[85px] h-8 p-[1px] ml-[10px] rounded-full'>
-            <Link to="/Portfolio" className='text-black'>Portfolio</Link>
-          </li>
-          <li className='mt-[-68px] bg-black w-[85px] h-8 p-1 ml-[10px] rounded-full'>
-            <a href="mailto:francesco16convertini@gmail.com" className='text-white'>Contatti</a>
-          </li>
-        </ul>
-  
+      {/* Menu a tendina */}
+      <div className={`fixed left-0 top-0 w-full h-full bg-[#76ABAE] z-[29] transition-transform duration-300 
+        ${menuVisible ? "translate-x-0" : "translate-x-[-100%]"}`}>
 
-        <nav>
-          <ul className='xl:grid xl:grid-cols-4 hidden mt-[-40px] ml-[1050px]  xl:ml-[500px] min-[1400px]:gap-10 min-[1400px]:ml-[960px] '>
-            <div className='ml-[-30px] flex justify-left items-left'>
-              <Link to="/" className='text-black hover:text-black text-[20px] '>
-                <li className='border-black border-[2px] w-[130px] h-9 rounded-full '>
-                Home
-                </li>
-              </Link>
-            </div>
-            <div className='ml-[-30px] flex justify-left items-left'>
-              <Link to="/Chi sono" className='text-black hover:text-black text-[20px]'>
-                <li className='border-black border-[2px] w-[130px] h-9 rounded-full'>
-                Chi sono
-                </li>
-              </Link>
-            </div>
-            <div className='ml-[-30px] flex justify-left items-left'>
-              <Link to="/Portfolio" className='text-black hover:text-black text-[20px]'>
-                <li className='border-black border-[2px] w-[130px] h-9 rounded-full'>
-                Portfolio
-                </li>
-              </Link>
-            </div>
-            <div className='ml-[-30px] flex justify-left items-left'>
-              <a href="mailto:francesco16convertini@gmail.com" className='text-white hover:text-white text-[20px]'>
-                <li className='bg-black w-[130px] h-9 rounded-full p-[3px]'>
-                Contatti
-                </li>
-              </a>
-            </div>
-          </ul>
-        </nav>
+        {/* Voci di menu */}
+        <div className="flex flex-col items-center justify-center h-full gap-10 text-black text-2xl">
+          <button className='w-48 rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('home')}>Home</button>
+          <button className='w-48 rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('chi-sono')}>Chi sono</button>
+          <button className='w-48 rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('portfolio')}>Portfolio</button>
+          <button className='w-48 rounded-full text-white' onClick={() => scrollToSection('Contatti')}>Contatti</button>
+        </div>
+      </div>
 
-
-      </header>
-
-      <div className={`border-2 border-transparent w-[100%] h-[96px] left-0 top-0 z-20 fixed ${CambioColore ? 'bg-[#213a46]' : 'bg-[#181c20]'} transition-colors duration-500 `}></div>
-
+      {/* Overlay colore top su scroll */}
+      <div className={`fixed top-0 left-0 z-20 w-full h-[96px] border-2 border-transparent transition-colors duration-500 
+        ${scrollChanged ? 'bg-[#213a46]' : 'bg-[#181c20]'}`} />
     </>
   );
 }

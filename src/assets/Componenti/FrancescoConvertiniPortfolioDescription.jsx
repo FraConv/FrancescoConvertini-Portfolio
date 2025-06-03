@@ -1,172 +1,115 @@
 import ColorPallet from "./ColorPallet";
 import FooterWeb from "./FooterWeb";
-import Navbar from "./NavBar"
+import { ChevronLeft } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 
-function FrancescoConvertiniPortfolioDescription(){
 
+
+function LuckyRollDescription(){
+    const navigate = useNavigate();
     return(
-
         <>
 
-            <Navbar></Navbar>
+               <button onClick={() => navigate(-1)} className="absolute top-24 left-14 -translate-y-1/2 z-10 w-8 border-[2px] hover:border-[#76ABAE] border-[#76ABAE] shadow p-2 rounded-full">
+                    <div className="ml-[-8px]">
+                        <ChevronLeft color="white" size={28} />
+                    </div>
+                </button>
 
-                <div className="flex justify-center items-center mt-[300px]">
-                    <h1 className="text-white text-[48px] text-left min-[1400px]:text-[70px] xl:text-[50px]">
-                    Francesco Convertini</h1>
+                <div className="grid grid-cols-1 overflow-hidden mt-[8rem] px-5 2xl:ml-[-24%]">
+                    <h1 className=" text-white text-[36px] text-left">Portfolio Francesco Convertini</h1>
+                    <p className="text-white text-[20px] text-left mt-5">Portfolio personale per far conoscere le proprie abilità di Design e programmazione.</p>
+                </div>
+                <div className=" justify-center grid grid-cols-1 items-center px-5 mt-8 rounded-3xl 2xl:ml-[-24%] 2xl:w-[70%] xl:w-[60%]">
+                    <img className="rounded-3xl border-2 border-white" src="portfolio.svg" alt="" />
                 </div>
 
-
-                <div className="flex justify-center items-center mt-[90px]">
-                    <p className=" text-white text-[20px] text-left min-[1400px]:text-[26px] min-[768px]:text-[22px]">
-                    Portfolio personale per far conoscere le proprie abilità di Graphic Design e programazzione.</p>
+                <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 2xl:ml-[-24%]">
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Programmazione:</h3>
+                    <ul className="gap-3 grid grid-cols-1 mt-5 pl-5 text-left">
+                        <li className="list-disc">JavaScript</li>
+                        <li className="list-disc">React</li>
+                        <li className="list-disc">Tailwind css</li>
+                    </ul>
                 </div>
 
-
-                <div className="scaflex justify-center items-center mt-[300px]">
-                    <img className="scale-105 mt-[100px] min-[1400px]:scale-[.70]  min-[1400px]:mt-[-210px] xl:scale-[.60]
-                    xl:mt-[-70px] min-[768px]:scale-[0.80] border-white border-[2px]" src="mio.svg" alt=""/>
+                 <div className="grid grid-cols-1 overflow-hidden mt-[3rem] px-5 2xl:ml-[-24%]">
+                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Design:</h3>
+                    <ul className="gap-3 grid grid-cols-1 mt-5 pl-5 text-left">
+                        <li className="list-disc">Figma</li>
+                        <li className="list-disc">Illustrator</li>
+                    </ul>
                 </div>
 
-
-                <div className="flex justify-center items-center mt-[300px]">
-                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">
-                        Programmazione:
-                    </h3>
-                </div>
-
-
-                <ul  className="mt-[90px]">
-                    <li className='text-white text-[17px] text-left min-[1400px]:text-[26px]  flex justify-center items-center  min-[768px]:text-[22px] list-disc'>
-                        HTML
-                    </li>
-                    <li className='text-white text-[17px]  flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
-                        CSS
-                    </li>
-                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
-                        Javascript
-                    </li>
-                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
-                        Tailwind css
-                    </li>
-                    <li className='text-white text-[17px] flex justify-center items-center text-left min-[1400px]:text-[26px] min-[768px]:text-[22px] mt-[10px] list-disc'>
-                        React
-                    </li>                   
-                </ul>       
-
-
-                <div className="flex justify-center items-center mt-[300px]">            
-                    <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">
-                        Logo design:
-                    </h3> 
-                </div>
-
-
-                <ul  className="mt-[90px]">               
-                    <li className='text-white text-[17px] flex justify-center items-center min-[1400px]:text-[26px] min-[768px]:text-[22px] list-disc'>
-                        Illustrator
-                    </li>          
-                </ul> 
-
-
-                <div className="flex justify-center items-center mt-[300px]">         
-                    <h1 className=" text-white scale-120 text-[30px] text-left min-[1400px]:text-[70px]">
-                        Design sito web
-                    </h1>   
-                </div>
-
-
-                <div className="flex justify-center items-center mt-[90px]">    
-                    <p className=" text-white text-[17px]  text-left min-[1400px]:text-[26px]  min-[768px]:text-[22px]">Il design del sito è basato su uno stile semplice e ordinato, 
-                        con pochi elementi sullo schermo per un esperienza utente pulita. 
+                <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 xl:pr-96 2xl:ml-[-24%]">
+                    <h1 className=" text-white text-[30px] text-left">Sviluppo completo del sito</h1>
+                    <p className="text-white text-[20px] text-left mt-5">Lucky Roll è un'app web interattiva che simula il lancio di un dado con un'esperienza visiva ispirata al mondo del gioco e della casualità. 
                             <br />
                             <br />
-                        La navbar ha un design unico e originale, e comprende il logo alla sinistra e alla destra le
-                        opzioni: Home, Chi sono, Portfolio e Contatti.
+                        In questo progetto ho curato sia l’interfaccia grafica che la logica funzionale, con particolare attenzione all’animazione del dado e al design responsive.
                             <br />
                             <br />
-                         Il sito si apre con un loader composto da due rombi di diverso colore 
-                        e dimensione che girano con tempi diversi. 
+                        L’app si basa su React e utilizza useState per gestire lo stato del dado, lo stato di lancio e il messaggio di stato. L’effetto animato del dado in movimento è stato ottenuto tramite classi dinamiche in Tailwind CSS, restituendo un’interazione realistica e reattiva. 
                             <br />
                             <br />
-                        Alla fine del caricamento si viene portati nella home del sito, con a sinistra la descrizione del sito e a destra in 
-                        bella vista una foto personale, sotto invece possiamo trovare vari testi su diversi argomenti di design. 
+                        Il bottone centrale “Roll” attiva un’animazione temporizzata e restituisce un numero casuale da 1 a 6, offrendo così un’interazione pulita.
                             <br />
                             <br />
-                        Cliccando sull'opzione "Chi sono" l'utente verrà portato in una pagina dove ci saranno
-                        varie informazioni personali tra cui le varie skill con accanto le rispettive immagini.
+                        Dal punto di vista estetico, l’interfaccia è progettata per evocare un’atmosfera da gioco notturno, con sfondo a gradiente blu scuro, immagini di dadi lanciati sullo sfondo, testi in bianco e un layout completamente centrato. 
                             <br />
                             <br />
-                        Cliccando sull'opzione Portfolio si verrà portati in una pagina con varie
-                        cards, ogni card mostra un progetto diverso di web design, graphic design e programmazione, descritto in maniera pulita, coerente e con le varie immagini.
+                        Il design punta a essere miniaml con un'atmosfera suggestiva e misteriosa, lasciando che sia l’esperienza interattiva a catturare l’utente.
                     </p>
                 </div>
 
-
-                <div className="flex justify-center items-center mt-[300px] flex-col">
-                    <img className=" scale-105 mt-[100px]  min-[1400px]:scale-[.70]  min-[1400px]:mt-[-190px] xl:scale-[.60]
-                    xl:mt-[-70px] min-[768px]:scale-[0.80] border-white border-[2px]" src="mio.svg" alt="" />
-                    <img className=" scale-105 mt-[100px] min-[1400px]:scale-[.70] min-[1400px]:mt-[-160px] xl:scale-[.60]
-                    xl:mt-[-70px] min-[768px]:scale-[0.80] border-white border-[2px]" src="mio2.svg" alt="" />
-                    <img className=" scale-105 mt-[100px] min-[1400px]:scale-[.70] min-[1400px]:mt-[-160px] xl:scale-[.60]
-                    xl:mt-[-70px] min-[768px]:scale-[0.80] border-white border-[2px]" src="mio3.svg" alt="" />
+                <div className=" justify-center grid grid-cols-1 items-center flex-col gap-3 px-5 mt-8 rounded-3xl 2xl:ml-[-24%]" >
+                    <img className="rounded-3xl border-2 border-white  2xl:w-[60%] xl:w-[60%]" src="portfolio.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white  2xl:w-[60%] xl:w-[60%]" src="portfolio2.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white  2xl:w-[60%] xl:w-[60%]" src="portfolio3.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white  2xl:w-[60%] xl:w-[60%]" src="portfolio4.svg" alt="" />
                 </div>
 
 
-                <div className="flex justify-center items-center mt-[300px]">
+                <div className="flex justify-center items-center mt-[7rem]">
                     <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Color palette:</h3>
                 </div>
-
-
-                <div className="flex justify-center items-center flex-col mt-[100px]">
-                    <ColorPallet className="bg-[#76abae]" code="#76abae"></ColorPallet>
+                <div className="flex justify-center items-center flex-col mt-[1rem]">
+                    <ColorPallet className="bg-[#76ABAE]" code="#76ABAE"></ColorPallet>
                 </div>
-
-
-                <div className="flex justify-center items-center flex-col mt-[100px]">
+                <div className="flex justify-center items-center flex-col mt-[1rem]">
+                    <ColorPallet className="bg-[#173b3d]" code="#173b3d"></ColorPallet>
+                </div>
+                <div className="flex justify-center items-center flex-col mt-[1rem]">
+                    <ColorPallet className="bg-[#415e5f]" code="#415e5f"></ColorPallet>
+                </div>
+                 <div className="flex justify-center items-center flex-col mt-[1rem]">
+                    <ColorPallet className="bg-[#ffffff]" code="#ffffff"></ColorPallet>
+                </div>
+                 <div className="flex justify-center items-center flex-col mt-[1rem]">
                     <ColorPallet className="bg-[#181c20]" code="#181c20"></ColorPallet>
                 </div>
-
-
-                <div className="flex justify-center items-center flex-col mt-[100px]">
-                    <ColorPallet className="bg-[#213a46]" code="#213a46"></ColorPallet>
-                </div>
-
-
-                <div className="flex justify-center items-center flex-col mt-[100px]">
+                <div className="flex justify-center items-center flex-col mt-[1rem]">
                     <ColorPallet className="bg-[#232630]" code="#232630"></ColorPallet>
                 </div>
 
-                <div className="flex justify-center items-center flex-col mt-[100px]">
-                <h3 className=" text-white text-[23px]  text-left min-[1400px]:text-[35px]">Tipografia:</h3>
+                 <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 2xl:ml-[-24%]">
+                    <h1 className=" text-white text-[23px] text-left">Tipografia</h1>
+                    <p className="text-white text-[20px] text-left mt-5">Il font utilizzato per questo sito è Encode Sans.</p>
                 </div>
+             
+            <div className="h-[500px]"></div>
 
-                <div className="flex justify-center items-center mt-[90px]">
-                <p className=" text-white text-[17px]  text-left min-[1400px]:text-[26px]  min-[768px]:text-[22px]">Il font utilizzato per questo sito è il Poppins.</p>
-                </div>
 
-                <div className="flex justify-center items-center mt-[300px]">
-                <h1 className=" text-white scale-120 text-[30px] text-left min-[1400px]:text-[70px]">Versione mobile</h1>
-                </div>
+        <FooterWeb></FooterWeb>
 
-                <div className="flex justify-center items-center mt-[90px]">
-                <p className=" text-white text-[17px]  text-left min-[1400px]:text-[26px]  min-[768px]:text-[22px]">Per la versione mobile è stato fatto un lavoro accurato, per rendere il tutto 
-                    più chiaro, leggibile e coerente possibile alle varie piattaformi mobile.</p>
-                </div>
-
-                <div className="flex justify-center items-center mt-[90px]">
-                <img className=" scale-[.80] mt-[90px]  min-[1400px]:scale-[1.26] min-[1400px]:mt-[200px] xl:scale-[1.0]
-                xl:mt-[130px] min-[768px]:scale-[.43] min-[768px]:mt-[-200px] border-white border-[1px]" src="mio4.svg" alt="" />
-                </div> 
-
-                <div className="h-[900px]"></div>
-
-            <FooterWeb></FooterWeb>
 
         </>
 
-    )
+    );
 
 }
 
-export default FrancescoConvertiniPortfolioDescription;
+
+
+export default LuckyRollDescription;

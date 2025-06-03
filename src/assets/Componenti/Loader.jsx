@@ -2,40 +2,24 @@ import { useState, useEffect } from "react";
 
 function Loader() {
   const [loading, setLoading] = useState(true);
-  const [fadeOut, setFadeOut] = useState(false); // Nuovo stato per gestire la dissolvenza
+  const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    // Simula un'operazione di caricamento
     const timer = setTimeout(() => {
-      setFadeOut(true); // Attiva la dissolvenza
-      setTimeout(() => setLoading(false), 1000); // Nasconde il loader dopo la dissolvenza
+      setFadeOut(true);
+      setTimeout(() => setLoading(false), 1000);
     }, 3000); // 3 secondi
 
     return () => clearTimeout(timer);
   }, []);
 
-  if (!loading) return null; // Nascondi il loader una volta terminato
-
+  if (!loading) return null;
 
   return (
-    <>
-      <div
-        className={`transform transition-all duration-1000 grid grid-cols-1 w-[100%] h-[100%]  bg-[#181c20]  z-40 fixed left-0 top-0 
-          ${fadeOut ? "opacity-0" : "opacity-100"}`} 
->
-        <div className="z-40 col-span-1 flex items-center  justify-center ">
-        <div className="w-20 h-20 bg-[#76ABAE]  mt-[-200px]  rotate-45  
-        animate-Loaderr rounded-[4px] relative">  </div>
-   <div className="z-40 col-span-1 flex items-center  justify-center ">
-        <div className="w-20 h-20 bg-[#325464]  mt-[-200px]  rotate-45  
-        animate-Loaderr2 rounded-[4px] relative">  </div>
-  
-        </div>
-        </div>
-
-      
-      </div>
-    </>
+    <div className={`fixed inset-0 z-40 flex items-center justify-center  bg-[#181c20] transition-opacity duration-1000 ${fadeOut ? "opacity-0" : "opacity-100"}`}>
+      <div className="relative w-24 h-24 rotate-45 bg-[#76ABAE] animate-Loaderr rounded-[2px] flex items-center justify-center"></div>
+      <div className="w-9 h-9 rotate-45 absolute bg-[#325464] animate-Loaderr2 rounded-[2px]"></div>
+    </div>
   );
 }
 

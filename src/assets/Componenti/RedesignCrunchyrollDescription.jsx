@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
-function MimmoSoftWebDescription(){
+function RedesignCrunchyrollDescription(){
     const navigate = useNavigate();
     return(
         <>
@@ -18,17 +18,17 @@ function MimmoSoftWebDescription(){
                 </button>
 
                 <div className="grid grid-cols-1 overflow-hidden mt-[8rem] px-5 2xl:ml-[-24%]">
-                    <h1 className=" text-white text-[36px] text-left">MimmoSoftWeb</h1>
-                    <p className="text-white text-[20px] text-left mt-5">Sito web di guide tech su vari progetti con raspberry, MySQL e Python.</p>
+                    <h1 className=" text-white text-[36px] text-left">Redesign Crunchyroll</h1>
+                    <p className="text-white text-[20px] text-left mt-5">Redesign dimostrativo del sito Crunchyroll che punta ad avere una UI migliore.</p>
                 </div>
                 <div className="justify-center grid grid-cols-1 items-center px-5 mt-8 rounded-3xl 2xl:ml-[-24%] 2xl:w-[60%] xl:w-[60%]">
-                    <img className="rounded-3xl border-2 border-white" src="Homemimmo.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white" src="CrunchyrollCards.svg" alt="" />
                 </div>
 
                 <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 2xl:ml-[-24%]">
                     <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Programmazione:</h3>
                     <ul className="gap-3 grid grid-cols-1 mt-5 pl-5 text-left">
-                        <li className="list-disc">JavaScript</li>
+                        <li className="list-disc">TypeScript</li>
                         <li className="list-disc">React</li>
                         <li className="list-disc">Tailwind css</li>
                     </ul>
@@ -50,34 +50,34 @@ function MimmoSoftWebDescription(){
                 </div>
 
                 <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 xl:pr-96 2xl:ml-[-24%]">
-                    <h1 className=" text-white text-[30px] text-left">Sviluppo completo dell'sito</h1>
-                    <p className="text-white text-[20px] text-left mt-5">Un portale tech progettato da zero, pensato per chi vuole imparare e sperimentare con Python, SQL e Raspberry Pi. 
+                    <h1 className=" text-white text-[30px] text-left">Sviluppo completo del sito</h1>
+                    <p className="text-white text-[20px] text-left mt-5">Questo progetto è un redesign di Crunchyroll, la celebre piattaforma streaming dedicata agli anime, in cui ho voluto reinterpretare completamente l’interfaccia utente mantenendo la sua identità visiva ma potenziandone la chiarezza, l’estetica e l’esperienza di navigazione.    
                         <br />
                         <br />
-                    Ho realizzato questo sito curando ogni aspetto, dal design fino al codice, con l’idea di creare non solo una raccolta di guide, ma un’esperienza immersiva per l’utente.
+                    Ho progettato l’interfaccia, sviluppato i componenti e strutturato la pagina in React con particolare attenzione alla gerarchia visisva, all’interattività e alla scalabilità su dispositivi mobili.
                         <br />
                         <br />
-                    Il design è ispirato all’estetica cyber—con richiami visivi al codice che scorre, effetti tipo “Matrix” animati, e una palette scura che mette in risalto i contenuti tecnici. 
+                    Il sito è costruito con React e TypeScript e sfrutta useState per gestire in modo dinamico i contenuti delle varie sezioni, inclusi caroselli, toggle e contenuti condizionati. 
                         <br />
                         <br />
-                    Ogni elemento è pensato per evocare il mondo della programmazione: dinamico, logico, ma anche affascinante.
+                    Ogni categoria presenta un carosello orizzontale completamente custom, con titoli, immagini, episodi, stagioni, lingua (sub/dub) e sinossi, generati dinamicamente per garantire modularità e riutilizzabilità. 
                         <br />
                         <br />
-                    Il sito è costruito in React e suddiviso in componenti riutilizzabili, come la navbar reattiva, animazioni personalizzate, un loader visivo e un footer tematico. 
+                    I pulsanti interattivi, le sezioni filtrabili (Premium / Free), e i micro-interaction sono tutti realizzati tramite Tailwind CSS, con animazioni fluide e responsive integrate nativamente.
                         <br />
                         <br />
-                    La navigazione tra le sezioni è gestita con react-router-dom, garantendo fluidità e struttura. Il layout si adatta a tutti i dispositivi, offrendo un’esperienza coerente e funzionale anche in mobilità.
+                    A livello estetico, l’interfaccia si ispira all’immaginario anime, combinando una palette scura con gradienti, tipografia chiara, immagini ad alto contrasto e una composizione modulare a scorrimento. 
                         <br />
                         <br />
-                    Un progetto che unisce la passione per la tecnologia alla cura per i dettagli, pensato per dimostrare la mia capacità di progettare ambienti digitali completi: funzionali, coerenti e con una forte identità visiva.
+                    Il layout è interamente responsive e ottimizzato anche per breakpoint stretti, garantendo un’esperienza fluida su mobile e desktop. 
+                        <br />
+                        <br />
+                    Il design comunica energia, ordine e immersione, rispettando lo stile visivo originale ma alleggerendone l’impatto visivo e migliorando l’accessibilità.
                     </p>
                 </div>
 
-                <div className="justify-center grid gap-3 grid-cols-1 items-center px-5 mt-8 rounded-3xl 2xl:ml-[-24%] 2xl:w-[60%] xl:w-[60%]">
-                    <img className="rounded-3xl border-2 border-white" src="mimmo2.svg" alt="" />
-                    <img className="rounded-3xl border-2 border-white" src="mimmo3.svg" alt="" />
-                    <img className="rounded-3xl border-2 border-white" src="Homemimmo.svg" alt="" />
-                    <img className="rounded-3xl border-2 border-white h-[30rem]" src="mimmomobile.svg" alt="" />
+                <div className="justify-center grid gap-3 grid-cols-1 items-center px-5 mt-8 rounded-3xl 2xl:ml-[-24%] 2xl:w-[30%] xl:w-[30%]">
+                    <img className="rounded-3xl border-2 border-white" src="CrunchyrollCards.svg" alt="" />
                 </div>
 
 
@@ -85,20 +85,28 @@ function MimmoSoftWebDescription(){
                     <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Color palette:</h3>
                 </div>
                 <div className="flex justify-center items-center flex-col mt-[1rem]">
-                    <ColorPallet className="bg-[#f9b65d]" code="#f9b65d"></ColorPallet>
+                    <ColorPallet className="bg-[#c2410c]" code="#c2410c"></ColorPallet>
                 </div>
                 <div className="flex justify-center items-center flex-col mt-[1rem]">
-                    <ColorPallet className="bg-[#2b1f26]" code="#2b1f26"></ColorPallet>
+                    <ColorPallet className="bg-[#52525b]" code="#52525b"></ColorPallet>
                 </div>
                 <div className="flex justify-center items-center flex-col mt-[1rem]">
-                    <ColorPallet className="bg-[#1b4455]" code="#1b4455"></ColorPallet>
+                    <ColorPallet className="bg-[#284452]" code="#284452"></ColorPallet>
+                </div>
+                <div className="flex justify-center items-center flex-col mt-[1rem]">
+                    <ColorPallet className="bg-[#ea580c]" code="#ea580c"></ColorPallet>
+                </div>
+                <div className="flex justify-center items-center flex-col mt-[1rem]">
+                    <ColorPallet className="bg-[#436d83]" code="#436d83"></ColorPallet>
+                </div>
+                <div className="flex justify-center items-center flex-col mt-[1rem]">
+                    <ColorPallet className="bg-[#223a46]" code="#223a46"></ColorPallet>
                 </div>
 
                  <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 2xl:ml-[-24%]">
                     <h1 className=" text-white text-[23px] text-left">Tipografia</h1>
-                    <p className="text-white text-[20px] text-left mt-5">Il font utilizzato per questo sito è Roboto Mono.</p>
+                    <p className="text-white text-[20px] text-left mt-5">Il font utilizzato per questo sito è Baloo 2.</p>
                 </div>
-             
 
             <div className="h-[500px]"></div>
 
@@ -114,4 +122,4 @@ function MimmoSoftWebDescription(){
 
 
 
-export default MimmoSoftWebDescription;
+export default RedesignCrunchyrollDescription;
