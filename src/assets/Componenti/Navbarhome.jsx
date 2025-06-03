@@ -62,18 +62,18 @@ function Navbarhome() {
           </div>
         </div>
 
-        <div className='grid grid-cols-4 gap-10 mt-4 max-[500px]:hidden text-black'>
+        <div className='grid grid-cols-4 gap-10 mt-4  max-[500px]:hidden text-black'>
           <div>
-            <button className='w-[8rem] h-auto rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('home')}>Home</button>
+            <button className='w-[8rem] rounded-full hover:border-black bg-transparent font-medium border-[2px] border-black' onClick={() => scrollToSection('home')}>Home</button>
           </div>
           <div>
-            <button className='w-[8rem] h-auto rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('chi-sono')}>Chi sono</button>
+            <button className='w-[8rem] h-auto rounded-full hover:border-black bg-transparent font-medium border-[2px] border-black' onClick={() => scrollToSection('chi-sono')}>Chi sono</button>
           </div>
           <div>
-            <button className='w-[8rem] h-auto rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('portfolio')}>Portfolio</button>
+            <button className='w-[8rem] h-auto rounded-full hover:border-black bg-transparent font-medium border-[2px] border-black' onClick={() => scrollToSection('portfolio')}>Portfolio</button>
           </div>
           <div>
-            <button className='w-[8rem] h-auto rounded-full text-white' onClick={() => scrollToSection('Contatti')}>Contatti</button>
+            <button className='w-[8rem] h-auto rounded-full hover:border-black bg-black font-medium text-white' onClick={() => scrollToSection('Contatti')}>Contatti</button>
           </div>
         </div>
       </nav>
@@ -84,10 +84,10 @@ function Navbarhome() {
 
         {/* Voci di menu */}
         <div className="flex flex-col items-center justify-center h-full gap-10 text-black text-2xl">
-          <button className='w-48 rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('home')}>Home</button>
-          <button className='w-48 rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('chi-sono')}>Chi sono</button>
-          <button className='w-48 rounded-full bg-transparent border-[2px] border-black' onClick={() => scrollToSection('portfolio')}>Portfolio</button>
-          <button className='w-48 rounded-full text-white' onClick={() => scrollToSection('Contatti')}>Contatti</button>
+          <button className='w-48 rounded-full bg-transparent font-medium border-[2px] border-black' onClick={() => scrollToSection('home')}>Home</button>
+          <button className='w-48 rounded-full bg-transparent font-medium border-[2px] border-black' onClick={() => scrollToSection('chi-sono')}>Chi sono</button>
+          <button className='w-48 rounded-full bg-transparent font-medium border-[2px] border-black' onClick={() => scrollToSection('portfolio')}>Portfolio</button>
+          <button className='w-48 rounded-full text-white font-medium bg-black' onClick={() => scrollToSection('Contatti')}>Contatti</button>
         </div>
       </div>
 

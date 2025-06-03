@@ -11,7 +11,7 @@ function ChatbotDescription(){
     return(
         <>
 
-               <button onClick={() => navigate(-1)} className="absolute top-24 left-14 -translate-y-1/2 z-10 w-8 border-[2px] hover:border-[#76ABAE] border-[#76ABAE] shadow p-2 rounded-full">
+               <button onClick={() => navigate(-1)} className="absolute top-24 left-14 -translate-y-1/2 z-10 w-8 border-[2px] bg-transparent hover:border-[#76ABAE] border-[#76ABAE] shadow p-2 rounded-full">
                     <div className="ml-[-8px]">
                         <ChevronLeft color="white" size={28} />
                     </div>
@@ -27,7 +27,7 @@ function ChatbotDescription(){
 
                 <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 2xl:ml-[-24%]">
                     <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Programmazione:</h3>
-                    <ul className="gap-3 grid grid-cols-1 mt-5 pl-5 text-left">
+                    <ul className="gap-3 grid grid-cols-1 mt-5 pl-5 text-left text-white">
                         <li className="list-disc">JavaScript</li>
                         <li className="list-disc">React</li>
                         <li className="list-disc">Tailwind css</li>
@@ -36,7 +36,7 @@ function ChatbotDescription(){
 
                  <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 2xl:ml-[-24%]">
                     <h3 className=" text-white text-[23px] text-left min-[1400px]:text-[35px]">Design:</h3>
-                    <ul className="gap-3 grid grid-cols-1 mt-5 pl-5 text-left">
+                    <ul className="gap-3 grid grid-cols-1 mt-5 pl-5 text-left text-white">
                         <li className="list-disc">Figma</li>
                         <li className="list-disc">Illustrator</li>
                     </ul>

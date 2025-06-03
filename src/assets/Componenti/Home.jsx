@@ -82,7 +82,7 @@ function Home () {
     </div>
     <div>
       <h3 className="text-white text-2xl mt-14 font-medium xl:ml-24 2xl:ml-60">Skill Developer:</h3>
-      <ul className="gap-3 grid grid-cols-2 mt-6 pl-5 xl:ml-24 2xl:ml-60">
+      <ul className="gap-3 grid grid-cols-2 mt-6 pl-5 xl:ml-24 2xl:ml-60 text-white">
         <li className="list-disc">HTML5</li>
         <li className="list-disc">CSS3</li>
         <li className="list-disc">Javascript</li>
@@ -106,7 +106,7 @@ function Home () {
         <img className="scale-[60%]" src="py.svg" alt="" />
       </div>
         <h3 className="text-white text-2xl mt-2 font-medium xl:ml-24 2xl:ml-60">Skill Designer:</h3>
-      <ul className="gap-3 grid grid-cols-2 mt-6 pl-5 xl:ml-24 2xl:ml-60">
+      <ul className="gap-3 grid grid-cols-2 mt-6 pl-5 xl:ml-24 2xl:ml-60 text-white">
         <li className="list-disc">Illustrator</li>
         <li className="list-disc">Photoshop</li>
         <li className="list-disc">InDesign</li>
