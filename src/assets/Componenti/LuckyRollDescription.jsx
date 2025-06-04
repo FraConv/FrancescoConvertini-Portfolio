@@ -7,11 +7,16 @@ import { useNavigate } from "react-router-dom";
 
 
 function LuckyRollDescription(){
+    const navigateArrow = useNavigate();
     const navigate = useNavigate();
+
+      const handleClick = () => {
+    navigate('/App Lucky Roll');
+  };
     return(
         <>
 
-               <button onClick={() => navigate(-1)} className="absolute top-24 left-14 -translate-y-1/2 z-10 w-8 border-[2px] bg-transparent hover:border-[#76ABAE] border-[#76ABAE] shadow p-2 rounded-full">
+               <button onClick={() => navigateArrow(-1)} className="absolute top-24 left-14 -translate-y-1/2 z-10 w-8 border-[2px] bg-transparent hover:border-[#76ABAE] border-[#76ABAE] shadow p-2 rounded-full">
                     <div className="ml-[-8px]">
                         <ChevronLeft color="white" size={28} />
                     </div>
@@ -42,9 +47,10 @@ function LuckyRollDescription(){
                     </ul>
                 </div>
 
-                <div className="flex justify-start mt-10 px-5 2xl:ml-[-24%]">
+                 
+                <div className="flex justify-start mt-10 px-5 2xl:ml-[-24%]" onClick={handleClick}>
                     <button className="relative overflow-hidden group border-[2px] bg-transparent border-[#76ABAE] text-white w-auto rounded-full mb-[7%] font-semibold focus:outline-none px-6 py-2 2xl:hover:border-[#76ABAE] 2xl:hover:text-[#173b3d]">
-                        <a className="text-white hover:text-white" href="http://mimmosoftweb.netlify.app"><span className="relative z-10 2xl:transition-all 2xl:duration-500">Vedi applicazione</span></a>
+                    <span className="relative z-10 2xl:transition-all 2xl:duration-500">Vedi Applicazione</span>
                         <span className="absolute left-0 top-0 h-full w-0 bg-[#76ABAE] z-0 transition-all duration-500 ease-in-out 2xl:group-hover:w-full"></span>
                     </button>
                 </div>
