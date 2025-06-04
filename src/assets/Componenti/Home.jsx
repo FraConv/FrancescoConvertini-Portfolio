@@ -29,7 +29,7 @@ function Home () {
       <Navbarhome />
 
       {/* Sezione Home */}
-      <div className="h-[5000px]">
+      <div className="2xl:h-[4000px] h-[5500px] xl:h-[4200px]">
       <section id="home" className="pt-40 pb-20 px-2 absolute left-0 w-[100%]">
         <div className="grid grid-cols-1 sm:grid-cols-2 overflow-hidden px-10">
           <div>
@@ -48,7 +48,9 @@ function Home () {
             />
           </div>
           <div className="flex justify-center items-center mt-10 2xl:justify-start xl:justify-start">
-            <button className="animate-Bottone bg-[#76ABAE] text-[#173b3d] w-auto rounded-full mb-[7%] font-semibold focus:outline-none hover:border-[#76ABAE]">CONTATTAMI</button>
+            <button className="animate-Bottone bg-[#76ABAE] text-[#173b3d] w-auto rounded-full mb-[7%] font-semibold focus:outline-none hover:border-[#76ABAE]">
+              <a href="mailto:francesco16convertini@gmail.com" className="inline-block bg-transparent hover:text-[#173b3d] text-[#173b3d] font-bold py-2 px-4 rounded">CONTATTAMI</a>
+            </button>
           </div>
         </div>
       </section>
@@ -130,7 +132,7 @@ function Home () {
 
 
       {/* Sezione Portfolio */}
-      <section id="portfolio" className="h-[1500px] px-10 py-32 absolute left-0 w-[100%] bg-[#415e5f] mt-[270rem] rounded-tr-[140px] rounded-bl-[140px] xl:top-[-80rem] 2xl:mt-[250rem]">
+      <section id="portfolio" className="h-[900px] px-10 py-32 absolute left-0 w-[100%] bg-[#415e5f] mt-[270rem] rounded-tr-[140px] rounded-bl-[140px] xl:top-[-80rem] 2xl:mt-[250rem]">
          <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8 text-left">
         <div>
       <h2 className="text-white text-4xl mb-4 font-semibold 2xl:ml-[-240px]">Portfolio</h2>
@@ -143,6 +145,16 @@ function Home () {
       </section>
       </div>
 
+            <footer className=" w-[100%] h-24 mt-[1rem] left-0 absolute bg-[#232630] z-30 ">
+                <h3 className=" text-white text-[12px] mt-[25px] ml-[-56px] min-[1400px]:ml-[-1356px] min-[1400px]:text-[15px] xl:ml-[-860px]  
+                min-[768px]:text-[15px] min-[768px]:ml-[-254px] font-medium">
+                Copyright © 2023 Francesco Convertini</h3>
+                <a className=" text-white hover:text-white text-[12px] ml-[-125px] min-[1400px]:text-[15px] pt-[60px] md:ml-[-380px] xl:ml-[-987px] 
+                min-[1400px]:ml-[-1428px]" 
+                href="https://www.iubenda.com/privacy-policy/13617581">Privacy Policy</a>
+                <a className=" text-white hover:text-white text-[12px] min-[1400px]:text-[15px] ml-[-170px] pt-[60px]  min-[1400px]:ml-[-226px]" 
+                href="https://www.iubenda.com/privacy-policy/13617581/cookie-policy">Cookie Policy</a>
+            </footer>
       
     </>
   );

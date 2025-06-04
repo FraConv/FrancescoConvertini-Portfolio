@@ -182,10 +182,11 @@ const CarouselPortfolio = () => {
         <p className="px-10 text-[25px] ml-[-63px] 2xl:ml-[-61%] font-medium text-white">Developer</p>
         <Carousel projects={designProjects} />
       </div>
-      <div className="mt-[26rem] p-6 md:p-12 max-w-7xl mx-auto">
+     {/* <div className="mt-[26rem] p-6 md:p-12 max-w-7xl mx-auto">
         <p className="px-10 text-[25px] ml-[-63px] font-medium text-white 2xl:ml-[-61%]">Design</p>
         <Carousel projects={codingProjects} />
       </div>
+      */}
     </>
   );
 };

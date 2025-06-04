@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
+
 function RedesignCrunchyrollDescription(){
     const navigate = useNavigate();
     return(
@@ -22,7 +23,7 @@ function RedesignCrunchyrollDescription(){
                     <p className="text-white text-[20px] text-left mt-5">Redesign dimostrativo del sito Crunchyroll che punta ad avere una UI migliore.</p>
                 </div>
                 <div className="justify-center grid grid-cols-1 items-center px-5 mt-8 rounded-3xl 2xl:ml-[-24%] 2xl:w-[60%] xl:w-[60%]">
-                    <img className="rounded-3xl border-2 border-white" src="CrunchyrollCards.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white" src="Crunch.svg" alt="" />
                 </div>
 
                 <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 2xl:ml-[-24%]">
@@ -43,8 +44,8 @@ function RedesignCrunchyrollDescription(){
                 </div>
 
                 <div className="flex justify-start mt-10 px-5 2xl:ml-[-24%]">
-                    <button className="relative overflow-hidden group border-[2px] border-[#76ABAE] text-white w-auto rounded-full mb-[7%] font-semibold focus:outline-none px-6 py-2 2xl:hover:border-[#76ABAE] 2xl:hover:text-[#173b3d]">
-                        <a className="text-white hover:text-white" href="http://mimmosoftweb.netlify.app"><span className="relative z-10 2xl:transition-all 2xl:duration-500">Vedi sito</span></a>
+                    <button className="relative overflow-hidden group border-[2px] bg-transparent border-[#76ABAE] text-white w-auto rounded-full mb-[7%] font-semibold focus:outline-none px-6 py-2 2xl:hover:border-[#76ABAE] 2xl:hover:text-[#173b3d]">
+                        <a className="text-white hover:text-white" href="https://redesign-crunchyroll.netlify.app"><span className="relative z-10 2xl:transition-all 2xl:duration-500">Vedi sito</span></a>
                         <span className="absolute left-0 top-0 h-full w-0 bg-[#76ABAE] z-0 transition-all duration-500 ease-in-out 2xl:group-hover:w-full"></span>
                     </button>
                 </div>
@@ -76,8 +77,13 @@ function RedesignCrunchyrollDescription(){
                     </p>
                 </div>
 
-                <div className="justify-center grid gap-3 grid-cols-1 items-center px-5 mt-8 rounded-3xl 2xl:ml-[-24%] 2xl:w-[30%] xl:w-[30%]">
-                    <img className="rounded-3xl border-2 border-white" src="CrunchyrollCards.svg" alt="" />
+                <div className="justify-center grid gap-3 grid-cols-1 items-center px-5 mt-8 rounded-3xl 2xl:ml-[-24%] 2xl:w-[80%] xl:w-[60%]">
+                    <img className="rounded-3xl border-2 border-white" src="Crunch.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white" src="Crunch2.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white" src="Crunch3.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white" src="Crunch4.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white" src="Crunch5.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white h-[30rem] 2xl:h-[40rem] xl:h-[40rem]" src="Crunch6.svg" alt="" />
                 </div>
 
 

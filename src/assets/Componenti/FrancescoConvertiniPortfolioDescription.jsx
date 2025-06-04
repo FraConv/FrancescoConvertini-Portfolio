@@ -44,22 +44,32 @@ function LuckyRollDescription(){
 
                 <div className="grid grid-cols-1 overflow-hidden mt-[7rem] px-5 xl:pr-96 2xl:ml-[-24%]">
                     <h1 className=" text-white text-[30px] text-left">Sviluppo completo del sito</h1>
-                    <p className="text-white text-[20px] text-left mt-5">Lucky Roll è un'app web interattiva che simula il lancio di un dado con un'esperienza visiva ispirata al mondo del gioco e della casualità. 
-                            <br />
-                            <br />
-                        In questo progetto ho curato sia l’interfaccia grafica che la logica funzionale, con particolare attenzione all’animazione del dado e al design responsive.
-                            <br />
-                            <br />
-                        L’app si basa su React e utilizza useState per gestire lo stato del dado, lo stato di lancio e il messaggio di stato. L’effetto animato del dado in movimento è stato ottenuto tramite classi dinamiche in Tailwind CSS, restituendo un’interazione realistica e reattiva. 
-                            <br />
-                            <br />
-                        Il bottone centrale “Roll” attiva un’animazione temporizzata e restituisce un numero casuale da 1 a 6, offrendo così un’interazione pulita.
-                            <br />
-                            <br />
-                        Dal punto di vista estetico, l’interfaccia è progettata per evocare un’atmosfera da gioco notturno, con sfondo a gradiente blu scuro, immagini di dadi lanciati sullo sfondo, testi in bianco e un layout completamente centrato. 
-                            <br />
-                            <br />
-                        Il design punta a essere miniaml con un'atmosfera suggestiva e misteriosa, lasciando che sia l’esperienza interattiva a catturare l’utente.
+                    <p className="text-white text-[20px] text-left mt-5">Il mio portfolio personale nasce dall’unione delle mie due passioni: il design e la programmazione. Ogni progetto è il risultato di un processo completo, che va dall’idea iniziale alla realizzazione finale, con attenzione a ogni tipo di dettaglio.
+                        <br />
+                        <br />
+                    L’interfaccia è sviluppata interamente in React con Tailwind CSS, sfruttando componenti personalizzati per garantire coerenza visiva e massima flessibilità. 
+                        <br />
+                        <br />
+                    Per la UI in oltre ho cercato di creare un stile unico, riconoscibile e bello da vedere, con forme smussate innovative, con tonalità di vario tipo di blu/azzuro e con una 
+                    tipografia funzionale, come se fosse la creazione di una brand identity.
+                        <br />
+                        <br />
+                    La struttura modulare mi consente di presentare i progetti come in una galleria interattiva, ispirata a app di streaming e portfolio da collezione. 
+                        <br />
+                        <br />
+                    Il routing è gestito con React Router, mentre elementi dinamici come caroselli e hover effects sono creati con useState e animazioni CSS su misura.
+                        <br />
+                        <br />
+                    Ogni sezione riflette una parte del mio percorso: sviluppo web, design grafico, branding, UI/UX e altro ancora. Dietro ogni progetto c’è uno studio mirato del colore, del layout e dell’esperienza utente, per raccontare non solo cosa so fare, ma anche come penso e progetto.
+                        <br />
+                        <br />
+                    Il codice è pulito, responsive e accessibile, pensato per garantire una navigazione fluida su ogni dispositivo. 
+                        <br />
+                        <br />
+                    In oltre, ho integrato ottimizzazioni SEO, dati strutturati e pratiche moderne per migliorare la visibilità e le performance.
+                        <br />
+                        <br />
+                    Questo portfolio, che nel corso dei mesi ha avuto varie modifiche e molto probabilmente ne avrà anche in futuro, è una racconto interattivo del mio stile, delle mie competenze e della mia visione del design e dello sviluppo.
                     </p>
                 </div>
 
@@ -68,6 +78,7 @@ function LuckyRollDescription(){
                     <img className="rounded-3xl border-2 border-white  2xl:w-[60%] xl:w-[60%]" src="portfolio2.svg" alt="" />
                     <img className="rounded-3xl border-2 border-white  2xl:w-[60%] xl:w-[60%]" src="portfolio3.svg" alt="" />
                     <img className="rounded-3xl border-2 border-white  2xl:w-[60%] xl:w-[60%]" src="portfolio4.svg" alt="" />
+                    <img className="rounded-3xl border-2 border-white h-[30rem] 2xl:h-[40rem] xl:h-[40rem]" src="portfolio6.svg" alt="" />
                 </div>
 
 
