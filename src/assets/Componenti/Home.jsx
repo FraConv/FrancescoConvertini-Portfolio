@@ -1,25 +1,14 @@
 import CarouselPortfolio from "./CarouselPortfolio";
-import FooterWeb from "./FooterWeb";
+
 import Loader from "./Loader";
 import Navbarhome from "./Navbarhome";
-import { useEffect, useState } from "react";
+
 
 function Home () {
-  const [visible, setVisible] = useState(false);
-  const [visible2, setVisible2] = useState(false);
-  const [visible3, setVisible3] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const position = window.scrollY;
-      if (position > 1190) setVisible(true);
-      if (position > 2900) setVisible2(true);
-      if (position > 4300) setVisible3(true);
-    };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+
+
 
   return (
     <>
@@ -64,7 +53,7 @@ function Home () {
       Sono nato il 16 marzo 2002 e attualmente vivo a Palo del Colle, in provincia di Bari, in Puglia.
       <br />
       <br />
-      Ho frequentato il Liceo Artistico "De Nittis" di Bari, dove mi sono diplomato in Industrial Design. Questo percorso mi ha permesso di progettare oggetti di varia natura e complessità, sviluppando un solido approccio al problem solving creativo.
+      Ho frequentato il Liceo Artistico De "Nittis" di Bari, dove mi sono diplomato in Industrial Design. Questo percorso mi ha permesso di progettare oggetti di varia natura e complessità, sviluppando un solido approccio al problem solving creativo.
       <br />
       <br />
       Sono specializzato nello sviluppo di siti e applicazioni web e native, concentrandomi principalmente sul Frontend, utilizzando le tecnologie più moderne e performanti. 
